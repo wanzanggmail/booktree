@@ -1,4 +1,4 @@
-const CACHE_NAME = "chaeknamu-cbt-v2";
+const CACHE_NAME = "chaeknamu-cbt-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -11,6 +11,12 @@ const ASSETS = [
   "./data/goldenbell/answers.json",
   "./data/dictionary/questions.json",
   "./data/dictionary/answers.json",
+  "./icons/favicon.ico",
+  "./icons/favicon-32x32.png",
+  "./icons/favicon-96x96.png",
+  "./icons/android-icon-192x192.png",
+  "./icons/apple-icon.png",
+  "./icons/apple-icon-180x180.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
 ];
