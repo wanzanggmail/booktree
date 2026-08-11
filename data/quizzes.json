@@ -1,0 +1,18 @@
+[
+  {
+    "id": "goldenbell",
+    "title": "어휘골든벨",
+    "subtitle": "중학교 1학년 1학기 · 45문항",
+    "description": "학습지 유형별 문제 (주관식·선택·연결·○△ 등)",
+    "questionsUrl": "data/goldenbell/questions.json",
+    "answersUrl": "data/goldenbell/answers.json"
+  },
+  {
+    "id": "dictionary",
+    "title": "어휘사전",
+    "subtitle": "상반기 어휘골든벨 사전 · 중등부 G",
+    "description": "뜻을 보고 알맞은 낱말을 고르세요 (4지선다)",
+    "questionsUrl": "data/dictionary/questions.json",
+    "answersUrl": "data/dictionary/answers.json"
+  }
+]
