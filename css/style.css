@@ -549,6 +549,13 @@ body {
   opacity: 0.95;
 }
 
+.check-feedback .answer-underline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  font-weight: 800;
+}
+
 .check-feedback.ok {
   background: #e8f5ef;
   color: var(--ok);

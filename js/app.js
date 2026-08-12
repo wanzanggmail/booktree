@@ -191,11 +191,51 @@
       .replace(/>/g, "&gt;");
   }
 
-  function showCheckFeedback(kind, message, helpText) {
+  function underlineAnswerInHelp(helpText, answer) {
+    const text = String(helpText ?? "");
+    const ans = String(answer ?? "").trim();
+    if (!text) return "";
+    if (!ans) return escapeFeedback(text);
+
+    const stems = [ans];
+    if (ans.endsWith("하다") || ans.endsWith("되다") || ans.endsWith("지다")) {
+      stems.push(ans.slice(0, -2));
+    }
+
+    let matchIndex = -1;
+    let matchStem = "";
+    for (const stem of stems) {
+      if (!stem) continue;
+      const idx = text.indexOf(stem);
+      if (idx >= 0) {
+        matchIndex = idx;
+        matchStem = stem;
+        break;
+      }
+    }
+
+    if (matchIndex < 0) return escapeFeedback(text);
+
+    let end = matchIndex + matchStem.length;
+    if (text.slice(matchIndex, matchIndex + ans.length) === ans) {
+      end = matchIndex + ans.length;
+    }
+    while (end < text.length && /[가-힣A-Za-z0-9]/.test(text[end])) {
+      end += 1;
+    }
+
+    return (
+      escapeFeedback(text.slice(0, matchIndex)) +
+      `<u class="answer-underline">${escapeFeedback(text.slice(matchIndex, end))}</u>` +
+      escapeFeedback(text.slice(end))
+    );
+  }
+
+  function showCheckFeedback(kind, message, helpText, answer) {
     els.checkFeedback.className = `check-feedback ${kind}`;
     let html = `<div class="check-main">${escapeFeedback(message)}</div>`;
     if (helpText) {
-      html += `<div class="check-help">${escapeFeedback(helpText)}</div>`;
+      html += `<div class="check-help">${underlineAnswerInHelp(helpText, answer)}</div>`;
     }
     els.checkFeedback.innerHTML = html;
   }
@@ -253,22 +293,33 @@
 
     const grade = gradeOne(q);
     const help = q.help || "";
+    const correctAnswer = grade.correct != null ? grade.correct : answerKey[q.id];
 
     if (grade.status === "correct") {
       markChoiceResult(q, grade);
-      showCheckFeedback("ok", "정답입니다!", help);
+      showCheckFeedback("ok", "정답입니다!", help, correctAnswer);
       return;
     }
     if (grade.status === "wrong") {
       markChoiceResult(q, grade);
-      showCheckFeedback("bad", `오답입니다. 정답: ${formatValue(grade.correct)}`, help);
+      showCheckFeedback(
+        "bad",
+        `오답입니다. 정답: ${formatValue(grade.correct)}`,
+        help,
+        correctAnswer
+      );
       return;
     }
     if (grade.status === "essay_done" || grade.status === "essay_empty") {
-      showCheckFeedback("info", "예문 문항은 자동 채점하지 않습니다.", help);
+      showCheckFeedback("info", "예문 문항은 자동 채점하지 않습니다.", help, correctAnswer);
       return;
     }
-    showCheckFeedback("info", "이 문항은 아직 정답지가 없어 채점할 수 없습니다.", help);
+    showCheckFeedback(
+      "info",
+      "이 문항은 아직 정답지가 없어 채점할 수 없습니다.",
+      help,
+      correctAnswer
+    );
   }
 
   function renderCurrent() {
