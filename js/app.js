@@ -178,15 +178,26 @@
 
   function clearCheckFeedback() {
     els.checkFeedback.className = "check-feedback hidden";
-    els.checkFeedback.textContent = "";
+    els.checkFeedback.innerHTML = "";
     els.questionArea
       .querySelectorAll(".mark-wrong, .mark-correct")
       .forEach((el) => el.classList.remove("mark-wrong", "mark-correct"));
   }
 
-  function showCheckFeedback(kind, message) {
+  function escapeFeedback(str) {
+    return String(str ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  function showCheckFeedback(kind, message, helpText) {
     els.checkFeedback.className = `check-feedback ${kind}`;
-    els.checkFeedback.textContent = message;
+    let html = `<div class="check-main">${escapeFeedback(message)}</div>`;
+    if (helpText) {
+      html += `<div class="check-help">${escapeFeedback(helpText)}</div>`;
+    }
+    els.checkFeedback.innerHTML = html;
   }
 
   function markChoiceResult(q, grade) {
@@ -241,22 +252,23 @@
     }
 
     const grade = gradeOne(q);
+    const help = q.help || "";
 
     if (grade.status === "correct") {
       markChoiceResult(q, grade);
-      showCheckFeedback("ok", "정답입니다!");
+      showCheckFeedback("ok", "정답입니다!", help);
       return;
     }
     if (grade.status === "wrong") {
       markChoiceResult(q, grade);
-      showCheckFeedback("bad", `오답입니다. 정답: ${formatValue(grade.correct)}`);
+      showCheckFeedback("bad", `오답입니다. 정답: ${formatValue(grade.correct)}`, help);
       return;
     }
     if (grade.status === "essay_done" || grade.status === "essay_empty") {
-      showCheckFeedback("info", "예문 문항은 자동 채점하지 않습니다.");
+      showCheckFeedback("info", "예문 문항은 자동 채점하지 않습니다.", help);
       return;
     }
-    showCheckFeedback("info", "이 문항은 아직 정답지가 없어 채점할 수 없습니다.");
+    showCheckFeedback("info", "이 문항은 아직 정답지가 없어 채점할 수 없습니다.", help);
   }
 
   function renderCurrent() {
