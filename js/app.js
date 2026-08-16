@@ -30,12 +30,14 @@
 
   let quizCatalog = [];
   let currentQuiz = null;
+  let originalQuestions = [];
   let questions = [];
   let answerKey = {};
   let state = {
     name: "",
     index: 0,
     answers: {},
+    order: [],
   };
 
   function storageKey() {
@@ -68,6 +70,7 @@
         name: state.name,
         index: state.index,
         answers: state.answers,
+        order: state.order || [],
         updatedAt: Date.now(),
       })
     );
@@ -156,6 +159,36 @@
 
   function currentQuestion() {
     return questions[state.index];
+  }
+
+  function shuffle(list) {
+    const arr = [...list];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  function applyOrder(orderIds) {
+    if (!Array.isArray(orderIds) || orderIds.length === 0) {
+      questions = [...originalQuestions];
+      return;
+    }
+    const byId = new Map(originalQuestions.map((q) => [String(q.id), q]));
+    const used = new Set();
+    const ordered = [];
+    for (const id of orderIds) {
+      const q = byId.get(String(id));
+      if (q && !used.has(String(id))) {
+        ordered.push(q);
+        used.add(String(id));
+      }
+    }
+    for (const q of originalQuestions) {
+      if (!used.has(String(q.id))) ordered.push(q);
+    }
+    questions = ordered;
   }
 
   function updateProgress() {
@@ -366,8 +399,11 @@
     if (!resume) {
       state.index = 0;
       state.answers = {};
-    } else if (state.index >= questions.length) {
-      state.index = 0;
+      questions = shuffle(originalQuestions);
+      state.order = questions.map((q) => q.id);
+    } else {
+      applyOrder(state.order);
+      if (state.index >= questions.length) state.index = 0;
     }
     saveState();
     showScreen("quiz");
@@ -449,7 +485,8 @@
       const aData = await aRes.json();
 
       currentQuiz = meta;
-      questions = qData.questions || [];
+      originalQuestions = qData.questions || [];
+      questions = [...originalQuestions];
       answerKey = { ...aData };
       delete answerKey._설명;
 
@@ -463,11 +500,12 @@
           name: saved.name,
           index: Number.isInteger(saved.index) ? saved.index : 0,
           answers: saved.answers || {},
+          order: saved.order || [],
         };
         els.nameInput.value = saved.name;
         els.btnResume.classList.remove("hidden");
       } else {
-        state = { name: "", index: 0, answers: {} };
+        state = { name: "", index: 0, answers: {}, order: [] };
         els.nameInput.value = "";
         els.btnResume.classList.add("hidden");
       }
@@ -504,7 +542,7 @@
     els.btnCheck.addEventListener("click", () => checkCurrentAnswer());
     els.btnRestart.addEventListener("click", () => {
       clearState();
-      state = { name: "", index: 0, answers: {} };
+      state = { name: "", index: 0, answers: {}, order: [] };
       els.nameInput.value = "";
       els.btnResume.classList.add("hidden");
       showScreen("start");
