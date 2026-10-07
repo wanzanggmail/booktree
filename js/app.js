@@ -320,17 +320,21 @@
     clearCheckFeedback();
 
     if (!isAnswered(q)) {
-      showCheckFeedback("info", "먼저 답을 선택한 뒤 확인해 주세요.");
+      showCheckFeedback("info", q.type === "text" || q.type === "essay"
+        ? "먼저 답을 입력한 뒤 확인해 주세요."
+        : "먼저 답을 선택한 뒤 확인해 주세요.");
       return;
     }
 
     const grade = gradeOne(q);
-    const help = q.help || "";
+    const help = q.meaning ? `한글 뜻: ${q.meaning}` : q.help || "";
     const correctAnswer = grade.correct != null ? grade.correct : answerKey[q.id];
 
     if (grade.status === "correct") {
       markChoiceResult(q, grade);
-      showCheckFeedback("ok", "정답입니다!", help, correctAnswer);
+      showCheckFeedback("ok", q.meaning
+        ? `정답입니다! ${formatValue(correctAnswer)}`
+        : "정답입니다!", help, correctAnswer);
       return;
     }
     if (grade.status === "wrong") {
@@ -427,17 +431,21 @@
 
     els.resultList.innerHTML = rows
       .map(({ q, grade }) => {
+        const id = escapeFeedback(q.id);
+        const user = escapeFeedback(formatValue(grade.user));
+        const correctAnswer = escapeFeedback(formatValue(grade.correct));
+        const meaning = q.meaning ? `<br />한글 뜻: ${escapeFeedback(q.meaning)}` : "";
         if (grade.status === "correct") {
-          return `<div class="result-item correct"><span class="status">정답 · ${q.id}번</span><div class="detail">내 답: ${formatValue(grade.user)}</div></div>`;
+          return `<div class="result-item correct"><span class="status">정답 · ${id}번</span><div class="detail">내 답: ${user}${meaning}</div></div>`;
         }
         if (grade.status === "wrong") {
-          return `<div class="result-item wrong"><span class="status">오답 · ${q.id}번</span><div class="detail">내 답: ${formatValue(grade.user)}<br />정답: ${formatValue(grade.correct)}</div></div>`;
+          return `<div class="result-item wrong"><span class="status">오답 · ${id}번</span><div class="detail">내 답: ${user}<br />정답: ${correctAnswer}${meaning}</div></div>`;
         }
         if (grade.status === "essay_done" || grade.status === "essay_empty") {
           const label = grade.status === "essay_done" ? "예문 작성함" : "예문 미작성";
-          return `<div class="result-item essay"><span class="status">${label} · ${q.id}번 (${q.prompt})</span><div class="detail">${formatValue(grade.user)}</div></div>`;
+          return `<div class="result-item essay"><span class="status">${label} · ${id}번 (${escapeFeedback(q.prompt)})</span><div class="detail">${user}</div></div>`;
         }
-        return `<div class="result-item skip"><span class="status">미채점 · ${q.id}번</span><div class="detail">내 답: ${formatValue(grade.user)}<br />answers.json에 정답을 채워 주세요.</div></div>`;
+        return `<div class="result-item skip"><span class="status">미채점 · ${id}번</span><div class="detail">내 답: ${user}<br />answers.json에 정답을 채워 주세요.</div></div>`;
       })
       .join("");
 

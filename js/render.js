@@ -16,9 +16,29 @@ window.CBTRender = (function () {
       <article class="q-card" data-id="${escapeHtml(q.id)}" data-type="${escapeHtml(q.type)}">
         <p class="q-section">${escapeHtml(q.section || "")}</p>
         <p class="q-num">문제 ${escapeHtml(q.id)}</p>
-        <p class="q-prompt">${escapeHtml(q.prompt || "")}</p>
+        ${q.answerLanguage === "en" ? `<p class="q-instruction">영영풀이에 맞는 영어 단어${q.type === "text" ? "를 입력하세요." : "를 고르세요. (5지선다)"}</p>` : ""}
+        <p class="q-prompt"${q.answerLanguage === "en" ? ' lang="en"' : ""}>${escapeHtml(q.prompt || "")}</p>
         ${bodyHtml}
+        ${renderExamples(q.examples)}
       </article>
+    `;
+  }
+
+  function renderExamples(examples) {
+    if (!Array.isArray(examples) || examples.length === 0) return "";
+    return `
+      <div class="example-disclosure">
+        <button type="button" class="btn btn-ghost example-toggle"
+          aria-expanded="false" aria-controls="question-examples">예문</button>
+        <div id="question-examples" class="example-panel hidden">
+          ${examples.map((example) => `
+            <div class="example-pair">
+              <p lang="en">${escapeHtml(example.en)}</p>
+              <p lang="ko" class="example-translation">${escapeHtml(example.ko)}</p>
+            </div>
+          `).join("")}
+        </div>
+      </div>
     `;
   }
 
@@ -48,6 +68,7 @@ window.CBTRender = (function () {
         type="text"
         inputmode="text"
         autocomplete="off"
+        ${q.answerLanguage === "en" ? 'lang="en" autocapitalize="none" autocorrect="off" spellcheck="false" aria-label="영어 단어 답안"' : ""}
         enterkeyhint="done"
         placeholder="${escapeHtml(q.placeholder || "답을 입력하세요")}"
         value="${escapeHtml(value || "")}"
@@ -166,12 +187,23 @@ window.CBTRender = (function () {
     if (!root || !q) return;
     const onEnter = hooks && typeof hooks.onEnter === "function" ? hooks.onEnter : null;
 
+    const exampleToggle = root.querySelector(".example-toggle");
+    const examplePanel = root.querySelector(".example-panel");
+    if (exampleToggle && examplePanel) {
+      exampleToggle.addEventListener("click", () => {
+        const expanded = exampleToggle.getAttribute("aria-expanded") !== "true";
+        exampleToggle.setAttribute("aria-expanded", String(expanded));
+        exampleToggle.textContent = expanded ? "예문 닫기" : "예문";
+        examplePanel.classList.toggle("hidden", !expanded);
+      });
+    }
+
     if (q.type === "text") {
       const input = root.querySelector(".answer-input");
       if (input) {
         input.addEventListener("input", () => onChange(input.value));
         input.addEventListener("keydown", (e) => {
-          if (e.key === "Enter") {
+          if (e.key === "Enter" && !e.isComposing) {
             e.preventDefault();
             onChange(input.value);
             if (onEnter) onEnter();

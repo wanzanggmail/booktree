@@ -14,5 +14,13 @@
     "description": "뜻을 보고 알맞은 낱말을 고르세요 (4지선다)",
     "questionsUrl": "data/dictionary/questions.json",
     "answersUrl": "data/dictionary/answers.json"
+  },
+  {
+    "id": "english-lessons",
+    "title": "영어 영영풀이",
+    "subtitle": "Lesson 5–8 · 103문항",
+    "description": "영영풀이로 단어 맞히기 · 주관식 41 / 5지선다 62 · 무작위 출제",
+    "questionsUrl": "data/english-lessons/questions.json",
+    "answersUrl": "data/english-lessons/answers.json"
   }
 ]

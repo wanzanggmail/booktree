@@ -290,10 +290,51 @@ body {
 }
 
 .q-prompt {
+  white-space: pre-line;
   margin: 0 0 0.85rem;
   font-size: 1.12rem;
   line-height: 1.55;
   font-weight: 600;
+}
+
+.q-instruction {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.example-disclosure {
+  margin-top: 1rem;
+}
+
+.example-toggle {
+  font-size: 0.9rem;
+}
+
+.example-panel {
+  margin-top: 0.75rem;
+  padding: 0.85rem 0.9rem;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.example-pair + .example-pair {
+  border-top: 1px solid var(--line);
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+}
+
+.example-pair p {
+  margin: 0;
+}
+
+.example-pair .example-translation {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .q-example,
@@ -543,6 +584,7 @@ body {
 }
 
 .check-feedback .check-help {
+  white-space: pre-line;
   margin-top: 0.35rem;
   font-weight: 600;
   font-size: 0.9rem;

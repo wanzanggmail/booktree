@@ -1,0 +1,2549 @@
+{
+  "title": "영어 영영풀이",
+  "subtitle": "Lesson 5–8 · 103문항",
+  "questions": [
+    {
+      "id": "1",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a place where bread and cakes are made or sold",
+      "answerLanguage": "en",
+      "meaning": "n. 빵집",
+      "examples": [
+        {
+          "en": "The bakery is famous for its cheesecakes.",
+          "ko": "그 빵집은 치즈 케이크로 유명하다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 1,
+        "page": 83
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a set of letters, numbers, symbols, etc. that is used to secretly send messages to someone",
+      "answerLanguage": "en",
+      "meaning": "n. 암호",
+      "examples": [
+        {
+          "en": "We unlocked a door with a special code.",
+          "ko": "우리는 특별한 암호로 문을 열었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 2,
+        "page": 77
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. an action that the law does not allow",
+      "answerLanguage": "en",
+      "meaning": "n. 범죄",
+      "examples": [
+        {
+          "en": "Writing on walls can be a crime.",
+          "ko": "벽에 글씨를 쓰는 것은 범죄가 될 수 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 3,
+        "page": 83
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "4",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a person who does something against the law, like stealing or hurting others",
+      "answerLanguage": "en",
+      "meaning": "n. 범죄자",
+      "examples": [
+        {
+          "en": "The police caught the criminal this morning.",
+          "ko": "경찰은 오늘 아침 그 범죄자를 붙잡았다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 4,
+        "page": 82
+      },
+      "options": [
+        "container",
+        "effect",
+        "flash",
+        "criminal",
+        "wig"
+      ]
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "v. to physically harm something",
+      "answerLanguage": "en",
+      "meaning": "v. 손상을 입히다",
+      "examples": [
+        {
+          "en": "The strong wind and heavy rain damaged the city.",
+          "ko": "강풍과 폭우는 그 도시를 손상시켰다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 5,
+        "page": 85
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "6",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "a. costing a lot of money",
+      "answerLanguage": "en",
+      "meaning": "a. 비싼",
+      "examples": [
+        {
+          "en": "Those sneakers are too expensive for me.",
+          "ko": "저 운동화는 나에게 너무 비싸다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 6,
+        "page": 86
+      },
+      "options": [
+        "expensive",
+        "unique",
+        "personal",
+        "smart",
+        "secret"
+      ]
+    },
+    {
+      "id": "7",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "v. to tell someone about something so that he or she can understand it",
+      "answerLanguage": "en",
+      "meaning": "v. 설명하다",
+      "examples": [
+        {
+          "en": "The teacher explained the math problem to us.",
+          "ko": "선생님이 우리에게 수학 문제를 설명하셨다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 7,
+        "page": 79
+      },
+      "options": [
+        "recycle",
+        "damage",
+        "record",
+        "tear",
+        "explain"
+      ]
+    },
+    {
+      "id": "8",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. someone who saw a crime or an accident",
+      "answerLanguage": "en",
+      "meaning": "n. 목격자",
+      "examples": [
+        {
+          "en": "We are looking for eyewitnesses of the accident.",
+          "ko": "우리는 그 사건의 목격자를 찾고 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 8,
+        "page": 82
+      },
+      "options": [
+        "rule",
+        "editor",
+        "environment",
+        "eyewitness",
+        "review"
+      ]
+    },
+    {
+      "id": "9",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "to drop to the ground from a high object",
+      "answerLanguage": "en",
+      "meaning": "떨어지다",
+      "examples": [
+        {
+          "en": "He fell off the stairs and broke his leg.",
+          "ko": "그는 계단에서 떨어져서 다리가 부러졌다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 9,
+        "page": 82
+      },
+      "options": [
+        "one by one",
+        "eat out",
+        "fall off",
+        "break into",
+        "take care of"
+      ]
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "v. to give food to animal",
+      "answerLanguage": "en",
+      "meaning": "v. 먹이를 주다",
+      "examples": [
+        {
+          "en": "Don't feed the fish in the pond.",
+          "ko": "연못에 있는 물고기에게 먹이를 주지 마세요."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 10,
+        "page": 79
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a bright light on a camera that you use when taking photographs inside a building",
+      "answerLanguage": "en",
+      "meaning": "n. 플래시(촬영)",
+      "examples": [
+        {
+          "en": "I'll take a picture of you with the flash.",
+          "ko": "플래시를 켜서 너의 사진을 찍어 줄게."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 11,
+        "page": 79
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "12",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a person whose job is to protect a person, place or thing from danger or attack",
+      "answerLanguage": "en",
+      "meaning": "n. 경비원",
+      "examples": [
+        {
+          "en": "There are guards at the entrance of the palace.",
+          "ko": "그 궁의 입구에는 경비 요원들이 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 12,
+        "page": 83
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. how tall someone or something is",
+      "answerLanguage": "en",
+      "meaning": "n. 키",
+      "examples": [
+        {
+          "en": "Yuna is the same height as me.",
+          "ko": "유나는 나와 키가 같다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 13,
+        "page": 84
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "14",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a person in charge of cleaning and fixing things in a building",
+      "answerLanguage": "en",
+      "meaning": "n. 청소부, 관리인",
+      "examples": [
+        {
+          "en": "The school janitor fixed the broken chair for me.",
+          "ko": "학교 관리인은 나를 위해 망가진 의자를 고쳐 주셨다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 14,
+        "page": 82
+      },
+      "options": [
+        "pet",
+        "janitor",
+        "hole",
+        "favor",
+        "code"
+      ]
+    },
+    {
+      "id": "15",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. the system of words and grammar that people living in a country or area use to speak and write to each other",
+      "answerLanguage": "en",
+      "meaning": "n. 언어",
+      "examples": [
+        {
+          "en": "Lily can speak five languages.",
+          "ko": "Lily는 다섯 개의 언어를 말할 수 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_3.png",
+        "lesson": 5,
+        "number": 15,
+        "page": 84
+      },
+      "options": [
+        "rule",
+        "guard",
+        "language",
+        "photography",
+        "statement"
+      ]
+    },
+    {
+      "id": "16",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. someone who owns something",
+      "answerLanguage": "en",
+      "meaning": "n. 주인",
+      "examples": [
+        {
+          "en": "Who is the owner of this laptop?",
+          "ko": "이 노트북의 주인은 누구입니까?"
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 16,
+        "page": 83
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "17",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. an animal that you keep at home",
+      "answerLanguage": "en",
+      "meaning": "n. 반려동물",
+      "examples": [
+        {
+          "en": "Miley is a wonderful pet for my family.",
+          "ko": "Miley는 우리 가족에게 훌륭한 반려동물이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 17,
+        "page": 90
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "18",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. something that makes it right or fair to do something",
+      "answerLanguage": "en",
+      "meaning": "n. 근거",
+      "examples": [
+        {
+          "en": "Do you have any reasons for the choice?",
+          "ko": "그 선택에 대한 이유가 있나요?"
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 18,
+        "page": 88
+      },
+      "options": [
+        "machine",
+        "height",
+        "director",
+        "guard",
+        "reason"
+      ]
+    },
+    {
+      "id": "19",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a statement of what you can or cannot do",
+      "answerLanguage": "en",
+      "meaning": "n. 규칙",
+      "examples": [
+        {
+          "en": "Being kind to everyone is our classroom rule.",
+          "ko": "모두에게 친절하기는 우리 학급 규칙이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 19,
+        "page": 78
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "20",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "to leave a place or person secretly and suddenly",
+      "answerLanguage": "en",
+      "meaning": "도망치다",
+      "examples": [
+        {
+          "en": "My dog often runs away with my sock.",
+          "ko": "나의 개는 자주 내 양말을 가지고 도망간다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 20,
+        "page": 82
+      },
+      "options": [
+        "run away",
+        "take care of",
+        "one by one",
+        "be in charge of",
+        "fall off"
+      ]
+    },
+    {
+      "id": "21",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a place where something happens; a piece of a film or play, usually showing one situation",
+      "answerLanguage": "en",
+      "meaning": "n. 현장, 장면",
+      "examples": [
+        {
+          "en": "The accident scene was near the bank.",
+          "ko": "사고 현장은 은행 근처였다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 21,
+        "page": 83
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "22",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "a. not known or seen by others",
+      "answerLanguage": "en",
+      "meaning": "a. 비밀의",
+      "examples": [
+        {
+          "en": "The chef shared a secret recipe with us.",
+          "ko": "그 요리사는 우리에게 비밀 요리법을 말해 주었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 22,
+        "page": 77
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "23",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. something that you say or write officially",
+      "answerLanguage": "en",
+      "meaning": "n. 진술",
+      "examples": [
+        {
+          "en": "Thanks to her statement, the police caught the criminal.",
+          "ko": "그녀의 진술 덕분에, 경찰은 범죄자를 잡았다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 23,
+        "page": 88
+      },
+      "options": [
+        "wave",
+        "photographer",
+        "statement",
+        "moment",
+        "plant"
+      ]
+    },
+    {
+      "id": "24",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "v. to take something that belongs to someone else",
+      "answerLanguage": "en",
+      "meaning": "v. 훔치다",
+      "examples": [
+        {
+          "en": "A cat is trying to steal the fish from the plate.",
+          "ko": "고양이 한 마리가 접시에서 생선을 훔치려 하고 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 24,
+        "page": 81
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "25",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a tall plant with a large yellow flower and a brown center",
+      "answerLanguage": "en",
+      "meaning": "n. 해바라기",
+      "examples": [
+        {
+          "en": "The girl is putting a sunflower in her hair.",
+          "ko": "여자아이가 머리에 해바라기를 꽂고 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 25,
+        "page": 79
+      },
+      "options": [
+        "rule",
+        "wrangler",
+        "sunflower",
+        "plant",
+        "flash"
+      ]
+    },
+    {
+      "id": "26",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a person who is believed to be guilty of something",
+      "answerLanguage": "en",
+      "meaning": "n. 용의자",
+      "examples": [
+        {
+          "en": "The suspect has brown hair and blue eyes.",
+          "ko": "그 용의자는 갈색 머리에 푸른 눈을 가졌다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 26,
+        "page": 84
+      },
+      "options": [
+        "suspect",
+        "guard",
+        "leftover",
+        "moment",
+        "height"
+      ]
+    },
+    {
+      "id": "27",
+      "type": "choice",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. a chair on wheels that people unable to walk use for moving around",
+      "answerLanguage": "en",
+      "meaning": "n. 휠체어",
+      "examples": [
+        {
+          "en": "The building has wide doors for wheelchair users.",
+          "ko": "그 건물은 휠체어 사용자를 위한 넓은 문이 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 27,
+        "page": 82
+      },
+      "options": [
+        "machine",
+        "wheelchair",
+        "location",
+        "environment",
+        "follower"
+      ]
+    },
+    {
+      "id": "28",
+      "type": "text",
+      "section": "Lesson 5 · 영영풀이",
+      "prompt": "n. an object with hair on it that someone wears on their head",
+      "answerLanguage": "en",
+      "meaning": "n. 가발",
+      "examples": [
+        {
+          "en": "We took a photo with colorful wigs.",
+          "ko": "우리는 다양한 색깔의 가발을 쓰고 사진을 찍었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson5Intro_4.png",
+        "lesson": 5,
+        "number": 28,
+        "page": 82
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "29",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. something that needs great mental or physical effort to be done successfully",
+      "answerLanguage": "en",
+      "meaning": "n. 도전",
+      "examples": [
+        {
+          "en": "Climbing a mountain is a great challenge for me.",
+          "ko": "산을 등반하는 것은 나에게 큰 도전이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 1,
+        "page": 92
+      },
+      "options": [
+        "code",
+        "mall",
+        "bakery",
+        "challenge",
+        "delivery"
+      ]
+    },
+    {
+      "id": "30",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "ad. in every way",
+      "answerLanguage": "en",
+      "meaning": "ad. 완전히",
+      "examples": [
+        {
+          "en": "Sally completely changed her hairstyle.",
+          "ko": "Sally는 자신의 헤어스타일을 완전히 바꿨다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 2,
+        "page": 92
+      },
+      "options": [
+        "one by one",
+        "in return",
+        "completely",
+        "forever",
+        "upstairs"
+      ]
+    },
+    {
+      "id": "31",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. an object for holding things, such as a can, box, or bottle",
+      "answerLanguage": "en",
+      "meaning": "n. 그릇, 용기",
+      "examples": [
+        {
+          "en": "I put my lunch in a plastic container.",
+          "ko": "나는 점심을 플라스틱 그릇에 담았다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 3,
+        "page": 97
+      },
+      "options": [
+        "wrangler",
+        "moment",
+        "interview",
+        "reason",
+        "container"
+      ]
+    },
+    {
+      "id": "32",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. the act of taking goods, letters, etc. to people's houses or places of work",
+      "answerLanguage": "en",
+      "meaning": "n. 배달",
+      "examples": [
+        {
+          "en": "We ordered a pizza, and the delivery man arrived within 30 minutes.",
+          "ko": "우리는 피자를 주문했고 배달원은 30분 이내에 도착했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 4,
+        "page": 99
+      },
+      "options": [
+        "wrangler",
+        "rule",
+        "location",
+        "delivery",
+        "cottage"
+      ]
+    },
+    {
+      "id": "33",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "to eat in a restaurant",
+      "answerLanguage": "en",
+      "meaning": "외식하다",
+      "examples": [
+        {
+          "en": "Let's eat out at our favorite restaurant tonight.",
+          "ko": "오늘 밤에 우리가 가장 좋아하는 식당에서 외식을 하자."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 5,
+        "page": 98
+      },
+      "options": [
+        "in return",
+        "take care of",
+        "one by one",
+        "eat out",
+        "fall off"
+      ]
+    },
+    {
+      "id": "34",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. the natural world, including water, air, land, and plants",
+      "answerLanguage": "en",
+      "meaning": "n. 환경",
+      "examples": [
+        {
+          "en": "Plastic bags are bad for the environment.",
+          "ko": "비닐봉지는 환경에 나쁘다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 6,
+        "page": 95
+      },
+      "options": [
+        "challenge",
+        "code",
+        "environment",
+        "favor",
+        "language"
+      ]
+    },
+    {
+      "id": "35",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. something helpful that you do for someone",
+      "answerLanguage": "en",
+      "meaning": "n. 호의, 친절",
+      "examples": [
+        {
+          "en": "Will you do me a favor and turn off the light?",
+          "ko": "내 부탁을 들어주고 불을 꺼 주겠니?"
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 7,
+        "page": 94
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "36",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "as a response, exchange, or reward for something",
+      "answerLanguage": "en",
+      "meaning": "대신에, 답례로",
+      "examples": [
+        {
+          "en": "Help others, and they may help you in return.",
+          "ko": "다른 사람을 도우면 그들은 답례로 당신을 도울 수도 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 8,
+        "page": 100
+      },
+      "options": [
+        "take care of",
+        "eat out",
+        "be in charge of",
+        "run away",
+        "in return"
+      ]
+    },
+    {
+      "id": "37",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. the name or symbol of a company that produces goods for sale",
+      "answerLanguage": "en",
+      "meaning": "n. 상표",
+      "examples": [
+        {
+          "en": "First, take off the label from the bottle.",
+          "ko": "먼저, 병에서 라벨을 제거하십시오."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 9,
+        "page": 105
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "38",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. a person who is in control of a group of people",
+      "answerLanguage": "en",
+      "meaning": "n. 리더",
+      "examples": [
+        {
+          "en": "Dan is the leader of our dancing club.",
+          "ko": "Dan은 우리 춤 동아리의 리더이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 10,
+        "page": 95
+      },
+      "options": [
+        "delivery",
+        "rice",
+        "photographer",
+        "leader",
+        "sunflower"
+      ]
+    },
+    {
+      "id": "39",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. food remaining after a meal",
+      "answerLanguage": "en",
+      "meaning": "n. 남은 음식",
+      "examples": [
+        {
+          "en": "Dad loves making a new dish with leftovers.",
+          "ko": "아빠는 남은 음식으로 새로운 요리를 만드는 것을 정말 좋아하신다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 11,
+        "page": 98
+      },
+      "options": [
+        "leftover",
+        "rice",
+        "selfie",
+        "guard",
+        "flash"
+      ]
+    },
+    {
+      "id": "40",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. a piece of equipment that you use to do a job",
+      "answerLanguage": "en",
+      "meaning": "n. 기계",
+      "examples": [
+        {
+          "en": "The store has a washing machine for shoes.",
+          "ko": "그 가게는 신발용 세탁 기계가 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_3.png",
+        "lesson": 6,
+        "number": 12,
+        "page": 100
+      },
+      "options": [
+        "storytelling",
+        "wheelchair",
+        "bakery",
+        "machine",
+        "wrangler"
+      ]
+    },
+    {
+      "id": "41",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to have something as a meaning",
+      "answerLanguage": "en",
+      "meaning": "v. 의미하다",
+      "examples": [
+        {
+          "en": "The word tiny means very small.",
+          "ko": "tiny라는 단어는 매우 작다는 뜻이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 13,
+        "page": 95
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "42",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "one person or thing following another in order",
+      "answerLanguage": "en",
+      "meaning": "하나하나씩",
+      "examples": [
+        {
+          "en": "Read the sentences one by one.",
+          "ko": "그 문장들을 하나하나씩 읽어 보세요."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 14,
+        "page": 100
+      },
+      "options": [
+        "one by one",
+        "fall off",
+        "be in charge of",
+        "break into",
+        "in surprise"
+      ]
+    },
+    {
+      "id": "43",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "a. belonging to a particular person or thing",
+      "answerLanguage": "en",
+      "meaning": "a. 자신의",
+      "examples": [
+        {
+          "en": "It was her own idea.",
+          "ko": "그것은 그녀 자신의 생각이었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 15,
+        "page": 92
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "44",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "n. a living thing that has leaves and roots\nv. to put a plant in to the ground or into a container of soil so that it will grow",
+      "answerLanguage": "en",
+      "meaning": "n. 식물\nv. 심다",
+      "examples": [
+        {
+          "en": "Some plants need a lot of sunlight.",
+          "ko": "어떤 식물은 많은 햇빛이 필요하다."
+        },
+        {
+          "en": "I planted trees and flowers in my new garden.",
+          "ko": "나는 나의 새로운 정원에 나무와 꽃을 심었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 16,
+        "page": 94
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "45",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to pick up trash while jogging",
+      "answerLanguage": "en",
+      "meaning": "v. 플로깅하다",
+      "examples": [
+        {
+          "en": "I like to plog in the park every weekend.",
+          "ko": "나는 주말마다 공원에서 플로깅하는 것을 좋아한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 17,
+        "page": 95
+      },
+      "options": [
+        "recycle",
+        "plog",
+        "damage",
+        "knock",
+        "delete"
+      ]
+    },
+    {
+      "id": "46",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to make or grow something",
+      "answerLanguage": "en",
+      "meaning": "v. 생산하다",
+      "examples": [
+        {
+          "en": "Healthy cows produce good milk for us.",
+          "ko": "건강한 젖소는 우리에게 좋은 우유를 생산한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 18,
+        "page": 98
+      },
+      "options": [
+        "feed",
+        "press",
+        "tear",
+        "produce",
+        "steal"
+      ]
+    },
+    {
+      "id": "47",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to put old paper, glass, or other materials through a special process so that they can be used again",
+      "answerLanguage": "en",
+      "meaning": "v. 재활용하다",
+      "examples": [
+        {
+          "en": "He decided to recycle his old phones.",
+          "ko": "그는 자신의 오래된 핸드폰들을 재활용하기로 결정했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 19,
+        "page": 92
+      },
+      "options": [
+        "reduce",
+        "forgive",
+        "record",
+        "explain",
+        "recycle"
+      ]
+    },
+    {
+      "id": "48",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to make something less or smaller",
+      "answerLanguage": "en",
+      "meaning": "v. 줄이다",
+      "examples": [
+        {
+          "en": "Listening to music can reduce stress.",
+          "ko": "음악을 듣는 것은 스트레스를 줄일 수 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 20,
+        "page": 97
+      },
+      "options": [
+        "feed",
+        "reduce",
+        "mean",
+        "capture",
+        "forgive"
+      ]
+    },
+    {
+      "id": "49",
+      "type": "choice",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "a. used by someone else before",
+      "answerLanguage": "en",
+      "meaning": "a. 중고의",
+      "examples": [
+        {
+          "en": "The store sells secondhand books at a cheap price.",
+          "ko": "그 가게는 싼 가격에 중고책을 판매한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 21,
+        "page": 93
+      },
+      "options": [
+        "single",
+        "expensive",
+        "asleep",
+        "secondhand",
+        "own"
+      ]
+    },
+    {
+      "id": "50",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to use a needle and thread to make or fix clothes",
+      "answerLanguage": "en",
+      "meaning": "v. 바느질하다",
+      "examples": [
+        {
+          "en": "She sewed a button on the shirt.",
+          "ko": "그녀는 셔츠에 단추를 바느질했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 22,
+        "page": 99
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "51",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "a. only one",
+      "answerLanguage": "en",
+      "meaning": "a. 단일의",
+      "examples": [
+        {
+          "en": "I use a single monitor for my computer.",
+          "ko": "나는 내 컴퓨터에 하나의 모니터를 사용한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 23,
+        "page": 99
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "52",
+      "type": "text",
+      "section": "Lesson 6 · 영영풀이",
+      "prompt": "v. to pull paper, cloth, or another material into two pieces",
+      "answerLanguage": "en",
+      "meaning": "v. 찢다",
+      "examples": [
+        {
+          "en": "My dog enjoys tearing tissues.",
+          "ko": "나의 개는 휴지 찢는 것을 즐겨 한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson6Intro_4.png",
+        "lesson": 6,
+        "number": 24,
+        "page": 97
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "53",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "to manage or take control of something or someone",
+      "answerLanguage": "en",
+      "meaning": "~을 담당하다",
+      "examples": [
+        {
+          "en": "The coach is in charge of the team practice.",
+          "ko": "코치는 팀 연습을 담당하고 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 1,
+        "page": 115
+      },
+      "options": [
+        "eat out",
+        "be in charge of",
+        "run away",
+        "one by one",
+        "in surprise"
+      ]
+    },
+    {
+      "id": "54",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "v. to make someone stop feeling upset, angry, or excited",
+      "answerLanguage": "en",
+      "meaning": "v. 진정시키다",
+      "examples": [
+        {
+          "en": "I listened to music to calm myself.",
+          "ko": "나는 마음을 진정시키기 위해 음악을 들었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 2,
+        "page": 113
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "55",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "v. to photograph, film, record, paint, etc. somebody or something",
+      "answerLanguage": "en",
+      "meaning": "v. 포착하다",
+      "examples": [
+        {
+          "en": "He pressed the camera button to capture the sunset.",
+          "ko": "그는 일몰을 포착하기 위해 카메라 버튼을 눌렀다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 3,
+        "page": 113
+      },
+      "options": [
+        "steal",
+        "sew",
+        "capture",
+        "produce",
+        "calm"
+      ]
+    },
+    {
+      "id": "56",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a game for two people on a square board, in which each person has 16 pieces that can be moved on the board in different ways",
+      "answerLanguage": "en",
+      "meaning": "n. 체스",
+      "examples": [
+        {
+          "en": "Dad and I often play chess after dinner.",
+          "ko": "아빠와 나는 저녁 식사 후에 자주 체스를 둔다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 4,
+        "page": 112
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "57",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "v. to remove something from a written or electronic text",
+      "answerLanguage": "en",
+      "meaning": "v. 지우다, 삭제하다",
+      "examples": [
+        {
+          "en": "How can I delete a post on social media?",
+          "ko": "소셜 미디어에서 어떻게 게시글을 삭제할 수 있나요?"
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 5,
+        "page": 113
+      },
+      "options": [
+        "delete",
+        "plog",
+        "record",
+        "capture",
+        "shout"
+      ]
+    },
+    {
+      "id": "58",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a person in charge of a film or play who tells the actors and staff what to do",
+      "answerLanguage": "en",
+      "meaning": "n. 감독",
+      "examples": [
+        {
+          "en": "The director won an award at the film festival.",
+          "ko": "그 감독은 영화제에서 상을 받았다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 6,
+        "page": 113
+      },
+      "options": [
+        "challenge",
+        "director",
+        "owner",
+        "machine",
+        "photographer"
+      ]
+    },
+    {
+      "id": "59",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a person who makes changes to texts or films",
+      "answerLanguage": "en",
+      "meaning": "n. 편집자",
+      "examples": [
+        {
+          "en": "The editor of the book checked grammar and spelling.",
+          "ko": "책의 편집자는 문법과 철자를 확인했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 7,
+        "page": 113
+      },
+      "options": [
+        "criminal",
+        "permission",
+        "label",
+        "editor",
+        "height"
+      ]
+    },
+    {
+      "id": "60",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. lights, sounds, special scenery, computer images, etc. used in a play or film, especially in order to show things that do not normally exist or happen",
+      "answerLanguage": "en",
+      "meaning": "n. 효과",
+      "examples": [
+        {
+          "en": "The sound effects of the movie were amazing.",
+          "ko": "그 영화의 음향 효과는 훌륭했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 8,
+        "page": 116
+      },
+      "options": [
+        "wheelchair",
+        "bakery",
+        "leftover",
+        "wig",
+        "effect"
+      ]
+    },
+    {
+      "id": "61",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a person whose job is to repair or control machines, engines, or electrical equipment",
+      "answerLanguage": "en",
+      "meaning": "n. 기사",
+      "examples": [
+        {
+          "en": "He wants to be a computer engineer.",
+          "ko": "그는 컴퓨터 기사가 되고 싶어 한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 9,
+        "page": 111
+      },
+      "options": [
+        "engineer",
+        "photographer",
+        "moment",
+        "studio",
+        "location"
+      ]
+    },
+    {
+      "id": "62",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a meeting in which someone answers questions about himself or herself for a newspaper article, television show, etc.",
+      "answerLanguage": "en",
+      "meaning": "n. 인터뷰",
+      "examples": [
+        {
+          "en": "Did you hear the interview with the actor on the radio?",
+          "ko": "라디오에서 그 배우와의 인터뷰 들었어?"
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 10,
+        "page": 117
+      },
+      "options": [
+        "hole",
+        "selfie",
+        "interview",
+        "container",
+        "manager"
+      ]
+    },
+    {
+      "id": "63",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a particular place or position that something is in",
+      "answerLanguage": "en",
+      "meaning": "n. 장소",
+      "examples": [
+        {
+          "en": "This map shows the location of the restaurant.",
+          "ko": "이 지도는 그 식당의 위치를 보여 준다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 11,
+        "page": 113
+      },
+      "options": [
+        "guard",
+        "location",
+        "label",
+        "height",
+        "favor"
+      ]
+    },
+    {
+      "id": "64",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a building or group of buildings with connected hallways with shops, restaurants, theaters, etc.",
+      "answerLanguage": "en",
+      "meaning": "n. 쇼핑몰",
+      "examples": [
+        {
+          "en": "I went to the shopping mall to buy a coat.",
+          "ko": "나는 코트를 사기 위해 쇼핑몰에 갔다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 12,
+        "page": 122
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "65",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a person in control of an office, shop, team, etc.",
+      "answerLanguage": "en",
+      "meaning": "n. 관리자",
+      "examples": [
+        {
+          "en": "The hotel manager was always kind and smiling.",
+          "ko": "호텔 관리자는 항상 친절하고 미소를 짓고 있었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_2.png",
+        "lesson": 7,
+        "number": 13,
+        "page": 113
+      },
+      "options": [
+        "machine",
+        "director",
+        "manager",
+        "moment",
+        "environment"
+      ]
+    },
+    {
+      "id": "66",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a very short period of time",
+      "answerLanguage": "en",
+      "meaning": "n. 순간",
+      "examples": [
+        {
+          "en": "Every moment with my friends was happy.",
+          "ko": "내 친구들과 함께한 모든 순간이 행복했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 14,
+        "page": 115
+      },
+      "options": [
+        "reason",
+        "bakery",
+        "moment",
+        "container",
+        "interview"
+      ]
+    },
+    {
+      "id": "67",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a person who takes photographs, either as a job or hobby",
+      "answerLanguage": "en",
+      "meaning": "n. 사진작가",
+      "examples": [
+        {
+          "en": "The photographer took lots of photos of the city.",
+          "ko": "그 사진작가는 도시에 대한 많은 사진들을 찍었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 15,
+        "page": 122
+      },
+      "options": [
+        "machine",
+        "effect",
+        "environment",
+        "photographer",
+        "photography"
+      ]
+    },
+    {
+      "id": "68",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. the skill or activity of taking photographs",
+      "answerLanguage": "en",
+      "meaning": "n. 사진[촬영]술",
+      "examples": [
+        {
+          "en": "James is interested in photography, and he wants to buy an expensive camera.",
+          "ko": "James는 사진 찍는 것에 관심이 있어서 비싼 카메라를 사고 싶어 한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 16,
+        "page": 113
+      },
+      "options": [
+        "studio",
+        "review",
+        "storytelling",
+        "photography",
+        "challenge"
+      ]
+    },
+    {
+      "id": "69",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "v. to store music, sound, or pictures on tape or disks",
+      "answerLanguage": "en",
+      "meaning": "v. 녹음하다, 녹화하다",
+      "examples": [
+        {
+          "en": "This camera will record the parking lot at night.",
+          "ko": "이 카메라는 밤에 주차장을 녹화할 것이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 17,
+        "page": 116
+      },
+      "options": [
+        "produce",
+        "calm",
+        "tear",
+        "record",
+        "sew"
+      ]
+    },
+    {
+      "id": "70",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a white or brown grain that you boil in water until it becomes soft enough to eat",
+      "answerLanguage": "en",
+      "meaning": "n. 쌀",
+      "examples": [
+        {
+          "en": "Koreans eat rice almost every day for meals.",
+          "ko": "한국 사람들은 식사로 쌀을 거의 매일 먹는다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 18,
+        "page": 116
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "71",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "v. to use a camera to record a video or take a photograph",
+      "answerLanguage": "en",
+      "meaning": "v. 촬영하다",
+      "examples": [
+        {
+          "en": "I can shoot a movie on my phone.",
+          "ko": "나는 내 휴대폰으로 영화를 촬영할 수 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 19,
+        "page": 114
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "72",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. an action or thing that sends a message, often not using words",
+      "answerLanguage": "en",
+      "meaning": "n. 신호",
+      "examples": [
+        {
+          "en": "A red light is a signal of danger.",
+          "ko": "빨간 불빛은 위험의 신호이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 20,
+        "page": 115
+      },
+      "options": [
+        "skill",
+        "signal",
+        "moment",
+        "container",
+        "janitor"
+      ]
+    },
+    {
+      "id": "73",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. an ability to do something very well because you have learned it",
+      "answerLanguage": "en",
+      "meaning": "n. 기술, 스킬",
+      "examples": [
+        {
+          "en": "This book will improve your writing skills.",
+          "ko": "이 책은 너의 글쓰기 기술을 향상시켜 줄 것이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 21,
+        "page": 116
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "74",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. the activity of writing, telling, or reading stories",
+      "answerLanguage": "en",
+      "meaning": "n. 이야기하기",
+      "examples": [
+        {
+          "en": "The writer's storytelling skills are great.",
+          "ko": "그 작가의 이야기하기 기술은 대단하다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 22,
+        "page": 116
+      },
+      "options": [
+        "rice",
+        "storytelling",
+        "statement",
+        "wig",
+        "code"
+      ]
+    },
+    {
+      "id": "75",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a room with special equipment where television or radio programs or music recordings are made",
+      "answerLanguage": "en",
+      "meaning": "n. 작업실",
+      "examples": [
+        {
+          "en": "She painted most of her paintings in this studio.",
+          "ko": "그녀는 대부분의 그녀의 그림을 이 작업실에서 그렸다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 23,
+        "page": 116
+      },
+      "options": [
+        "plant",
+        "location",
+        "crime",
+        "studio",
+        "leftover"
+      ]
+    },
+    {
+      "id": "76",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "to protect someone or something and provide the things that person or thing needs",
+      "answerLanguage": "en",
+      "meaning": "~을 돌보다",
+      "examples": [
+        {
+          "en": "Her job is to take care of bears in the zoo.",
+          "ko": "그녀의 직업은 동물원에서 곰들을 돌보는 것이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 24,
+        "page": 115
+      },
+      "options": [
+        "eat out",
+        "in surprise",
+        "one by one",
+        "run away",
+        "take care of"
+      ]
+    },
+    {
+      "id": "77",
+      "type": "text",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. a part of the ocean that is going up and down as it moves along",
+      "answerLanguage": "en",
+      "meaning": "n. 파도",
+      "examples": [
+        {
+          "en": "At the beach, many surfers are riding the large waves.",
+          "ko": "해변에는 많은 파도타기 하는 사람들이 큰 파도를 타고 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 25,
+        "page": 116
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "78",
+      "type": "choice",
+      "section": "Lesson 7 · 영영풀이",
+      "prompt": "n. someone who controls and looks after animals, especially horses or cows on a large farm",
+      "answerLanguage": "en",
+      "meaning": "n. 조련사",
+      "examples": [
+        {
+          "en": "The wrangler led the cows back to the farm.",
+          "ko": "그 조련사는 소들을 이끌고 농장으로 돌아갔다."
+        }
+      ],
+      "source": {
+        "file": "Lesson7Intro_3.png",
+        "lesson": 7,
+        "number": 26,
+        "page": 113
+      },
+      "options": [
+        "cottage",
+        "wig",
+        "janitor",
+        "wrangler",
+        "hole"
+      ]
+    },
+    {
+      "id": "79",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. sleeping",
+      "answerLanguage": "en",
+      "meaning": "a. 잠이 든, 자고 있는",
+      "examples": [
+        {
+          "en": "Everyone is asleep, and the whole house is quiet.",
+          "ko": "모두가 자고 있어서 집 전체가 조용하다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 1,
+        "page": 132
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "80",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. not interesting",
+      "answerLanguage": "en",
+      "meaning": "a. 지루한",
+      "examples": [
+        {
+          "en": "The party was boring, and I left early.",
+          "ko": "파티가 지루해서 나는 일찍 나왔다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 2,
+        "page": 126
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "81",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "to enter a room or a building illegally or by force",
+      "answerLanguage": "en",
+      "meaning": "몰래 잠입하다, 침입하다",
+      "examples": [
+        {
+          "en": "The man will break into the store through the back door.",
+          "ko": "그 남자는 후문을 통해 그 상점에 침입할 것이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 3,
+        "page": 133
+      },
+      "options": [
+        "eat out",
+        "in return",
+        "one by one",
+        "take care of",
+        "break into"
+      ]
+    },
+    {
+      "id": "82",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "n. a small house, usually in the country",
+      "answerLanguage": "en",
+      "meaning": "n. 오두막",
+      "examples": [
+        {
+          "en": "They spent the weekend in a cottage in the mountains.",
+          "ko": "그들은 산속 오두막에서 주말을 보냈다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 4,
+        "page": 129
+      },
+      "options": [
+        "cottage",
+        "owner",
+        "photography",
+        "wig",
+        "statement"
+      ]
+    },
+    {
+      "id": "83",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "n. someone who follows others on their social media",
+      "answerLanguage": "en",
+      "meaning": "n. 추종자, 팬",
+      "examples": [
+        {
+          "en": "The actor gained a lot of new followers on his social media.",
+          "ko": "그 배우는 소셜 미디어에서 많은 새 팬들을 얻었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 5,
+        "page": 131
+      },
+      "options": [
+        "language",
+        "favor",
+        "review",
+        "follower",
+        "label"
+      ]
+    },
+    {
+      "id": "84",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "ad. for all of the time in the future",
+      "answerLanguage": "en",
+      "meaning": "ad. 영원히",
+      "examples": [
+        {
+          "en": "They promised to be friends forever.",
+          "ko": "그들은 영원히 친구가 되기로 약속했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 6,
+        "page": 134
+      },
+      "options": [
+        "forever",
+        "in surprise",
+        "upstairs",
+        "one by one",
+        "completely"
+      ]
+    },
+    {
+      "id": "85",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "v. to stop being angry with someone who has done something wrong",
+      "answerLanguage": "en",
+      "meaning": "v. 용서하다",
+      "examples": [
+        {
+          "en": "Josh will forgive his sister for stealing his pencil.",
+          "ko": "Josh는 그의 여동생이 연필을 훔친 것을 용서할 것이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 7,
+        "page": 129
+      },
+      "options": [
+        "tear",
+        "produce",
+        "forgive",
+        "capture",
+        "reduce"
+      ]
+    },
+    {
+      "id": "86",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "n. an empty space, especially where something is broken or torn",
+      "answerLanguage": "en",
+      "meaning": "n. 구멍",
+      "examples": [
+        {
+          "en": "There was a hole in my sock.",
+          "ko": "내 양말에 구멍이 있었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 8,
+        "page": 127
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "87",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "causing a feeling of surprise",
+      "answerLanguage": "en",
+      "meaning": "놀라서",
+      "examples": [
+        {
+          "en": "She couldn't say a word in surprise.",
+          "ko": "그녀는 놀라서 말을 할 수 없었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 9,
+        "page": 133
+      },
+      "options": [
+        "one by one",
+        "in surprise",
+        "be in charge of",
+        "fall off",
+        "take care of"
+      ]
+    },
+    {
+      "id": "88",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "v. to hit a door with your hand so that someone inside knows you are there",
+      "answerLanguage": "en",
+      "meaning": "v. 문을 두드리다",
+      "examples": [
+        {
+          "en": "Please knock before you enter my room.",
+          "ko": "제 방에 들어오기 전에 문을 두드려 주세요."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 10,
+        "page": 131
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "89",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "v. to mention things one after another",
+      "answerLanguage": "en",
+      "meaning": "v. 열거하다",
+      "examples": [
+        {
+          "en": "Can you list your favorite desserts for me?",
+          "ko": "네가 가장 좋아하는 디저트들을 나에게 열거해 줄 수 있니?"
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 11,
+        "page": 133
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "90",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. full of noise and sounds",
+      "answerLanguage": "en",
+      "meaning": "a. 시끄러운",
+      "examples": [
+        {
+          "en": "The classroom became noisy when the teacher stepped out.",
+          "ko": "선생님이 나가셨을 때 교실은 시끄러워졌다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 12,
+        "page": 128
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "91",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "n. the act of allowing someone to do something",
+      "answerLanguage": "en",
+      "meaning": "n. 허락",
+      "examples": [
+        {
+          "en": "You need permission to use this photo.",
+          "ko": "이 사진을 사용하려면 허락이 필요합니다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 13,
+        "page": 129
+      },
+      "options": [
+        "permission",
+        "moment",
+        "suspect",
+        "container",
+        "follower"
+      ]
+    },
+    {
+      "id": "92",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. relating to a single or particular person",
+      "answerLanguage": "en",
+      "meaning": "a. 개인적인",
+      "examples": [
+        {
+          "en": "The writer shared his personal story in the book.",
+          "ko": "작가는 책에서 자신의 개인적인 이야기를 공유했다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 14,
+        "page": 127
+      },
+      "options": [
+        "shocking",
+        "personal",
+        "unique",
+        "asleep",
+        "boring"
+      ]
+    },
+    {
+      "id": "93",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "v. to put information or pictures on a website\nn. something such as a message or picture that you publish on a website or on social media",
+      "answerLanguage": "en",
+      "meaning": "v. 게시하다\nn. 게시물",
+      "examples": [
+        {
+          "en": "After you finish your homework, post it on the school website.",
+          "ko": "자신의 숙제를 끝내고 난 후 학교 웹사이트에 게시해라."
+        },
+        {
+          "en": "I deleted my old posts on social media.",
+          "ko": "나는 소셜 미디어에서 내 옛날 게시물들을 지웠다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_2.png",
+        "lesson": 8,
+        "number": 15,
+        "page": 127
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "94",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "v. to push something with your finger",
+      "answerLanguage": "en",
+      "meaning": "v. 누르다",
+      "examples": [
+        {
+          "en": "Press the button to open the door.",
+          "ko": "문을 열기 위해 버튼을 누르세요."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 16,
+        "page": 134
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "95",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "n. a report in a newspaper, magazine, or program that gives an opinion about a new book, film, etc.",
+      "answerLanguage": "en",
+      "meaning": "n. 논평, 비평",
+      "examples": [
+        {
+          "en": "She reads book reviews before she chooses a novel.",
+          "ko": "그녀는 소설을 고르기 전에 책에 대한 비평을 읽는다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 17,
+        "page": 140
+      },
+      "options": [
+        "janitor",
+        "photographer",
+        "pet",
+        "statement",
+        "review"
+      ]
+    },
+    {
+      "id": "96",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "n. a photograph that you take of yourself, usually with a mobile phone",
+      "answerLanguage": "en",
+      "meaning": "n. 셀피(스마트폰 등으로 찍은 자신의 사진)",
+      "examples": [
+        {
+          "en": "He took a selfie with his phone.",
+          "ko": "그는 자신의 휴대폰으로 셀피를 찍었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 18,
+        "page": 129
+      },
+      "options": [
+        "review",
+        "leftover",
+        "engineer",
+        "selfie",
+        "label"
+      ]
+    },
+    {
+      "id": "97",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. very upsetting or surprising",
+      "answerLanguage": "en",
+      "meaning": "a. 충격적인",
+      "examples": [
+        {
+          "en": "The ending of the movie was shocking.",
+          "ko": "그 영화의 결말은 충격적이었다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 19,
+        "page": 131
+      },
+      "options": [
+        "asleep",
+        "smart",
+        "own",
+        "shocking",
+        "noisy"
+      ]
+    },
+    {
+      "id": "98",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "v. to say something very loudly",
+      "answerLanguage": "en",
+      "meaning": "v. 소리 지르다",
+      "examples": [
+        {
+          "en": "We shouted with joy when our team won a gold medal.",
+          "ko": "우리 팀이 금메달을 땄을 때 우리는 기뻐서 소리쳤다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 20,
+        "page": 132
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "99",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. clever and quick in thinking",
+      "answerLanguage": "en",
+      "meaning": "a. 똑똑한, 영리한",
+      "examples": [
+        {
+          "en": "Amy is smart and can solve difficult math problems.",
+          "ko": "Amy는 똑똑해서 어려운 수학 문제를 풀 수 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 21,
+        "page": 124
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "100",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. relating to the people in a society and the way they live",
+      "answerLanguage": "en",
+      "meaning": "a. 사회의",
+      "examples": [
+        {
+          "en": "Playing team sports is a social activity.",
+          "ko": "팀 스포츠를 하는 것은 사회적인 활동이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 22,
+        "page": 127
+      },
+      "options": [
+        "single",
+        "own",
+        "unique",
+        "social",
+        "noisy"
+      ]
+    },
+    {
+      "id": "101",
+      "type": "text",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. containing strong flavors from spices",
+      "answerLanguage": "en",
+      "meaning": "a. 매운",
+      "examples": [
+        {
+          "en": "I love eating spicy food like gimchi.",
+          "ko": "나는 김치 같은 매운 음식을 먹는 것을 정말 좋아한다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 23,
+        "page": 128
+      },
+      "placeholder": "영어 단어를 입력하세요"
+    },
+    {
+      "id": "102",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "a. special and different from every other person or thing",
+      "answerLanguage": "en",
+      "meaning": "a. 독특한",
+      "examples": [
+        {
+          "en": "This handmade gift will be unique and special.",
+          "ko": "손으로 만든 이 선물은 독특하고 특별할 것이다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 24,
+        "page": 140
+      },
+      "options": [
+        "asleep",
+        "shocking",
+        "unique",
+        "smart",
+        "own"
+      ]
+    },
+    {
+      "id": "103",
+      "type": "choice",
+      "section": "Lesson 8 · 영영풀이",
+      "prompt": "ad. on or going toward a higher floor of a building",
+      "answerLanguage": "en",
+      "meaning": "ad. 위층(2층)으로",
+      "examples": [
+        {
+          "en": "The bedrooms are upstairs in this house.",
+          "ko": "이 집에서 침실은 위층에 있다."
+        }
+      ],
+      "source": {
+        "file": "Lesson8Intro_3.png",
+        "lesson": 8,
+        "number": 25,
+        "page": 132
+      },
+      "options": [
+        "in return",
+        "completely",
+        "in surprise",
+        "forever",
+        "upstairs"
+      ]
+    }
+  ]
+}
