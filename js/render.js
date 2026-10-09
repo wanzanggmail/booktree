@@ -29,7 +29,7 @@ window.CBTRender = (function () {
     return `
       <div class="example-disclosure">
         <button type="button" class="btn btn-ghost example-toggle"
-          aria-expanded="false" aria-controls="question-examples">예문</button>
+          aria-expanded="false" aria-controls="question-examples" disabled>예문</button>
         <div id="question-examples" class="example-panel hidden">
           ${examples.map((example) => `
             <div class="example-pair">

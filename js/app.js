@@ -212,6 +212,14 @@
   function clearCheckFeedback() {
     els.checkFeedback.className = "check-feedback hidden";
     els.checkFeedback.innerHTML = "";
+    const exampleToggle = els.questionArea.querySelector(".example-toggle");
+    const examplePanel = els.questionArea.querySelector(".example-panel");
+    if (exampleToggle) {
+      exampleToggle.disabled = true;
+      exampleToggle.setAttribute("aria-expanded", "false");
+      exampleToggle.textContent = "예문";
+    }
+    if (examplePanel) examplePanel.classList.add("hidden");
     els.questionArea
       .querySelectorAll(".mark-wrong, .mark-correct")
       .forEach((el) => el.classList.remove("mark-wrong", "mark-correct"));
@@ -339,6 +347,8 @@
     }
     if (grade.status === "wrong") {
       markChoiceResult(q, grade);
+      const exampleToggle = els.questionArea.querySelector(".example-toggle");
+      if (exampleToggle) exampleToggle.disabled = false;
       showCheckFeedback(
         "bad",
         `오답입니다. 정답: ${formatValue(grade.correct)}`,
