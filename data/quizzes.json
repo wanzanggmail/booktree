@@ -20,6 +20,7 @@
     "title": "영어 영영풀이",
     "subtitle": "Lesson 5–8 · 103문항",
     "description": "영영풀이로 단어 맞히기 · 주관식 41 / 5지선다 62 · 무작위 출제",
+    "lessons": [5, 6, 7, 8],
     "questionsUrl": "data/english-lessons/questions.json",
     "answersUrl": "data/english-lessons/answers.json"
   }

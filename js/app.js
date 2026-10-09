@@ -10,6 +10,9 @@
     startEyebrow: document.getElementById("start-eyebrow"),
     startTitle: document.getElementById("start-title"),
     startDesc: document.getElementById("start-desc"),
+    lessonPicker: document.getElementById("lesson-picker"),
+    lessonOptions: document.getElementById("lesson-options"),
+    lessonCount: document.getElementById("lesson-count"),
     nameInput: document.getElementById("name-input"),
     btnBackHome: document.getElementById("btn-back-home"),
     btnStart: document.getElementById("btn-start"),
@@ -31,6 +34,7 @@
   let quizCatalog = [];
   let currentQuiz = null;
   let originalQuestions = [];
+  let activeQuestions = [];
   let questions = [];
   let answerKey = {};
   let state = {
@@ -38,6 +42,7 @@
     index: 0,
     answers: {},
     order: [],
+    lessons: [],
   };
 
   function storageKey() {
@@ -71,6 +76,7 @@
         index: state.index,
         answers: state.answers,
         order: state.order || [],
+        lessons: state.lessons || [],
         updatedAt: Date.now(),
       })
     );
@@ -172,10 +178,10 @@
 
   function applyOrder(orderIds) {
     if (!Array.isArray(orderIds) || orderIds.length === 0) {
-      questions = [...originalQuestions];
+      questions = [...activeQuestions];
       return;
     }
-    const byId = new Map(originalQuestions.map((q) => [String(q.id), q]));
+    const byId = new Map(activeQuestions.map((q) => [String(q.id), q]));
     const used = new Set();
     const ordered = [];
     for (const id of orderIds) {
@@ -185,7 +191,7 @@
         used.add(String(id));
       }
     }
-    for (const q of originalQuestions) {
+    for (const q of activeQuestions) {
       if (!used.has(String(q.id))) ordered.push(q);
     }
     questions = ordered;
@@ -410,10 +416,28 @@
       return;
     }
     state.name = name;
+    if (currentQuiz?.id === "english-lessons") {
+      const selected = resume
+        ? (state.lessons.length ? state.lessons : getAvailableLessonIds())
+        : getSelectedLessons();
+      if (!selected.length) {
+        alert("출제할 Lesson을 하나 이상 선택해 주세요.");
+        return;
+      }
+      state.lessons = selected;
+      setSelectedLessons(selected);
+      activeQuestions = originalQuestions.filter((q) => selected.includes(Number(q.source?.lesson)));
+      if (!activeQuestions.length) {
+        alert("선택한 Lesson의 문제를 찾을 수 없습니다.");
+        return;
+      }
+    } else {
+      activeQuestions = [...originalQuestions];
+    }
     if (!resume) {
       state.index = 0;
       state.answers = {};
-      questions = shuffle(originalQuestions);
+      questions = shuffle(activeQuestions);
       state.order = questions.map((q) => q.id);
     } else {
       applyOrder(state.order);
@@ -492,6 +516,44 @@
     });
   }
 
+  function getAvailableLessonIds() {
+    return Array.isArray(currentQuiz?.lessons)
+      ? currentQuiz.lessons.map(Number)
+      : [];
+  }
+
+  function getSelectedLessons() {
+    return Array.from(els.lessonOptions.querySelectorAll("input[name='lesson']:checked"))
+      .map((input) => Number(input.value));
+  }
+
+  function setSelectedLessons(selected) {
+    const selectedSet = new Set(selected.map(Number));
+    els.lessonOptions.querySelectorAll("input[name='lesson']").forEach((input) => {
+      input.checked = selectedSet.has(Number(input.value));
+    });
+    updateLessonCount();
+  }
+
+  function updateLessonCount() {
+    const selected = getSelectedLessons();
+    const questionCount = originalQuestions.filter((q) => selected.includes(Number(q.source?.lesson))).length;
+    els.lessonCount.textContent = selected.length
+      ? `선택한 단원: ${selected.map((lesson) => `Lesson ${lesson}`).join(", ")} · ${questionCount}문항`
+      : "한 개 이상 선택해 주세요.";
+  }
+
+  function renderLessonPicker(lessons, selected) {
+    els.lessonOptions.innerHTML = lessons.map((lesson) => `
+      <label class="lesson-option">
+        <input type="checkbox" name="lesson" value="${Number(lesson)}" />
+        <span>Lesson ${Number(lesson)}</span>
+      </label>
+    `).join("");
+    setSelectedLessons(selected);
+    els.lessonPicker.classList.remove("hidden");
+  }
+
   async function openQuiz(quizId) {
     const meta = quizCatalog.find((q) => q.id === quizId);
     if (!meta) return;
@@ -504,6 +566,7 @@
 
       currentQuiz = meta;
       originalQuestions = qData.questions || [];
+      activeQuestions = [...originalQuestions];
       questions = [...originalQuestions];
       answerKey = { ...aData };
       delete answerKey._설명;
@@ -519,13 +582,21 @@
           index: Number.isInteger(saved.index) ? saved.index : 0,
           answers: saved.answers || {},
           order: saved.order || [],
+          lessons: Array.isArray(saved.lessons) ? saved.lessons : [],
         };
         els.nameInput.value = saved.name;
         els.btnResume.classList.remove("hidden");
       } else {
-        state = { name: "", index: 0, answers: {}, order: [] };
+        state = { name: "", index: 0, answers: {}, order: [], lessons: [] };
         els.nameInput.value = "";
         els.btnResume.classList.add("hidden");
+      }
+
+      if (Array.isArray(meta.lessons) && meta.lessons.length) {
+        renderLessonPicker(meta.lessons, state.lessons.length ? state.lessons : meta.lessons);
+      } else {
+        els.lessonPicker.classList.add("hidden");
+        els.lessonOptions.innerHTML = "";
       }
 
       showScreen("start");
@@ -555,12 +626,13 @@
     els.btnHome.addEventListener("click", () => showScreen("home"));
     els.btnStart.addEventListener("click", () => startQuiz(false));
     els.btnResume.addEventListener("click", () => startQuiz(true));
+    els.lessonOptions.addEventListener("change", updateLessonCount);
     els.btnPrev.addEventListener("click", () => goTo(state.index - 1));
     els.btnNext.addEventListener("click", () => goNext());
     els.btnCheck.addEventListener("click", () => checkCurrentAnswer());
     els.btnRestart.addEventListener("click", () => {
       clearState();
-      state = { name: "", index: 0, answers: {}, order: [] };
+      state = { name: "", index: 0, answers: {}, order: [], lessons: [] };
       els.nameInput.value = "";
       els.btnResume.classList.add("hidden");
       showScreen("start");
