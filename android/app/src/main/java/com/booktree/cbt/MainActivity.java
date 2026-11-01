@@ -6,11 +6,9 @@ import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.Insets;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.WindowInsets;
+import android.view.ViewGroup;
 import android.webkit.JsResult;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
@@ -19,7 +17,12 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
 
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
 import androidx.webkit.WebViewAssetLoader;
 
 import java.io.ByteArrayInputStream;
@@ -38,22 +41,24 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         updater = new AppUpdater(this);
 
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
+        FrameLayout content = new FrameLayout(this);
+        content.setBackgroundColor(Color.rgb(229, 236, 242));
         webView = new WebView(this);
         webView.setBackgroundColor(Color.rgb(244, 247, 251));
-        setContentView(webView);
-        webView.setOnApplyWindowInsetsListener((view, windowInsets) -> {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                Insets insets = windowInsets.getInsets(
-                    WindowInsets.Type.systemBars() | WindowInsets.Type.displayCutout());
-                view.setPadding(insets.left, insets.top, insets.right, insets.bottom);
-            } else {
-                view.setPadding(windowInsets.getSystemWindowInsetLeft(),
-                    windowInsets.getSystemWindowInsetTop(),
-                    windowInsets.getSystemWindowInsetRight(),
-                    windowInsets.getSystemWindowInsetBottom());
-            }
-            return windowInsets;
+        content.addView(webView, new FrameLayout.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        // Resize the WebView's actual bounds. WebView padding does not keep CSS
+        // position:fixed controls above Android's navigation bar or keyboard.
+        ViewCompat.setOnApplyWindowInsetsListener(content, (view, windowInsets) -> {
+            Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars()
+                | WindowInsetsCompat.Type.displayCutout() | WindowInsetsCompat.Type.ime());
+            view.setPadding(insets.left, insets.top, insets.right, insets.bottom);
+            // The surrounding native view already reserves these areas.
+            return WindowInsetsCompat.CONSUMED;
         });
+        setContentView(content);
+        ViewCompat.requestApplyInsets(content);
 
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
