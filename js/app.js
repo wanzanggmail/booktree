@@ -7,6 +7,9 @@
     quiz: document.getElementById("screen-quiz"),
     result: document.getElementById("screen-result"),
     quizList: document.getElementById("quiz-list"),
+    androidUpdate: document.getElementById("android-update"),
+    androidVersion: document.getElementById("android-version"),
+    btnAppUpdate: document.getElementById("btn-app-update"),
     startEyebrow: document.getElementById("start-eyebrow"),
     startTitle: document.getElementById("start-title"),
     startDesc: document.getElementById("start-desc"),
@@ -608,6 +611,13 @@
   }
 
   async function init() {
+    const android = window.BooktreeAndroid;
+    if (android && typeof android.getVersionName === "function"
+      && typeof android.checkForUpdates === "function") {
+      els.androidVersion.textContent = `Android 앱 v${android.getVersionName()}`;
+      els.androidUpdate.classList.remove("hidden");
+      els.btnAppUpdate.addEventListener("click", () => android.checkForUpdates());
+    }
     try {
       const res = await fetch("data/quizzes.json");
       if (!res.ok) throw new Error("catalog");

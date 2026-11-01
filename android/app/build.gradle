@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+}
+
+def signingProperties = new Properties()
+def signingFile = rootProject.file('signing/signing.properties')
+if (signingFile.exists()) {
+    signingFile.withInputStream { signingProperties.load(it) }
+}
+
+def appVersion = new Properties()
+rootProject.file('version.properties').withInputStream { appVersion.load(it) }
+
+android {
+    namespace 'com.booktree.cbt'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.booktree.cbt'
+        minSdk appVersion.getProperty('minSdk').toInteger()
+        targetSdk 35
+        versionCode appVersion.getProperty('versionCode').toInteger()
+        versionName appVersion.getProperty('versionName')
+        buildConfigField 'String', 'UPDATE_MANIFEST_URL', '"https://wanzanggmail.github.io/booktree/updates/latest.json"'
+    }
+
+    signingConfigs {
+        release {
+            storeFile rootProject.file('signing/booktree-release.jks')
+            storePassword signingProperties.getProperty('storePassword', '')
+            keyAlias signingProperties.getProperty('keyAlias', 'booktree')
+            keyPassword signingProperties.getProperty('keyPassword', '')
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+        }
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets.main.assets.srcDir(layout.buildDirectory.dir('generated/booktreeAssets'))
+    sourceSets.main.res.srcDir(layout.buildDirectory.dir('generated/booktreeRes'))
+}
+
+// Copy only public web assets. The APK never packages source control or signing files.
+tasks.register('syncWebAssets', Sync) {
+    from(rootProject.projectDir.parentFile) {
+        include 'index.html', 'css/**', 'js/**', 'data/**', 'icons/**', 'manifest.webmanifest'
+    }
+    into(layout.buildDirectory.dir('generated/booktreeAssets/www'))
+}
+
+tasks.register('syncLauncherIcon', Copy) {
+    from(new File(rootProject.projectDir.parentFile, 'icons/icon-192.png'))
+    into(layout.buildDirectory.dir('generated/booktreeRes/drawable'))
+    rename { 'ic_launcher.png' }
+}
+
+tasks.named('preBuild').configure {
+    dependsOn 'syncWebAssets', 'syncLauncherIcon'
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.12.1'
+    testImplementation 'junit:junit:4.13.2'
+}

@@ -1,5 +1,7 @@
 # 책나무 어휘 모바일 CBT
 
+Android 설치 파일 빌드와 배포 방법은 [android/README.md](android/README.md)를 참고하세요.
+
 핸드폰에서 한 문제씩 푸는 순수 HTML 퀴즈입니다. **PWA**로 설치하면 인터넷 없이도 사용할 수 있습니다.
 
 ## GitHub Pages

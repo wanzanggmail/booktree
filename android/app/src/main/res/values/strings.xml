@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">책나무 CBT</string>
+    <string name="notice">알림</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="exit_title">앱을 종료할까요?</string>
+    <string name="exit_message">풀고 있는 내용은 저장되며, 다음 실행 때 이어서 풀 수 있습니다.</string>
+    <string name="exit">종료</string>
+</resources>

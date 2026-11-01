@@ -30,6 +30,10 @@
         <h1>모바일 CBT</h1>
         <p class="start-desc">풀고 싶은 시험을 골라 주세요.</p>
         <div id="quiz-list" class="quiz-list"></div>
+        <div id="android-update" class="app-update-row hidden">
+          <span id="android-version"></span>
+          <button type="button" id="btn-app-update" class="btn btn-ghost">업데이트 확인</button>
+        </div>
       </div>
     </section>
 
@@ -86,7 +90,7 @@
   <script src="js/render.js"></script>
   <script src="js/app.js"></script>
   <script>
-    if ("serviceWorker" in navigator) {
+    if ("serviceWorker" in navigator && location.hostname !== "appassets.androidplatform.net") {
       window.addEventListener("load", () => {
         navigator.serviceWorker.register("./sw.js").catch((err) => {
           console.warn("Service worker registration failed:", err);
