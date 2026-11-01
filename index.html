@@ -43,10 +43,18 @@
         <p class="eyebrow" id="start-eyebrow">중학교 1학년 1학기</p>
         <h1 id="start-title">책나무어휘<br />골든벨</h1>
         <p class="start-desc" id="start-desc">한 화면에 한 문제씩 풀어 보세요.</p>
+        <p id="quiz-notice" class="quiz-notice hidden"></p>
         <fieldset id="lesson-picker" class="lesson-picker hidden">
           <legend>출제할 Lesson 선택</legend>
           <div id="lesson-options" class="lesson-options"></div>
           <p id="lesson-count" class="lesson-count"></p>
+        </fieldset>
+        <fieldset id="order-picker" class="lesson-picker hidden">
+          <legend>출제 순서</legend>
+          <div class="lesson-options">
+            <label class="lesson-option"><input type="radio" name="question-order" value="source" checked /><span>본문 순서</span></label>
+            <label class="lesson-option"><input type="radio" name="question-order" value="random" /><span>무작위</span></label>
+          </div>
         </fieldset>
         <label class="field">
           <span>이름</span>
@@ -87,6 +95,7 @@
     </section>
   </div>
 
+  <script src="js/cloze.js"></script>
   <script src="js/render.js"></script>
   <script src="js/app.js"></script>
   <script>

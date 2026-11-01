@@ -5,6 +5,7 @@ Thumbs.db
 # Local Android tools, build products, and release signing credentials.
 .android-tools/
 dist/
+node_modules/
 android/.gradle/
 android/**/build/
 android/local.properties

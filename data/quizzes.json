@@ -23,5 +23,18 @@
     "lessons": [5, 6, 7, 8],
     "questionsUrl": "data/english-lessons/questions.json",
     "answersUrl": "data/english-lessons/answers.json"
+  },
+  {
+    "id": "reading-cloze",
+    "title": "영어 본문 빈칸",
+    "subtitle": "Lesson 5·7·8 · 94문장",
+    "description": "한 문장씩 핵심 표현 채우기 · 빈칸별 부분 점수 · 해석 보기",
+    "notice": "현재 Lesson 5·7·8 본문을 제공합니다. Lesson 6은 본문 자료가 없어 아직 출제하지 않습니다.",
+    "lessons": [5, 7, 8],
+    "pendingLessons": [6],
+    "allowOrderSelection": true,
+    "defaultOrder": "source",
+    "questionsUrl": "data/reading-cloze/questions.json",
+    "answersUrl": "data/reading-cloze/answers.json"
   }
 ]

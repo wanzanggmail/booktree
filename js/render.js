@@ -15,7 +15,7 @@ window.CBTRender = (function () {
     return `
       <article class="q-card" data-id="${escapeHtml(q.id)}" data-type="${escapeHtml(q.type)}">
         <p class="q-section">${escapeHtml(q.section || "")}</p>
-        <p class="q-num">문제 ${escapeHtml(q.id)}</p>
+        <p class="q-num">${q.type === "cloze" ? `문장 ${escapeHtml(q.sentenceNumber)}` : `문제 ${escapeHtml(q.id)}`}</p>
         ${q.answerLanguage === "en" ? `<p class="q-instruction">영영풀이에 맞는 영어 단어${q.type === "text" ? "를 입력하세요." : "를 고르세요. (5지선다)"}</p>` : ""}
         <p class="q-prompt"${q.answerLanguage === "en" ? ' lang="en"' : ""}>${escapeHtml(q.prompt || "")}</p>
         ${bodyHtml}
@@ -164,8 +164,33 @@ window.CBTRender = (function () {
     );
   }
 
+  function renderCloze(q, value) {
+    const answers = Array.isArray(value) ? value : [];
+    const sentence = String(q.template).split(/(\{\{\d+\}\})/g).map(part => {
+      const match = part.match(/^\{\{(\d+)\}\}$/);
+      if (!match) return escapeHtml(part);
+      const index = Number(match[1]);
+      return `<input type="text" class="cloze-input" data-blank-index="${index}"
+        lang="en" aria-label="빈칸 ${index + 1} 답안" placeholder="(${index + 1})"
+        autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false"
+        enterkeyhint="${index === q.blankCount - 1 ? "done" : "next"}"
+        value="${escapeHtml(answers[index] || "")}" />`;
+    }).join("");
+    return shell(q, `
+      ${q.context ? `<p class="q-context">${escapeHtml(q.context)}</p>` : ""}
+      <p class="cloze-sentence" lang="en">${sentence}</p>
+      <p class="cloze-tip">한 칸에 한 단어 · 빈칸별 부분 점수 · 마지막 칸에서 Enter를 누르면 채점</p>
+      <button type="button" class="btn btn-ghost translation-toggle"
+        aria-expanded="false" aria-controls="question-translation">해석</button>
+      <p id="question-translation" class="translation-panel hidden" lang="ko">${escapeHtml(q.translation)}</p>
+      <div class="cloze-review hidden"></div>
+    `);
+  }
+
   function render(q, value) {
     switch (q.type) {
+      case "cloze":
+        return renderCloze(q, value);
       case "text":
         return renderText(q, value);
       case "choice":
@@ -186,6 +211,16 @@ window.CBTRender = (function () {
   function bind(root, q, onChange, hooks) {
     if (!root || !q) return;
     const onEnter = hooks && typeof hooks.onEnter === "function" ? hooks.onEnter : null;
+    const translationToggle = root.querySelector(".translation-toggle");
+    const translationPanel = root.querySelector(".translation-panel");
+    if (translationToggle && translationPanel) {
+      translationToggle.addEventListener("click", () => {
+        const expanded = translationToggle.getAttribute("aria-expanded") !== "true";
+        translationToggle.setAttribute("aria-expanded", String(expanded));
+        translationToggle.textContent = expanded ? "해석 닫기" : "해석";
+        translationPanel.classList.toggle("hidden", !expanded);
+      });
+    }
 
     const exampleToggle = root.querySelector(".example-toggle");
     const examplePanel = root.querySelector(".example-panel");
@@ -196,6 +231,22 @@ window.CBTRender = (function () {
         exampleToggle.textContent = expanded ? "예문 닫기" : "예문";
         examplePanel.classList.toggle("hidden", !expanded);
       });
+    }
+
+    if (q.type === "cloze") {
+      const inputs = Array.from(root.querySelectorAll(".cloze-input"));
+      const change = () => onChange(inputs.map(input => input.value));
+      inputs.forEach((input, index) => {
+        input.addEventListener("input", change);
+        input.addEventListener("keydown", event => {
+          if (event.key !== "Enter" || event.isComposing) return;
+          event.preventDefault();
+          change();
+          if (inputs[index + 1]) inputs[index + 1].focus();
+          else if (hooks && typeof hooks.onCheck === "function") hooks.onCheck();
+        });
+      });
+      return;
     }
 
     if (q.type === "text") {

@@ -2,13 +2,13 @@
 
 기존 웹앱과 모든 시험 JSON을 APK 안에 포함하는 오프라인 Android 앱입니다.
 패키지 ID는 `com.booktree.cbt`이며 Android 7.0 이상을 지원합니다.
-현재 업데이트 기능이 포함된 버전은 `1.1.0`입니다. 시험은 오프라인으로 이용하고,
+현재 본문 빈칸 시험이 포함된 버전은 `1.2.0`입니다. 시험은 오프라인으로 이용하고,
 새 버전 확인과 APK 다운로드에만 인터넷을 사용합니다. 업데이트 설치 시에는
 Android의 ‘이 출처의 앱 허용’ 설정과 사용자의 설치 확인이 필요합니다.
 
 ## 설치 및 배포
 
-1. `dist/booktree-1.1.0.apk`를 휴대폰으로 복사하거나 파일로 공유합니다.
+1. `dist/booktree-1.2.0.apk`를 휴대폰으로 복사하거나 파일로 공유합니다.
 2. 휴대폰에서 APK를 열고, 파일을 연 앱에 대한 **이 출처의 앱 설치 허용**을 선택합니다.
 3. **책나무 CBT**를 실행합니다. 문제와 예문은 설치 직후부터 오프라인으로 이용할 수 있습니다.
 
@@ -54,13 +54,13 @@ APK도 다시 빌드해 배포해야 합니다.
 검사한 후 Android 설치 화면을 엽니다. 현재 서명 키와 다른 APK, 낮은 버전,
 공식 저장소가 아닌 다운로드 주소는 거부합니다.
 
-**기존 1.0.0 APK에는 업데이트 기능이 없습니다. 처음 한 번은 1.1.0을 수동으로 덮어 설치해야 합니다.**
+**기존 1.0.0 APK에는 업데이트 기능이 없습니다. 처음 한 번은 1.1.0 이상(현재 1.2.0)을 수동으로 덮어 설치해야 합니다.**
 앱을 삭제할 필요는 없습니다. 1.1.0부터 다음 업데이트를 앱 안에서 받을 수 있습니다.
 
 새 버전 제작 예시:
 
 ```powershell
-.\android\bump-version.ps1 -VersionName 1.1.1
+.\android\bump-version.ps1 -VersionName 1.2.1
 # android/release-notes.txt에 변경 내용을 작성합니다.
 .\android\build-apk.ps1
 ```
@@ -81,9 +81,9 @@ GitHub CLI를 사용하는 예시(사용자가 게시를 요청한 경우 실행
 
 ```powershell
 # 현재 버전 파일과 소스, 업데이트 JSON을 먼저 로컬 커밋합니다.
-git tag android-v1.1.1
-git push origin android-v1.1.1
-gh release create android-v1.1.1 dist/booktree-1.1.1.apk dist/booktree-1.1.1.apk.sha256 --title "책나무 CBT 1.1.1" --notes-file android/release-notes.txt
+git tag android-v1.2.1
+git push origin android-v1.2.1
+gh release create android-v1.2.1 dist/booktree-1.2.1.apk dist/booktree-1.2.1.apk.sha256 --title "책나무 CBT 1.2.1" --notes-file android/release-notes.txt
 # APK가 공개된 뒤 main을 푸시하면 Pages의 latest.json이 갱신됩니다.
 git push origin main
 ```

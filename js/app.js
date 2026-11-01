@@ -13,6 +13,8 @@
     startEyebrow: document.getElementById("start-eyebrow"),
     startTitle: document.getElementById("start-title"),
     startDesc: document.getElementById("start-desc"),
+    quizNotice: document.getElementById("quiz-notice"),
+    orderPicker: document.getElementById("order-picker"),
     lessonPicker: document.getElementById("lesson-picker"),
     lessonOptions: document.getElementById("lesson-options"),
     lessonCount: document.getElementById("lesson-count"),
@@ -46,6 +48,7 @@
     answers: {},
     order: [],
     lessons: [],
+    orderMode: "random",
   };
 
   function storageKey() {
@@ -80,6 +83,7 @@
         answers: state.answers,
         order: state.order || [],
         lessons: state.lessons || [],
+        orderMode: state.orderMode,
         updatedAt: Date.now(),
       })
     );
@@ -115,6 +119,7 @@
 
   function isAnswered(q) {
     const value = getUserAnswer(q.id);
+    if (q.type === "cloze") return window.CBTCloze.isComplete(q, value);
     if (q.type === "multi") return Array.isArray(value) && value.length > 0;
     if (q.type === "essay") return typeof value === "string" && value.trim() !== "";
     return value != null && String(value).trim() !== "";
@@ -128,6 +133,9 @@
   }
 
   function gradeOne(q) {
+    if (q.type === "cloze") {
+      return window.CBTCloze.grade(q, getUserAnswer(q.id), answerKey[q.id]);
+    }
     if (q.type === "essay") {
       return {
         status: isAnswered(q) ? "essay_done" : "essay_empty",
@@ -229,6 +237,11 @@
       exampleToggle.textContent = "예문";
     }
     if (examplePanel) examplePanel.classList.add("hidden");
+    const review = els.questionArea.querySelector(".cloze-review");
+    if (review) {
+      review.classList.add("hidden");
+      review.innerHTML = "";
+    }
     els.questionArea
       .querySelectorAll(".mark-wrong, .mark-correct")
       .forEach((el) => el.classList.remove("mark-wrong", "mark-correct"));
@@ -291,6 +304,18 @@
   }
 
   function markChoiceResult(q, grade) {
+    if (q.type === "cloze") {
+      els.questionArea.querySelectorAll(".cloze-input").forEach((input, index) => {
+        input.classList.add(grade.slots[index].ok ? "mark-correct" : "mark-wrong");
+      });
+      const review = els.questionArea.querySelector(".cloze-review");
+      review.innerHTML = `<strong>정답 문장</strong>
+        <p lang="en" class="complete-sentence">${escapeFeedback(q.sentence)}</p>
+        <p class="cloze-key">빈칸 정답: ${grade.correct.map((word, index) => `${index + 1}) ${escapeFeedback(word)}`).join(" · ")}</p>
+        <p>${escapeFeedback(q.explanation)}</p>`;
+      review.classList.remove("hidden");
+      return;
+    }
     if (q.type === "text" || q.type === "essay") {
       const input = els.questionArea.querySelector(".answer-input, .essay-input");
       if (!input) return;
@@ -336,14 +361,23 @@
 
     clearCheckFeedback();
 
-    if (!isAnswered(q)) {
-      showCheckFeedback("info", q.type === "text" || q.type === "essay"
+    const hasAnswer = q.type === "cloze" ? window.CBTCloze.hasAny(getUserAnswer(q.id)) : isAnswered(q);
+    if (!hasAnswer) {
+      showCheckFeedback("info", q.type === "text" || q.type === "essay" || q.type === "cloze"
         ? "먼저 답을 입력한 뒤 확인해 주세요."
         : "먼저 답을 선택한 뒤 확인해 주세요.");
       return;
     }
 
     const grade = gradeOne(q);
+    if (q.type === "cloze" && grade.slots) {
+      markChoiceResult(q, grade);
+      const label = grade.status === "correct" ? "모두 정답입니다!"
+        : grade.status === "partial" ? "부분 정답입니다." : "다시 확인해 보세요.";
+      showCheckFeedback(grade.status === "correct" ? "ok" : grade.status === "partial" ? "info" : "bad",
+        `${label} 빈칸 ${grade.earned}/${grade.total}점`);
+      return;
+    }
     const help = q.meaning ? `한글 뜻: ${q.meaning}` : q.help || "";
     const correctAnswer = grade.correct != null ? grade.correct : answerKey[q.id];
 
@@ -394,12 +428,13 @@
       },
       {
         onEnter: () => goNext(),
+        onCheck: () => checkCurrentAnswer(),
       }
     );
     updateProgress();
     els.questionArea.scrollTop = 0;
 
-    const input = els.questionArea.querySelector(".answer-input");
+    const input = els.questionArea.querySelector(".answer-input, .cloze-input");
     if (input) {
       requestAnimationFrame(() => input.focus());
     }
@@ -419,7 +454,7 @@
       return;
     }
     state.name = name;
-    if (currentQuiz?.id === "english-lessons") {
+    if (getAvailableLessonIds().length) {
       const selected = resume
         ? (state.lessons.length ? state.lessons : getAvailableLessonIds())
         : getSelectedLessons();
@@ -440,11 +475,15 @@
     if (!resume) {
       state.index = 0;
       state.answers = {};
-      questions = shuffle(activeQuestions);
+      state.orderMode = currentQuiz.allowOrderSelection
+        ? (els.orderPicker.querySelector("input:checked")?.value || currentQuiz.defaultOrder)
+        : "random";
+      questions = state.orderMode === "source" ? [...activeQuestions] : shuffle(activeQuestions);
       state.order = questions.map((q) => q.id);
     } else {
+      setOrderMode(state.orderMode);
       applyOrder(state.order);
-      if (state.index >= questions.length) state.index = 0;
+      state.index = Math.max(0, Math.min(state.index, questions.length - 1));
     }
     saveState();
     showScreen("quiz");
@@ -453,9 +492,10 @@
 
   function showResult() {
     const rows = questions.map((q) => ({ q, grade: gradeOne(q) }));
-    const auto = rows.filter((r) => r.grade.status === "correct" || r.grade.status === "wrong");
+    const auto = rows.filter((r) => ["correct", "wrong", "partial"].includes(r.grade.status));
     const correct = auto.filter((r) => r.grade.status === "correct").length;
     const wrong = auto.filter((r) => r.grade.status === "wrong").length;
+    const partial = auto.filter((r) => r.grade.status === "partial").length;
     const ungraded = rows.filter((r) => r.grade.status === "ungraded").length;
     const essays = rows.filter((r) => r.q.type === "essay");
     const essayDone = essays.filter((r) => r.grade.status === "essay_done").length;
@@ -464,6 +504,13 @@
     if (ungraded) summary += `, 미채점 ${ungraded}`;
     summary += ")";
     if (essays.length) summary += ` · 예문 작성 ${essayDone}/${essays.length}`;
+    const clozeRows = rows.filter(r => r.q.type === "cloze");
+    if (clozeRows.length) {
+      const earned = clozeRows.reduce((sum, row) => sum + (row.grade.earned || 0), 0);
+      const total = clozeRows.reduce((sum, row) => sum + (row.grade.total || row.q.blankCount), 0);
+      summary = `${state.name} 님 · ${currentQuiz.title} · 빈칸 ${earned}/${total}점`
+        + ` · 문장 정답 ${correct}/${rows.length} (부분 정답 ${partial}, 오답 ${wrong})`;
+    }
     els.resultSummary.textContent = summary;
 
     els.resultList.innerHTML = rows
@@ -472,6 +519,14 @@
         const user = escapeFeedback(formatValue(grade.user));
         const correctAnswer = escapeFeedback(formatValue(grade.correct));
         const meaning = q.meaning ? `<br />한글 뜻: ${escapeFeedback(q.meaning)}` : "";
+        if (q.type === "cloze" && grade.slots) {
+          const label = grade.status === "correct" ? "정답" : grade.status === "partial" ? "부분 정답" : "오답";
+          const slots = grade.slots.map((slot, index) => `<li class="${slot.ok ? "slot-correct" : "slot-wrong"}">
+            ${index + 1}) 내 답: ${escapeFeedback(formatValue(slot.user))} · 정답: ${escapeFeedback(slot.correct)}</li>`).join("");
+          return `<div class="result-item ${grade.status}"><span class="status">${label} · Lesson ${escapeFeedback(q.source.lesson)} 문장 ${escapeFeedback(q.sentenceNumber)} · ${grade.earned}/${grade.total}점</span>
+            <div class="detail"><p lang="en">${escapeFeedback(q.sentence)}</p>
+            <ul class="slot-results">${slots}</ul><p>해석: ${escapeFeedback(q.translation)}</p></div></div>`;
+        }
         if (grade.status === "correct") {
           return `<div class="result-item correct"><span class="status">정답 · ${id}번</span><div class="detail">내 답: ${user}${meaning}</div></div>`;
         }
@@ -492,7 +547,7 @@
   function submitQuiz() {
     const unanswered = questions.filter((q) => !isAnswered(q)).length;
     if (unanswered > 0) {
-      const ok = confirm(`아직 ${unanswered}문항이 비어 있습니다. 그대로 제출할까요?`);
+      const ok = confirm(`아직 ${unanswered}문항의 답안이 완성되지 않았습니다. 그대로 제출할까요?`);
       if (!ok) return;
     }
     showResult();
@@ -547,14 +602,22 @@
   }
 
   function renderLessonPicker(lessons, selected) {
-    els.lessonOptions.innerHTML = lessons.map((lesson) => `
+    const pending = currentQuiz.pendingLessons || [];
+    const all = [...lessons, ...pending].sort((a, b) => a - b);
+    els.lessonOptions.innerHTML = all.map((lesson) => `
       <label class="lesson-option">
-        <input type="checkbox" name="lesson" value="${Number(lesson)}" />
-        <span>Lesson ${Number(lesson)}</span>
+        <input type="checkbox" name="lesson" value="${Number(lesson)}" ${pending.includes(lesson) ? "disabled" : ""} />
+        <span>Lesson ${Number(lesson)}${pending.includes(lesson) ? " (자료 대기)" : ""}</span>
       </label>
     `).join("");
     setSelectedLessons(selected);
     els.lessonPicker.classList.remove("hidden");
+  }
+
+  function setOrderMode(mode) {
+    els.orderPicker.querySelectorAll("input[name='question-order']").forEach(input => {
+      input.checked = input.value === mode;
+    });
   }
 
   async function openQuiz(quizId) {
@@ -577,6 +640,8 @@
       els.startEyebrow.textContent = qData.subtitle || meta.subtitle || "";
       els.startTitle.innerHTML = (qData.title || meta.title).replace(/\n/g, "<br />");
       els.startDesc.textContent = `${meta.description || "한 화면에 한 문제씩"} · 총 ${questions.length}문항`;
+      els.quizNotice.textContent = meta.notice || "";
+      els.quizNotice.classList.toggle("hidden", !meta.notice);
 
       const saved = loadState();
       if (saved && saved.name) {
@@ -586,15 +651,18 @@
           answers: saved.answers || {},
           order: saved.order || [],
           lessons: Array.isArray(saved.lessons) ? saved.lessons : [],
+          orderMode: ["source", "random"].includes(saved.orderMode) ? saved.orderMode : meta.defaultOrder || "random",
         };
         els.nameInput.value = saved.name;
         els.btnResume.classList.remove("hidden");
       } else {
-        state = { name: "", index: 0, answers: {}, order: [], lessons: [] };
+        state = { name: "", index: 0, answers: {}, order: [], lessons: [], orderMode: meta.defaultOrder || "random" };
         els.nameInput.value = "";
         els.btnResume.classList.add("hidden");
       }
 
+      els.orderPicker.classList.toggle("hidden", !meta.allowOrderSelection);
+      setOrderMode(state.orderMode);
       if (Array.isArray(meta.lessons) && meta.lessons.length) {
         renderLessonPicker(meta.lessons, state.lessons.length ? state.lessons : meta.lessons);
       } else {
@@ -642,7 +710,8 @@
     els.btnCheck.addEventListener("click", () => checkCurrentAnswer());
     els.btnRestart.addEventListener("click", () => {
       clearState();
-      state = { name: "", index: 0, answers: {}, order: [], lessons: [] };
+      state = { name: "", index: 0, answers: {}, order: [], lessons: [], orderMode: currentQuiz.defaultOrder || "random" };
+      setOrderMode(state.orderMode);
       els.nameInput.value = "";
       els.btnResume.classList.add("hidden");
       showScreen("start");

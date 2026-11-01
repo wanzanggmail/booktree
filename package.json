@@ -1,0 +1,11 @@
+{
+  "name": "booktree-cbt",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build:reading": "node scripts/build-reading-cloze.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

@@ -1,4 +1,4 @@
-const CACHE_NAME = "chaeknamu-cbt-v11";
+const CACHE_NAME = "chaeknamu-cbt-v12";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const ASSETS = [
   "./css/style.css",
   "./js/app.js",
   "./js/render.js",
+  "./js/cloze.js",
   "./data/quizzes.json",
   "./data/goldenbell/questions.json",
   "./data/goldenbell/answers.json",
@@ -13,6 +14,8 @@ const ASSETS = [
   "./data/dictionary/answers.json",
   "./data/english-lessons/questions.json",
   "./data/english-lessons/answers.json",
+  "./data/reading-cloze/questions.json",
+  "./data/reading-cloze/answers.json",
   "./icons/favicon.ico",
   "./icons/favicon-32x32.png",
   "./icons/favicon-96x96.png",

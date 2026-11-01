@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "versionCode": 2,
-  "versionName": "1.1.0",
+  "versionCode": 3,
+  "versionName": "1.2.0",
   "minSdk": 24,
-  "apkUrl": "https://github.com/wanzanggmail/booktree/releases/download/android-v1.1.0/booktree-1.1.0.apk",
-  "sha256": "e886e7e87468c898ba26c2c327c4b92f9714bd206e95b826bf9671208853fe73",
-  "sizeBytes": 1232605,
-  "releaseNotes": "앱 시작 시 새 버전을 확인합니다.\n홈 화면에서 수동으로 업데이트를 확인할 수 있습니다.\nAPK 다운로드 후 파일 무결성과 기존 앱의 서명을 검사합니다.\n버전 번호와 GitHub 업데이트 정보를 빌드 시 함께 관리합니다.",
-  "builtAt": "2026-11-01T11:14:13.6133094Z"
+  "apkUrl": "https://github.com/wanzanggmail/booktree/releases/download/android-v1.2.0/booktree-1.2.0.apk",
+  "sha256": "693dcbb6da00cfc5d1cb69d549f1aab2e09efe62faa26f2de6e4a201a052f116",
+  "sizeBytes": 1260087,
+  "releaseNotes": "영어 본문 빈칸 시험을 추가했습니다. Lesson 5·7·8의 94문장과 247개 빈칸을 제공합니다.\n문제 번호가 아닌 실제 문장 기준으로 나누고, 핵심 구문을 단어별로 채웁니다.\n해석 보기, 빈칸별 부분 점수, 정답 문장과 핵심 설명을 지원합니다.\n출제 단원과 본문 순서/무작위 순서를 선택하고 이어 풀기에 저장합니다.\nLesson 6은 본문 자료가 없어 자료 대기로 표시합니다.",
+  "builtAt": "2026-11-01T12:43:45.7330578Z"
 }
