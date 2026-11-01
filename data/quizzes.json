@@ -1,6 +1,10 @@
 [
   {
     "id": "goldenbell",
+    "subject": "국어",
+    "shortTitle": "어휘 골든벨",
+    "homeDetail": "중1 1학기",
+    "questionCount": 45,
     "title": "어휘골든벨",
     "subtitle": "중학교 1학년 1학기 · 45문항",
     "description": "학습지 유형별 문제 (주관식·선택·연결·○△ 등)",
@@ -9,6 +13,10 @@
   },
   {
     "id": "dictionary",
+    "subject": "국어",
+    "shortTitle": "어휘 사전",
+    "homeDetail": "중등부 G · 4지선다",
+    "questionCount": 264,
     "title": "어휘사전",
     "subtitle": "상반기 어휘골든벨 사전 · 중등부 G",
     "description": "뜻을 보고 알맞은 낱말을 고르세요 (4지선다)",
@@ -17,24 +25,44 @@
   },
   {
     "id": "english-lessons",
+    "subject": "영어",
+    "shortTitle": "영영풀이",
+    "homeDetail": "Lesson 5–8 · 단어",
+    "questionCount": 103,
     "title": "영어 영영풀이",
     "subtitle": "Lesson 5–8 · 103문항",
     "description": "영영풀이로 단어 맞히기 · 주관식 41 / 5지선다 62 · 무작위 출제",
-    "lessons": [5, 6, 7, 8],
+    "lessons": [
+      5,
+      6,
+      7,
+      8
+    ],
     "questionsUrl": "data/english-lessons/questions.json",
     "answersUrl": "data/english-lessons/answers.json"
   },
   {
     "id": "reading-cloze",
+    "subject": "영어",
+    "shortTitle": "본문 빈칸",
+    "homeDetail": "Lesson 5–8 · 문제집 빈칸",
+    "questionCount": 111,
+    "countUnit": "문장",
     "title": "영어 본문 빈칸",
-    "subtitle": "Lesson 5·7·8 · 94문장",
-    "description": "한 문장씩 핵심 표현 채우기 · 빈칸별 부분 점수 · 해석 보기",
-    "notice": "현재 Lesson 5·7·8 본문을 제공합니다. Lesson 6은 본문 자료가 없어 아직 출제하지 않습니다.",
-    "lessons": [5, 7, 8],
-    "pendingLessons": [6],
+    "subtitle": "Lesson 5–8 · 111문장",
+    "description": "문제집과 같은 빈칸 · 문장별 풀이 · 빈칸별 부분 점수 · 해석 보기",
+    "notice": "첨부 문제집의 빈칸을 반영했습니다. 빈칸이 없는 문장은 앞 문맥으로 표시합니다. 빈칸 구성이 바뀌어 기존 본문 빈칸 시험은 새로 시작해 주세요.",
+    "lessons": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "pendingLessons": [],
     "allowOrderSelection": true,
     "defaultOrder": "source",
     "questionsUrl": "data/reading-cloze/questions.json",
-    "answersUrl": "data/reading-cloze/answers.json"
+    "answersUrl": "data/reading-cloze/answers.json",
+    "revision": "workbook-2026-11-01"
   }
 ]

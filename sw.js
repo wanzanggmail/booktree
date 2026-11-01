@@ -1,4 +1,4 @@
-const CACHE_NAME = "chaeknamu-cbt-v12";
+const CACHE_NAME = "chaeknamu-cbt-v15";
 const ASSETS = [
   "./",
   "./index.html",
@@ -16,14 +16,17 @@ const ASSETS = [
   "./data/english-lessons/answers.json",
   "./data/reading-cloze/questions.json",
   "./data/reading-cloze/answers.json",
-  "./icons/favicon.ico",
-  "./icons/favicon-32x32.png",
-  "./icons/favicon-96x96.png",
-  "./icons/android-icon-192x192.png",
-  "./icons/apple-icon.png",
-  "./icons/apple-icon-180x180.png",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
+  "./icons/hoho-32.png",
+  "./icons/hoho-144.png",
+  "./icons/hoho-180.png",
+  "./icons/hoho-192.png",
+  "./icons/hoho-512.png",
+  "./icons/hoho-32.png?v=15",
+  "./icons/hoho-144.png?v=15",
+  "./icons/hoho-180.png?v=15",
+  "./icons/hoho-192.png?v=15",
+  "./icons/hoho.ico?v=15",
+  "./manifest.webmanifest?v=15",
 ];
 
 async function precache() {

@@ -1,0 +1,62 @@
+{
+  "revision": "workbook-2026-11-01",
+  "sources": [
+    {
+      "file": "내신콘서트 5-6과.pdf",
+      "pages": 4,
+      "sha256": "591d8639685ac65181c56f604f83db127035ded413c225ae355d9b665f7c7294"
+    },
+    {
+      "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
+      "pages": 4,
+      "sha256": "fbdc10484d3cff2584fe4682093e5f286173566e4bfdee1868ef986f0298ca18"
+    },
+    {
+      "file": "백발백중 1-2 7과.pdf",
+      "pages": 4,
+      "sha256": "c71e527316fc10f509168e51954d7393fd1f20922caadf1e0623d13d5808192e"
+    },
+    {
+      "file": "5과문제.pdf",
+      "pages": 2,
+      "sha256": "d03190523dce95938be49e85126a9913cef3d8cae1ba57257f8e3e548c6bc701"
+    },
+    {
+      "file": "5.pdf",
+      "pages": 2,
+      "sha256": "bd1cdba385334c478d8a4ac2568b2d15ee720234a15c1f8e8a3d7cd20d6b0fe4"
+    }
+  ],
+  "checks": [
+    {
+      "file": "5과문제.pdf",
+      "pdfPage": 1,
+      "printedBlankLines": 39
+    },
+    {
+      "file": "5과문제.pdf",
+      "pdfPage": 2,
+      "printedBlankLines": 50
+    },
+    {
+      "file": "내신콘서트 5-6과.pdf",
+      "pdfPage": 3,
+      "printedBlankLines": 40
+    },
+    {
+      "file": "내신콘서트 5-6과.pdf",
+      "pdfPage": 4,
+      "printedBlankLines": 52
+    },
+    {
+      "file": "백발백중 1-2 7과.pdf",
+      "pdfPage": 3,
+      "printedBlankLines": 36
+    },
+    {
+      "file": "백발백중 1-2 7과.pdf",
+      "pdfPage": 4,
+      "printedBlankLines": 31
+    }
+  ]
+}

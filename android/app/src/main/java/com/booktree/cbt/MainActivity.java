@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
         updater = new AppUpdater(this);
 
         webView = new WebView(this);
-        webView.setBackgroundColor(Color.rgb(247, 244, 239));
+        webView.setBackgroundColor(Color.rgb(244, 247, 251));
         setContentView(webView);
         webView.setOnApplyWindowInsetsListener((view, windowInsets) -> {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {

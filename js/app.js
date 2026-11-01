@@ -1,5 +1,6 @@
 (function () {
   const STORAGE_PREFIX = "chaeknamu-cbt-v1:";
+  const PROFILE_KEY = "hoho-study:profile";
 
   const els = {
     home: document.getElementById("screen-home"),
@@ -7,6 +8,9 @@
     quiz: document.getElementById("screen-quiz"),
     result: document.getElementById("screen-result"),
     quizList: document.getElementById("quiz-list"),
+    quizSearch: document.getElementById("quiz-search"),
+    subjectFilters: document.getElementById("subject-filters"),
+    quizListStatus: document.getElementById("quiz-list-status"),
     androidUpdate: document.getElementById("android-update"),
     androidVersion: document.getElementById("android-version"),
     btnAppUpdate: document.getElementById("btn-app-update"),
@@ -19,6 +23,12 @@
     lessonOptions: document.getElementById("lesson-options"),
     lessonCount: document.getElementById("lesson-count"),
     nameInput: document.getElementById("name-input"),
+    nameField: document.getElementById("name-field"),
+    profileName: document.getElementById("profile-name"),
+    profileEditor: document.getElementById("profile-editor"),
+    profileInput: document.getElementById("profile-name-input"),
+    btnEditName: document.getElementById("btn-edit-name"),
+    btnCancelName: document.getElementById("btn-cancel-name"),
     btnBackHome: document.getElementById("btn-back-home"),
     btnStart: document.getElementById("btn-start"),
     btnResume: document.getElementById("btn-resume"),
@@ -37,6 +47,9 @@
   };
 
   let quizCatalog = [];
+  let homeSubject = "all";
+  let homeSearch = "";
+  let profileName = "";
   let currentQuiz = null;
   let originalQuestions = [];
   let activeQuestions = [];
@@ -55,6 +68,43 @@
     return STORAGE_PREFIX + (currentQuiz?.id || "default");
   }
 
+  function refreshProfile() {
+    els.profileName.textContent = profileName ? `${profileName} 님` : "이름은 첫 학습 때 한 번만 입력해 주세요.";
+    els.btnEditName.classList.toggle("hidden", !profileName);
+    els.nameField.classList.toggle("hidden", !!profileName);
+    els.nameInput.value = profileName;
+  }
+
+  function rememberName(name) {
+    profileName = String(name).trim().slice(0, 20);
+    try {
+      localStorage.setItem(PROFILE_KEY, JSON.stringify({ name: profileName }));
+    } catch (err) {
+      console.warn("이름 저장 실패", err);
+    }
+    refreshProfile();
+  }
+
+  function restoreProfile() {
+    try {
+      const stored = JSON.parse(localStorage.getItem(PROFILE_KEY) || "null");
+      if (typeof stored?.name === "string" && stored.name.trim()) {
+        profileName = stored.name.trim().slice(0, 20);
+      } else {
+        // Reuse the latest name from existing quizzes when upgrading the app.
+        const previous = quizCatalog.map(quiz => {
+          try { return JSON.parse(localStorage.getItem(STORAGE_PREFIX + quiz.id) || "null"); }
+          catch { return null; }
+        }).filter(saved => typeof saved?.name === "string" && saved.name.trim())
+          .sort((a, b) => (Number(b.updatedAt) || 0) - (Number(a.updatedAt) || 0));
+        if (previous.length) rememberName(previous[0].name);
+      }
+    } catch (err) {
+      console.warn("이름 불러오기 실패", err);
+    }
+    refreshProfile();
+  }
+
   function showScreen(name) {
     [els.home, els.start, els.quiz, els.result].forEach((el) => el.classList.remove("active"));
     if (name === "home") els.home.classList.add("active");
@@ -67,7 +117,9 @@
     try {
       const raw = localStorage.getItem(storageKey());
       if (!raw) return null;
-      return JSON.parse(raw);
+      const saved = JSON.parse(raw);
+      if (currentQuiz?.revision && saved.revision !== currentQuiz.revision) return null;
+      return saved;
     } catch {
       return null;
     }
@@ -79,6 +131,7 @@
       storageKey(),
       JSON.stringify({
         name: state.name,
+        ...(currentQuiz.revision ? { revision: currentQuiz.revision } : {}),
         index: state.index,
         answers: state.answers,
         order: state.order || [],
@@ -251,7 +304,8 @@
     return String(str ?? "")
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function underlineAnswerInHelp(helpText, answer) {
@@ -447,7 +501,7 @@
   }
 
   function startQuiz(resume) {
-    const name = (els.nameInput.value || state.name || "").trim();
+    const name = (profileName || els.nameInput.value || state.name || "").trim();
     if (!name) {
       els.nameInput.focus();
       alert("이름을 입력해 주세요.");
@@ -485,6 +539,7 @@
       applyOrder(state.order);
       state.index = Math.max(0, Math.min(state.index, questions.length - 1));
     }
+    rememberName(name);
     saveState();
     showScreen("quiz");
     renderCurrent();
@@ -554,17 +609,52 @@
   }
 
   function renderHome() {
-    els.quizList.innerHTML = quizCatalog
-      .map(
-        (quiz) => `
-      <button type="button" class="quiz-card" data-quiz-id="${quiz.id}">
-        <strong>${quiz.title}</strong>
-        <span>${quiz.subtitle || ""}</span>
-        <em>${quiz.description || ""}</em>
-      </button>
-    `
-      )
-      .join("");
+    const subjects = [...new Set(quizCatalog.map(quiz => quiz.subject || "기타"))];
+    if (els.subjectFilters.dataset.catalog !== JSON.stringify(subjects)) {
+      els.subjectFilters.dataset.catalog = JSON.stringify(subjects);
+      els.subjectFilters.innerHTML = ["all", ...subjects].map(subject => {
+        const count = subject === "all" ? quizCatalog.length
+          : quizCatalog.filter(quiz => (quiz.subject || "기타") === subject).length;
+        return `<button type="button" class="subject-filter" data-subject="${escapeFeedback(subject)}" aria-pressed="false">
+          ${subject === "all" ? "전체" : escapeFeedback(subject)} <span>${count}</span></button>`;
+      }).join("");
+    }
+    els.subjectFilters.querySelectorAll("[data-subject]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.dataset.subject === homeSubject));
+    });
+
+    const searchText = value => normalizeText(value).normalize("NFKC").replace(/\s/g, "");
+    const query = searchText(homeSearch);
+    const visible = quizCatalog.filter(quiz => {
+      if (homeSubject !== "all" && (quiz.subject || "기타") !== homeSubject) return false;
+      const terms = [quiz.title, quiz.shortTitle, quiz.subtitle, quiz.description, quiz.subject,
+        ...(quiz.lessons || []).map(lesson => `Lesson ${lesson} ${lesson}과`)];
+      return !query || searchText(terms.filter(Boolean).join(" ")).includes(query);
+    });
+    els.quizListStatus.textContent = `${visible.length}개`;
+    els.quizList.innerHTML = subjects.map(subject => {
+      const group = visible.filter(quiz => (quiz.subject || "기타") === subject);
+      if (!group.length) return "";
+      return `<section class="quiz-group" aria-label="${escapeFeedback(subject)} 학습">
+        <h3>${escapeFeedback(subject)}</h3><div class="quiz-group-list">${group.map(quiz => `
+          <button type="button" class="quiz-card quiz-row" data-quiz-id="${escapeFeedback(quiz.id)}">
+            <span class="quiz-row-copy"><strong>${escapeFeedback(quiz.shortTitle || quiz.title)}</strong>
+              <span class="quiz-row-meta">${escapeFeedback(quiz.homeDetail || quiz.subtitle || "")}</span></span>
+            <span class="quiz-row-count">${escapeFeedback(quiz.questionCount ?? "")}<small>${escapeFeedback(quiz.countUnit || "문항")}</small></span>
+            <span class="quiz-row-chevron" aria-hidden="true">›</span>
+          </button>`).join("")}</div></section>`;
+    }).join("");
+    if (!visible.length) {
+      els.quizList.innerHTML = `<div class="quiz-empty"><p>일치하는 학습이 없어요.</p>
+        <button type="button" id="btn-reset-library" class="btn btn-ghost">목록 초기화</button></div>`;
+      document.getElementById("btn-reset-library").addEventListener("click", () => {
+        homeSubject = "all";
+        homeSearch = "";
+        els.quizSearch.value = "";
+        renderHome();
+        els.quizSearch.focus();
+      });
+    }
 
     els.quizList.querySelectorAll(".quiz-card").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -638,7 +728,7 @@
       delete answerKey._설명;
 
       els.startEyebrow.textContent = qData.subtitle || meta.subtitle || "";
-      els.startTitle.innerHTML = (qData.title || meta.title).replace(/\n/g, "<br />");
+      els.startTitle.textContent = meta.title || qData.title;
       els.startDesc.textContent = `${meta.description || "한 화면에 한 문제씩"} · 총 ${questions.length}문항`;
       els.quizNotice.textContent = meta.notice || "";
       els.quizNotice.classList.toggle("hidden", !meta.notice);
@@ -670,8 +760,10 @@
         els.lessonOptions.innerHTML = "";
       }
 
+      refreshProfile();
       showScreen("start");
-      els.nameInput.focus();
+      if (profileName) els.btnStart.focus();
+      else els.nameInput.focus();
     } catch (err) {
       console.error(err);
       alert("문제 데이터를 불러오지 못했습니다. 로컬 서버로 열어 주세요.");
@@ -679,6 +771,38 @@
   }
 
   async function init() {
+    els.btnEditName.addEventListener("click", () => {
+      els.profileEditor.classList.remove("hidden");
+      els.profileInput.value = profileName;
+      els.profileInput.focus();
+      els.profileInput.select();
+    });
+    els.btnCancelName.addEventListener("click", () => {
+      els.profileEditor.classList.add("hidden");
+      els.btnEditName.focus();
+    });
+    els.profileInput.addEventListener("input", () => els.profileInput.setCustomValidity(""));
+    els.profileEditor.addEventListener("submit", event => {
+      event.preventDefault();
+      if (!els.profileInput.value.trim()) {
+        els.profileInput.setCustomValidity("이름을 입력해 주세요.");
+        els.profileInput.reportValidity();
+        return;
+      }
+      rememberName(els.profileInput.value);
+      els.profileEditor.classList.add("hidden");
+      els.btnEditName.focus();
+    });
+    els.quizSearch.addEventListener("input", () => {
+      homeSearch = els.quizSearch.value;
+      renderHome();
+    });
+    els.subjectFilters.addEventListener("click", event => {
+      const button = event.target.closest("[data-subject]");
+      if (!button) return;
+      homeSubject = button.dataset.subject;
+      renderHome();
+    });
     const android = window.BooktreeAndroid;
     if (android && typeof android.getVersionName === "function"
       && typeof android.checkForUpdates === "function") {
@@ -690,6 +814,7 @@
       const res = await fetch("data/quizzes.json");
       if (!res.ok) throw new Error("catalog");
       quizCatalog = await res.json();
+      restoreProfile();
       renderHome();
     } catch (err) {
       console.error(err);
@@ -712,7 +837,7 @@
       clearState();
       state = { name: "", index: 0, answers: {}, order: [], lessons: [], orderMode: currentQuiz.defaultOrder || "random" };
       setOrderMode(state.orderMode);
-      els.nameInput.value = "";
+      refreshProfile();
       els.btnResume.classList.add("hidden");
       showScreen("start");
     });

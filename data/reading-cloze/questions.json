@@ -1,6 +1,7 @@
 {
   "title": "영어 본문 빈칸",
-  "subtitle": "Lesson 5·7·8 · 문장별 본문 학습",
+  "revision": "workbook-2026-11-01",
+  "subtitle": "Lesson 5–8 · 문제집과 같은 빈칸",
   "questions": [
     {
       "id": "l5-s01",
@@ -8,19 +9,21 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 1,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Last Saturday, someone {{0}} a cake {{1}} the Monalisa in the Botero Museum in Bogota, Colombia.",
+      "template": "{{0}} Saturday, someone {{1}} a cake {{2}} the Monalisa {{3}} the Botero Museum {{4}} Bogota, Colombia.",
       "sentence": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia.",
-      "blankCount": 2,
+      "blankCount": 5,
       "translation": "지난 토요일, 누군가 콜롬비아 보고타의 보테로 박물관에 있는 ‘모나리자’에 케이크를 던졌다.",
       "explanation": "throw의 과거형은 threw이고, throw A at B는 ‘B를 향해 A를 던지다’라는 뜻입니다.",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           1
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -29,19 +32,21 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 2,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} four {{2}}.",
+      "template": "{{0}} were four {{1}}.",
       "sentence": "There were four eyewitnesses.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "네 명의 목격자가 있었다.",
       "explanation": "There were 뒤에는 복수 명사가 옵니다. eyewitness의 복수형은 eyewitnesses입니다.",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           2
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -56,13 +61,15 @@
       "translation": "그들은 뭐라고 말했을까?",
       "explanation": "일반동사의 과거 의문문은 의문사 + did + 주어 + 동사원형 순서입니다.",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           3
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -71,19 +78,21 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 4,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} the following, and {{1}} the criminal.",
+      "template": "Read the {{0}}, and find the {{1}}.",
       "sentence": "Read the following, and find the criminal.",
       "blankCount": 2,
       "translation": "다음을 읽고, 범인을 찾아보라.",
       "explanation": "명령문은 동사원형으로 시작하며, 두 명령문을 and로 연결할 수 있습니다.",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           4
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -92,20 +101,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 5,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I {{0}} {{1}} at the Monalisa, and someone threw a cake at the painting.",
+      "template": "I was {{0}} {{1}} the Monalisa, and {{2}} threw a cake at the {{3}}.",
       "sentence": "I was looking at the Monalisa, and someone threw a cake at the painting.",
-      "blankCount": 2,
+      "blankCount": 4,
       "translation": "저는 ‘모나리자’를 보고 있었는데, 누군가 그 그림을 향해 케이크를 던졌어요.",
       "explanation": "과거진행형은 was/were + 동사-ing입니다. look at은 ‘~을 보다’입니다.",
       "context": "Ann Jones, a visitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           5
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -121,13 +132,15 @@
       "explanation": "turn around는 ‘뒤로 돌다’이며, see의 과거형은 saw입니다.",
       "context": "Ann Jones, a visitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           6
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -136,20 +149,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 7,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "He was standing {{0}} {{1}} {{2}} a wheelchair.",
+      "template": "He {{0}} standing {{1}} {{2}} {{3}} a wheelchair.",
       "sentence": "He was standing in front of a wheelchair.",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "그는 휠체어 앞에 서 있었어요.",
       "explanation": "in front of는 ‘~의 앞에’라는 뜻의 세 단어 구문입니다.",
       "context": "Ann Jones, a visitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           7
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -158,20 +173,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 8,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I’m about 170 cm tall, and he was {{0}} {{1}} {{2}} {{3}} me.",
+      "template": "I’m {{0}} 170 cm tall, and he was {{1}} {{2}} {{3}} {{4}} me.",
       "sentence": "I’m about 170 cm tall, and he was a little taller than me.",
-      "blankCount": 4,
+      "blankCount": 5,
       "translation": "저는 키가 170cm 정도인데, 그는 저보다 조금 더 컸어요.",
       "explanation": "a little은 비교급을 꾸며 ‘조금 더’라는 뜻을 나타내고, 비교 대상 앞에는 than을 씁니다.",
       "context": "Ann Jones, a visitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           8
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -180,20 +197,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 9,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "An old man {{0}} gray hair was {{1}} {{2}}, and something fell off his head.",
+      "template": "An old man {{0}} gray hair was {{1}} {{2}}, and something {{3}} {{4}} his head.",
       "sentence": "An old man with gray hair was running away, and something fell off his head.",
-      "blankCount": 3,
+      "blankCount": 5,
       "translation": "회색 머리의 한 노인이 도망가고 있었는데, 그의 머리에서 무언가 떨어졌어요.",
       "explanation": "with는 ‘~을 가진’, run away는 ‘도망가다’입니다. 과거진행형에서는 running으로 씁니다.",
       "context": "Carlos Diaz, a janitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           9
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -202,20 +221,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 10,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} was {{1}} wig.",
+      "template": "It was {{0}} {{1}}.",
       "sentence": "It was his wig.",
       "blankCount": 2,
       "translation": "그것은 그의 가발이었어요.",
       "explanation": "It은 앞 문장의 something을 가리키며, his는 소유격 ‘그의’입니다.",
       "context": "Carlos Diaz, a janitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           10
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -231,13 +252,15 @@
       "explanation": "run after는 ‘~을 뒤쫓다’이며 ran은 run의 과거형입니다. couldn’t 뒤에는 동사원형을 씁니다.",
       "context": "Carlos Diaz, a janitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           11
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -253,13 +276,15 @@
       "explanation": "fast의 비교급은 faster이며, 비교 대상 앞에는 than을 씁니다.",
       "context": "Carlos Diaz, a janitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 1,
-        "printedPage": 34,
+        "printedPage": 36,
         "numbers": [
           12
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -268,20 +293,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 13,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}}, the old man {{2}} {{3}} old.",
+      "template": "{{0}} {{1}}, the old man {{2}} not {{3}}.",
       "sentence": "In fact, the old man was not old.",
       "blankCount": 4,
       "translation": "사실 그 노인은 나이 든 사람이 아니었어요.",
       "explanation": "In fact는 ‘사실은’이며, be동사 과거형의 부정문은 was/were 뒤에 not을 씁니다.",
       "context": "Carlos Diaz, a janitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           13
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -290,20 +317,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 14,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "He was a young man {{0}} long brown hair.",
+      "template": "He was a {{0}} man {{1}} long brown hair.",
       "sentence": "He was a young man with long brown hair.",
-      "blankCount": 1,
+      "blankCount": 2,
       "translation": "그는 긴 갈색 머리의 젊은 남자였어요.",
       "explanation": "with는 ‘~을 가진’이라는 뜻으로 뒤의 명사를 연결합니다.",
       "context": "Carlos Diaz, a janitor",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           14
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -312,20 +341,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 15,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I went to the crime scene, and there were {{0}} {{1}} {{2}} {{3}} {{4}} the painting.",
+      "template": "I {{0}} {{1}} the crime {{2}}, and there were {{3}} {{4}} {{5}} all {{6}} the painting.",
       "sentence": "I went to the crime scene, and there were pieces of cake all over the painting.",
-      "blankCount": 5,
+      "blankCount": 7,
       "translation": "저는 범죄 현장에 갔는데, 그림 곳곳에 케이크 조각들이 있었어요.",
       "explanation": "셀 수 없는 cake의 조각은 pieces of cake로 표현하며, all over는 ‘~곳곳에’입니다.",
       "context": "Diego Perez, a guard",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           15
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -334,20 +365,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 16,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "There was also a wheelchair near the painting, and I found a cake box {{0}} {{1}} the wheelchair.",
+      "template": "{{0}} {{1}} also a wheelchair {{2}} the painting, and I {{3}} a cake box {{4}} {{5}} the {{6}}.",
       "sentence": "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair.",
-      "blankCount": 2,
+      "blankCount": 7,
       "translation": "그림 근처에 휠체어도 있었는데, 저는 휠체어 옆에서 케이크 상자를 발견했어요.",
       "explanation": "next to는 ‘~의 옆에’라는 뜻의 두 단어 구문입니다.",
       "context": "Diego Perez, a guard",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           16
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -363,13 +396,15 @@
       "explanation": "be from은 ‘~에서 오다, ~ 출신이다’입니다. 여기서는 상자가 그 빵집에서 왔음을 나타냅니다.",
       "context": "Diego Perez, a guard",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           17
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -378,20 +413,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 18,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Last Friday, a young man {{0}} {{1}}.",
+      "template": "Last {{0}}, a young man {{1}} {{2}}.",
       "sentence": "Last Friday, a young man came in.",
-      "blankCount": 2,
+      "blankCount": 3,
       "translation": "지난 금요일, 한 젊은 남자가 들어왔어요.",
       "explanation": "come in은 ‘들어오다’이며, come의 과거형은 came입니다.",
       "context": "Camila Santos, the owner of Camila’s Bakery",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           18
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -400,20 +437,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 19,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I {{0}} to him in Spanish, but he {{1}} {{2}} me.",
+      "template": "I {{0}} {{1}} him {{2}} {{3}}, but he {{4}} {{5}} me.",
       "sentence": "I spoke to him in Spanish, but he didn’t understand me.",
-      "blankCount": 3,
+      "blankCount": 6,
       "translation": "저는 그에게 스페인어로 말했지만, 그는 제 말을 이해하지 못했어요.",
       "explanation": "speak의 과거형은 spoke입니다. 과거 부정문은 didn’t + 동사원형으로 씁니다.",
       "context": "Camila Santos, the owner of Camila’s Bakery",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           19
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -422,20 +461,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 20,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "He {{0}} only {{1}}.",
+      "template": "He spoke {{0}} {{1}}.",
       "sentence": "He spoke only English.",
       "blankCount": 2,
       "translation": "그는 영어로만 말했어요.",
       "explanation": "speak의 과거형은 spoke이며, 언어명 English는 대문자로 시작합니다. 이 시험은 대소문자를 구분하지 않습니다.",
       "context": "Camila Santos, the owner of Camila’s Bakery",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           20
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -444,20 +485,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 21,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "We had {{0}} {{1}} {{2}} different cakes, but he just wanted the smallest {{3}}.",
+      "template": "We had a lot of {{0}} cakes, but he just wanted {{1}} {{2}} {{3}}.",
       "sentence": "We had a lot of different cakes, but he just wanted the smallest one.",
       "blankCount": 4,
       "translation": "우리 가게에는 다양한 케이크가 많이 있었지만, 그는 단지 가장 작은 것을 원했어요.",
       "explanation": "a lot of는 ‘많은’이며, one은 앞에서 언급한 단수 명사 cake를 대신합니다.",
       "context": "Camila Santos, the owner of Camila’s Bakery",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           21
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -466,20 +509,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 22,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "We {{0}} only one cake that day, so I remember him {{1}}.",
+      "template": "We {{0}} only one cake {{1}} {{2}}, so I {{3}} him {{4}}.",
       "sentence": "We sold only one cake that day, so I remember him clearly.",
-      "blankCount": 2,
+      "blankCount": 5,
       "translation": "우리는 그날 케이크를 한 개만 팔아서, 저는 그를 똑똑히 기억해요.",
       "explanation": "sell의 과거형은 sold입니다. clearly는 ‘똑똑히’라는 뜻으로 remember를 꾸밉니다.",
       "context": "Camila Santos, the owner of Camila’s Bakery",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           22
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -488,20 +533,22 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 23,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Oh, he {{0}} {{1}} {{2}}.",
+      "template": "Oh, he had {{0}} {{1}}.",
       "sentence": "Oh, he had blue eyes.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "아, 그는 파란색 눈을 가지고 있었어요.",
       "explanation": "have의 과거형은 had이며, 눈을 나타낼 때 eyes라는 복수형을 사용합니다.",
       "context": "Camila Santos, the owner of Camila’s Bakery",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           23
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -510,19 +557,21 @@
       "section": "Lesson 5 · 본문 빈칸",
       "sentenceNumber": 24,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Now, {{0}} {{1}} the information {{2}} the suspects.",
+      "template": "Now, {{0}} {{1}} the {{2}} about the {{3}}.",
       "sentence": "Now, look at the information about the suspects.",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "이제, 용의자들에 대한 정보를 보자.",
       "explanation": "look at은 ‘~을 보다’이며, about은 ‘~에 대한’이라는 뜻의 전치사입니다.",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           24
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
       }
     },
     {
@@ -537,13 +586,548 @@
       "translation": "누가 ‘모나리자’에 케이크를 던졌나?",
       "explanation": "의문사 Who가 주어일 때는 did 없이 Who + 동사의 과거형으로 묻습니다.",
       "source": {
-        "file": "5-6과.pdf",
+        "file": "5과문제.pdf",
         "lesson": 5,
         "pdfPage": 2,
-        "printedPage": 35,
+        "printedPage": 37,
         "numbers": [
           25
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "5.pdf"
+      }
+    },
+    {
+      "id": "l6-s01",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 1,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "Every day, we produce {{0}} {{1}} waste, and the {{2}} is {{3}} {{4}} and {{5}}.",
+      "sentence": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker.",
+      "blankCount": 6,
+      "translation": "매일 우리는 많은 쓰레기를 만들고, 지구는 점점 더 병들고 있습니다.",
+      "explanation": "get + 비교급 and 비교급은 ‘점점 더 ~해지다’라는 뜻입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          1
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s02",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 2,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "Do you {{0}} {{1}} {{2}} the Earth?",
+      "sentence": "Do you want to save the Earth?",
+      "blankCount": 3,
+      "translation": "여러분은 지구를 구하고 싶나요?",
+      "explanation": "want to + 동사원형은 ‘~하고 싶다’라는 뜻입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          2
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s03",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 3,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "Then, {{0}} the zero-waste {{1}}, and {{2}} your stories.",
+      "sentence": "Then, join the zero-waste challenge, and share your stories.",
+      "blankCount": 3,
+      "translation": "그렇다면 제로 웨이스트 챌린지에 동참하고 여러분의 이야기를 공유해 주세요.",
+      "explanation": "명령문에서는 동사원형 join과 share를 사용합니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          3
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s04",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 4,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "My birthday {{0}} last Saturday, and my family and I {{1}} {{2}}.",
+      "sentence": "My birthday was last Saturday, and my family and I ate out.",
+      "blankCount": 3,
+      "translation": "내 생일은 지난 토요일이었고, 가족들과 나는 외식을 했어.",
+      "explanation": "eat out의 과거형은 ate out입니다.",
+      "context": "Olivia",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          4
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s05",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 5,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "{{0}} {{1}} lots of leftovers, but we {{2}} {{3}} home.",
+      "sentence": "There were lots of leftovers, but we brought them home.",
+      "blankCount": 4,
+      "translation": "남은 음식이 많았지만, 우리는 그것들을 집으로 가져왔어.",
+      "explanation": "복수 명사 앞에는 There were, bring의 과거형은 brought를 씁니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          5
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s06",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 6,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "The next day, I {{0}} a nice lunch {{1}} {{2}} them.",
+      "sentence": "The next day, I made a nice lunch out of them.",
+      "blankCount": 3,
+      "translation": "그다음 날 나는 그것들로 맛있는 점심을 만들었어.",
+      "explanation": "make A out of B는 ‘B로 A를 만들다’이며 made는 make의 과거형입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          6
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s07",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 7,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "FYI, you {{0}} {{1}} great cooking ideas {{2}} leftovers {{3}} the Internet.",
+      "sentence": "FYI, you can find great cooking ideas for leftovers on the Internet.",
+      "blankCount": 4,
+      "translation": "참고로 인터넷에서 남은 음식을 위한 멋진 요리 아이디어를 찾을 수 있어.",
+      "explanation": "can 뒤에는 동사원형을 쓰고, 인터넷에서는 on the Internet이라고 합니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          7
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s08",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 8,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "My dog {{0}} my bag.",
+      "sentence": "My dog tore my bag.",
+      "blankCount": 1,
+      "translation": "내 개가 내 가방을 찢었어.",
+      "explanation": "tear의 과거형은 tore입니다.",
+      "context": "Domingo",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          8
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s09",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 9,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I {{0}} {{1}} {{2}} a new one, but I {{3}} again.",
+      "sentence": "I wanted to buy a new one, but I thought again.",
+      "blankCount": 4,
+      "translation": "나는 새것을 사고 싶었지만, 다시 생각해 봤어.",
+      "explanation": "wanted to buy는 ‘사고 싶었다’, thought는 think의 과거형입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          9
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s10",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 10,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I learned {{0}} {{1}} {{2}} important {{3}} zero-waste {{4}}.",
+      "sentence": "I learned that reusing is important for zero-waste living.",
+      "blankCount": 5,
+      "translation": "나는 재사용이 제로 웨이스트 생활에 중요하다고 배웠어.",
+      "explanation": "동명사 reusing이 주어이므로 단수 동사 is를 씁니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          10
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s11",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 11,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "{{0}}, I {{1}} {{2}} fix it and {{3}} it.",
+      "sentence": "So, I decided to fix it and reuse it.",
+      "blankCount": 4,
+      "translation": "그래서 나는 그것을 수선해서 재사용하기로 결심했어.",
+      "explanation": "decide to + 동사원형은 ‘~하기로 결심하다’입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 3,
+        "printedPage": 104,
+        "numbers": [
+          11
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s12",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 12,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I’m {{0}} very {{1}} {{2}} {{3}}, and I don’t think {{4}} the bag {{5}} {{6}}.",
+      "sentence": "I’m not very good at sewing, and I don’t think that the bag looks perfect.",
+      "blankCount": 7,
+      "translation": "나는 바느질을 그다지 잘하지 못해서, 가방이 완벽해 보인다고 생각하지는 않아.",
+      "explanation": "be good at 뒤에는 동명사, 감각동사 look 뒤에는 형용사를 씁니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          12
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s13",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 13,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I guess {{0}} {{1}} {{2}}.",
+      "sentence": "I guess it’s all right.",
+      "blankCount": 3,
+      "translation": "그래도 괜찮은 것 같아.",
+      "explanation": "I guess 뒤에 생각하는 내용을 나타내는 절이 옵니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          13
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s14",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 14,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I {{0}} {{1}} food delivery services, but today {{2}} {{3}}.",
+      "sentence": "I often use food delivery services, but today I didn’t.",
+      "blankCount": 4,
+      "translation": "나는 자주 음식 배달 서비스를 이용하는데, 오늘은 이용하지 않았어.",
+      "explanation": "빈도부사 often은 일반동사 앞에 두며, didn’t 뒤의 반복 표현은 생략합니다.",
+      "context": "Emma",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          14
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s15",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 15,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "{{0}}, I {{1}} {{2}} my favorite restaurant {{3}} a {{4}} {{5}} and {{6}} {{7}} the food.",
+      "sentence": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food.",
+      "blankCount": 8,
+      "translation": "대신 재사용할 수 있는 용기를 가지고 내가 가장 좋아하는 식당에 걸어가서 음식을 가져왔어.",
+      "explanation": "Instead는 ‘대신에’, pick up은 ‘~을 찾아오다’라는 뜻입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          15
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s16",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 16,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I heard {{0}} plastic {{1}} {{2}} {{3}} completely.",
+      "sentence": "I heard that plastic never goes away completely.",
+      "blankCount": 4,
+      "translation": "나는 플라스틱이 절대로 완전히 없어지지 않는다고 들었어.",
+      "explanation": "plastic은 단수 취급하므로 goes를 씁니다. go away는 ‘없어지다’입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          16
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s17",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 17,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I {{0}} {{1}} {{2}} single-use plastic today.",
+      "sentence": "I didn’t use any single-use plastic today.",
+      "blankCount": 3,
+      "translation": "나는 오늘 어떤 일회용 플라스틱도 사용하지 않았어.",
+      "explanation": "부정문에서는 any를 사용하고 didn’t 뒤에는 동사원형을 씁니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          17
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s18",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 18,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I {{0}} {{1}}!",
+      "sentence": "I felt good!",
+      "blankCount": 2,
+      "translation": "기분이 좋았어!",
+      "explanation": "feel의 과거형 felt 뒤에 형용사 good을 씁니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          18
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s19",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 19,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "Yesterday, I {{0}} some {{1}} and {{2}} bottles {{3}} a recycling machine {{4}} my house.",
+      "sentence": "Yesterday, I took some plastic and glass bottles to a recycling machine near my house.",
+      "blankCount": 5,
+      "translation": "어제 나는 플라스틱병과 유리병 몇 개를 집 근처에 있는 재활용 기계에 가져갔어.",
+      "explanation": "take A to B는 ‘A를 B로 가져가다’이며, took은 take의 과거형입니다.",
+      "context": "Minsu",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          19
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s20",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 20,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "I put them {{0}} the machine {{1}} {{2}} {{3}}, and I {{4}} some points {{5}} {{6}}.",
+      "sentence": "I put them into the machine one by one, and I got some points in return.",
+      "blankCount": 7,
+      "translation": "나는 그것들을 하나씩 기계에 집어넣었고, 대가로 약간의 포인트를 받았어.",
+      "explanation": "one by one은 ‘하나씩’, in return은 ‘대가로’라는 뜻입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          20
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s21",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 21,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "{{0}} {{1}} I do {{2}} those points?",
+      "sentence": "What can I do with those points?",
+      "blankCount": 3,
+      "translation": "그 포인트로 무엇을 할 수 있냐고?",
+      "explanation": "의문사 + can + 주어 + 동사원형 순서입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          21
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s22",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 22,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "Well, I {{0}} {{1}} them {{2}} money.",
+      "sentence": "Well, I can use them like money.",
+      "blankCount": 3,
+      "translation": "음, 나는 그것들을 돈처럼 사용할 수 있어.",
+      "explanation": "like는 여기서 ‘~처럼’이라는 뜻의 전치사입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          22
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
+      }
+    },
+    {
+      "id": "l6-s23",
+      "type": "cloze",
+      "section": "Lesson 6 · 본문 빈칸",
+      "sentenceNumber": 23,
+      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
+      "template": "{{0}} {{1}} {{2}} that’s cool?",
+      "sentence": "Don’t you think that’s cool?",
+      "blankCount": 3,
+      "translation": "멋지다고 생각하지 않니?",
+      "explanation": "Don’t you think ~?는 ‘~라고 생각하지 않니?’라는 뜻입니다.",
+      "source": {
+        "file": "내신콘서트 5-6과.pdf",
+        "lesson": 6,
+        "pdfPage": 4,
+        "printedPage": 105,
+        "numbers": [
+          23
+        ],
+        "contextNumbers": [],
+        "bodyFile": "내신콘서트 5-6과.pdf"
       }
     },
     {
@@ -555,16 +1139,19 @@
       "template": "I’m Jim Brown, the {{0}} {{1}} Happy Days.",
       "sentence": "I’m Jim Brown, the director of Happy Days.",
       "blankCount": 2,
-      "translation": "나는 ‘Happy Days’의 감독 Jim Brown이에요.",
+      "translation": "안녕하세요. 나는 ‘Happy Days’의 감독 Jim Brown이에요.",
       "explanation": "director of는 ‘~의 감독’을 뜻하며, 이름 뒤에서 같은 사람을 덧붙여 설명합니다.",
+      "context": "Hi.",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           1
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -573,19 +1160,21 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 2,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "It’s a movie {{0}} the friendship {{1}} Tom and his dog Max.",
+      "template": "It’s a movie about the friendship {{0}} Tom {{1}} his dog Max.",
       "sentence": "It’s a movie about the friendship between Tom and his dog Max.",
       "blankCount": 2,
       "translation": "그것은 Tom과 그의 개 Max 사이의 우정에 관한 영화예요.",
       "explanation": "about은 ‘~에 관한’, between A and B는 ‘A와 B 사이의’라는 뜻입니다.",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           2
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -594,19 +1183,21 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 3,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "A lot of people {{0}} {{1}} hard {{2}} {{3}} this movie.",
+      "template": "{{0}} {{1}} {{2}} people are working hard to {{3}} this movie.",
       "sentence": "A lot of people are working hard to create this movie.",
       "blankCount": 4,
       "translation": "많은 사람들이 이 영화를 만들기 위해 열심히 일하고 있어요.",
       "explanation": "people은 복수로 취급하므로 are working을 씁니다. to create는 목적을 나타내는 to부정사입니다.",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           3
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -615,19 +1206,21 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 4,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Do you {{0}} {{1}} {{2}} some of {{3}}?",
+      "template": "Do you want to meet {{0}} {{1}} them?",
       "sentence": "Do you want to meet some of them?",
-      "blankCount": 4,
+      "blankCount": 2,
       "translation": "그들 중 몇 명을 만나 보고 싶나요?",
       "explanation": "want 뒤에는 to부정사를 목적어로 씁니다. them은 앞의 일하고 있는 사람들을 가리킵니다.",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           4
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -636,20 +1229,22 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 5,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I’m Anna, and I {{0}} this {{1}} beach.",
+      "template": "I’m Anna, and I {{0}} this beautiful {{1}}.",
       "sentence": "I’m Anna, and I found this beautiful beach.",
       "blankCount": 2,
       "translation": "나는 Anna예요. 그리고 내가 이 아름다운 해변을 찾았어요.",
       "explanation": "find의 과거형은 found이며, beautiful은 명사 beach를 꾸미는 형용사입니다.",
       "context": "Anna, a location manager",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           5
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -658,20 +1253,22 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 6,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I’m a location manager, and my job is {{0}} {{1}} perfect places for {{2}}.",
+      "template": "I’m a location manager, and my job is {{0}} {{1}} perfect places {{2}} shooting.",
       "sentence": "I’m a location manager, and my job is to find perfect places for shooting.",
       "blankCount": 3,
       "translation": "나는 촬영지 관리자예요. 내 일은 촬영을 위한 완벽한 장소를 찾는 것이에요.",
       "explanation": "to find는 주어 my job을 설명하는 보어이며, 전치사 for 뒤에는 동명사 shooting을 씁니다.",
       "context": "Anna, a location manager",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           6
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -680,20 +1277,22 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 7,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Of course, {{0}} is {{1}} easy, but I love my job.",
+      "template": "{{0}} {{1}}, it is not easy, but I love my job.",
       "sentence": "Of course, it is not easy, but I love my job.",
       "blankCount": 2,
       "translation": "물론 그것은 쉽지 않아요. 하지만 나는 내 일을 정말 좋아해요.",
       "explanation": "it은 앞 문장의 촬영에 알맞은 장소를 찾는 일을 가리킵니다. be동사 부정문은 is not처럼 씁니다.",
       "context": "Anna, a location manager",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           7
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -702,20 +1301,22 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 8,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I like {{0}} {{1}} and {{2}} challenges.",
+      "template": "I like {{0}} {{1}} and enjoy challenges.",
       "sentence": "I like to travel and enjoy challenges.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "나는 여행하는 것을 좋아하고 도전을 즐겨요.",
       "explanation": "like의 목적어로 to travel을 쓰며, and가 두 동사 like와 enjoy를 연결합니다.",
       "context": "Anna, a location manager",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           8
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -724,20 +1325,22 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 9,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I’m Peter, the {{0}} {{1}} {{2}} {{3}} this movie.",
+      "template": "I’m Peter, the director {{0}} {{1}} for this movie.",
       "sentence": "I’m Peter, the director of photography for this movie.",
-      "blankCount": 4,
+      "blankCount": 2,
       "translation": "나는 이 영화의 촬영 감독 Peter예요.",
       "explanation": "director of photography는 ‘촬영 감독’이라는 직업명이며, for는 ‘~을 위한’이라는 뜻입니다.",
       "context": "Peter, the director of photography",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           9
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -753,13 +1356,15 @@
       "explanation": "be in charge of는 ‘~을 담당하다’라는 뜻입니다.",
       "context": "Peter, the director of photography",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           10
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -768,20 +1373,22 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 11,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Today, Tom and Max {{0}} {{1}} {{2}} play together {{3}} a ball on the beach.",
+      "template": "Today, Tom and Max {{0}} {{1}} {{2}} {{3}} together with a ball on the beach.",
       "sentence": "Today, Tom and Max are going to play together with a ball on the beach.",
       "blankCount": 4,
       "translation": "오늘 Tom과 Max는 해변에서 공을 가지고 함께 놀 예정이에요.",
       "explanation": "be going to + 동사원형은 예정된 일을 나타냅니다. with는 ‘~을 가지고’라는 뜻입니다.",
       "context": "Peter, the director of photography",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           11
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -790,291 +1397,295 @@
       "section": "Lesson 7 · 본문 빈칸",
       "sentenceNumber": 12,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} their happy moments, I’m going to {{2}} drones.",
+      "template": "{{0}} {{1}} their happy moments, I’m going {{2}} {{3}} drones.",
       "sentence": "To capture their happy moments, I’m going to use drones.",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "그들의 행복한 순간들을 포착하기 위해 나는 드론을 사용할 예정이에요.",
       "explanation": "문장 앞의 To capture는 목적을 나타냅니다. be going to 뒤에는 동사원형 use를 씁니다.",
       "context": "Peter, the director of photography",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           12
-        ]
-      }
-    },
-    {
-      "id": "l7-s13",
-      "type": "cloze",
-      "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 13,
-      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} Jennifer.",
-      "sentence": "I’m Jennifer.",
-      "blankCount": 1,
-      "translation": "나는 Jennifer예요.",
-      "explanation": "I’m은 I am의 축약형으로, 자신을 소개할 때 씁니다.",
-      "context": "Jennifer, an animal wrangler",
-      "source": {
-        "file": "7과.pdf",
-        "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
-        "numbers": [
-          13
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s14",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 14,
+      "sentenceNumber": 13,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I {{0}} and {{1}} {{2}} {{3}} Max for a long time.",
+      "template": "I trained and {{0}} {{1}} {{2}} Max {{3}} a long time.",
       "sentence": "I trained and took care of Max for a long time.",
       "blankCount": 4,
-      "translation": "나는 오랫동안 Max를 훈련하고 돌봤어요.",
+      "translation": "나는 Jennifer예요. 나는 오랫동안 Max를 훈련하고 돌봤어요.",
       "explanation": "train의 과거형은 trained이며, take care of의 과거형은 took care of입니다.",
-      "context": "Jennifer, an animal wrangler",
+      "context": "I’m Jennifer. Jennifer, an animal wrangler",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 1,
-        "printedPage": 150,
+        "pdfPage": 3,
+        "printedPage": 154,
         "numbers": [
           13
-        ]
+        ],
+        "contextNumbers": [
+          13
+        ],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s15",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 15,
+      "sentenceNumber": 14,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Max is a great actor, but he sometimes {{0}} {{1}} {{2}} {{3}} a lot of people are around.",
+      "template": "Max is a great actor, but he sometimes {{0}} {{1}} {{2}} when a lot of people are around.",
       "sentence": "Max is a great actor, but he sometimes gets too excited when a lot of people are around.",
-      "blankCount": 4,
+      "blankCount": 3,
       "translation": "Max는 훌륭한 배우예요. 하지만 주변에 많은 사람들이 있을 때 가끔 너무 흥분해요.",
       "explanation": "get + 형용사는 ‘~한 상태가 되다’입니다. when은 ‘~할 때’를 뜻하는 접속사입니다.",
       "context": "Jennifer, an animal wrangler",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           14
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s16",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 16,
+      "sentenceNumber": 15,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "So, I use hand signals {{0}} {{1}} him.",
+      "template": "So, I use hand signals {{0}} {{1}} {{2}}.",
       "sentence": "So, I use hand signals to calm him.",
-      "blankCount": 2,
+      "blankCount": 3,
       "translation": "그래서 나는 그를 진정시키기 위해 수신호를 사용해요.",
       "explanation": "to calm은 ‘진정시키기 위해’라는 목적을 나타내는 to부정사입니다.",
       "context": "Jennifer, an animal wrangler",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           15
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s17",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 17,
+      "sentenceNumber": 16,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Who {{0}} I?",
+      "template": "Who {{0}} {{1}}?",
       "sentence": "Who am I?",
-      "blankCount": 1,
+      "blankCount": 2,
       "translation": "나는 누구일까요?",
       "explanation": "주어 I와 함께 쓰는 be동사는 am이며, 의문문에서는 주어 앞에 옵니다.",
       "context": "Jennifer, an animal wrangler",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           16
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s18",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 18,
+      "sentenceNumber": 17,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I’m {{0}} animal {{1}}.",
+      "template": "I’m {{0}} {{1}} wrangler.",
       "sentence": "I’m an animal wrangler.",
       "blankCount": 2,
       "translation": "나는 동물 조련사예요.",
       "explanation": "animal처럼 모음 소리로 시작하는 말 앞에는 an을 씁니다. animal wrangler는 ‘동물 조련사’입니다.",
       "context": "Jennifer, an animal wrangler",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           17
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s19",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 19,
+      "sentenceNumber": 18,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "My name is Emma, {{0}} I’m a film {{1}}.",
+      "template": "My name is Emma, and I’m a {{0}} {{1}}.",
       "sentence": "My name is Emma, and I’m a film editor.",
       "blankCount": 2,
       "translation": "내 이름은 Emma이고, 나는 영화 편집자예요.",
       "explanation": "and는 두 절을 연결하며, film editor는 ‘영화 편집자’를 뜻합니다.",
       "context": "Emma, a film editor",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           18
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s20",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 20,
+      "sentenceNumber": 19,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "My work begins {{0}} the shooting {{1}} {{2}}.",
+      "template": "My work begins after the shooting {{0}} {{1}}.",
       "sentence": "My work begins after the shooting is over.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "내 일은 촬영이 끝난 후에 시작돼요.",
       "explanation": "after는 ‘~한 후에’라는 접속사이며, be over는 ‘끝나다’라는 뜻입니다.",
       "context": "Emma, a film editor",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           19
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s21",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 21,
+      "sentenceNumber": 20,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} a better story, I can change the order of scenes or delete some of {{2}}.",
+      "template": "To create a {{0}} {{1}}, I can change the {{2}} {{3}} scenes or delete some of them.",
       "sentence": "To create a better story, I can change the order of scenes or delete some of them.",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "더 좋은 이야기를 만들기 위해 나는 장면의 순서를 바꾸거나 장면 중 일부를 삭제할 수 있어요.",
       "explanation": "To create는 목적을 나타내는 to부정사입니다. them은 앞의 scenes를 가리킵니다.",
       "context": "Emma, a film editor",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           20
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s22",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 22,
+      "sentenceNumber": 21,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Storytelling skills {{0}} important for my job, {{1}} I read a lot.",
+      "template": "Storytelling skills are important {{0}} {{1}} {{2}}, so I read {{3}} {{4}}.",
       "sentence": "Storytelling skills are important for my job, so I read a lot.",
-      "blankCount": 2,
+      "blankCount": 5,
       "translation": "스토리텔링 기술은 내 일에 중요해서 나는 많이 읽어요.",
       "explanation": "복수 주어 Storytelling skills에는 are를 씁니다. so는 ‘그래서’라는 뜻으로 결과를 연결합니다.",
       "context": "Emma, a film editor",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           21
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s23",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 23,
+      "sentenceNumber": 22,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I’m Chris, and {{0}} a Foley {{1}}.",
+      "template": "I’m Chris, and I’m a Foley {{0}}.",
       "sentence": "I’m Chris, and I’m a Foley artist.",
-      "blankCount": 2,
+      "blankCount": 1,
       "translation": "나는 Chris이고, 폴리 아티스트예요.",
       "explanation": "I’m은 I am의 축약형입니다. Foley artist는 영화의 음향 효과를 만드는 전문가입니다.",
       "context": "Chris, a Foley artist",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           22
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s24",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 24,
+      "sentenceNumber": 23,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I create sound effects in my studio {{0}} {{1}} on location is not easy.",
+      "template": "I create sound effects in my studio {{0}} recording {{1}} {{2}} is not easy.",
       "sentence": "I create sound effects in my studio when recording on location is not easy.",
-      "blankCount": 2,
+      "blankCount": 3,
       "translation": "현장에서 녹음하는 것이 쉽지 않을 때 나는 작업실에서 음향 효과를 만들어요.",
       "explanation": "when은 ‘~할 때’입니다. recording on location은 동명사구로, when절 안에서 주어 역할을 합니다.",
       "context": "Chris, a Foley artist",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           23
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s25",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 25,
+      "sentenceNumber": 24,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "Listen {{0}}.",
       "sentence": "Listen carefully.",
@@ -1083,64 +1694,48 @@
       "explanation": "carefully는 ‘주의 깊게’라는 부사로 동사 Listen을 꾸밉니다.",
       "context": "Chris, a Foley artist",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           24
-        ]
-      }
-    },
-    {
-      "id": "l7-s26",
-      "type": "cloze",
-      "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 26,
-      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} you {{1}} the sound of waves?",
-      "sentence": "Do you hear the sound of waves?",
-      "blankCount": 2,
-      "translation": "파도 소리가 들리나요?",
-      "explanation": "현재시제 일반동사 의문문은 Do + 주어 + 동사원형 순서입니다.",
-      "context": "Chris, a Foley artist",
-      "source": {
-        "file": "7과.pdf",
-        "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
-        "numbers": [
-          24
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s27",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 27,
+      "sentenceNumber": 25,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "I {{0}} the sound {{1}} rice and a plastic container.",
-      "sentence": "I made the sound with rice and a plastic container.",
-      "blankCount": 2,
-      "translation": "나는 쌀과 플라스틱 통으로 그 소리를 만들었어요.",
+      "template": "I made that sound {{0}} rice and a plastic container.",
+      "sentence": "I made that sound with rice and a plastic container.",
+      "blankCount": 1,
+      "translation": "파도 소리가 들리나요? 나는 쌀과 플라스틱 통으로 그 소리를 만들었어요.",
       "explanation": "make의 과거형은 made이며, with는 도구나 재료를 나타내어 ‘~을 가지고’라는 뜻을 더합니다.",
-      "context": "Chris, a Foley artist",
+      "context": "Do you hear the sound of waves? Chris, a Foley artist",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           25
-        ]
+        ],
+        "contextNumbers": [
+          24
+        ],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
       "id": "l7-s28",
       "type": "cloze",
       "section": "Lesson 7 · 본문 빈칸",
-      "sentenceNumber": 28,
+      "sentenceNumber": 26,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "Doesn’t it {{0}} {{1}}?",
       "sentence": "Doesn’t it sound real?",
@@ -1149,13 +1744,15 @@
       "explanation": "Doesn’t 뒤에는 동사원형 sound가 옵니다. 감각동사 sound 뒤에는 형용사 real을 씁니다.",
       "context": "Chris, a Foley artist",
       "source": {
-        "file": "7과.pdf",
+        "file": "백발백중 1-2 7과.pdf",
         "lesson": 7,
-        "pdfPage": 2,
-        "printedPage": 151,
+        "pdfPage": 4,
+        "printedPage": 155,
         "numbers": [
           26
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "백발백중 1-2 7과.pdf"
       }
     },
     {
@@ -1164,19 +1761,29 @@
       "section": "Lesson 8 · 본문 빈칸",
       "sentenceNumber": 1,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} a little girl {{2}} golden hair in a small town.",
+      "template": "There was a little girl with {{0}} {{1}} in a small town.",
       "sentence": "There was a little girl with golden hair in a small town.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "어느 작은 마을에 금발 머리의 한 어린 소녀가 있었다.",
       "explanation": "There was는 단수 대상의 존재를 나타내고, with는 ‘~을 가진’이라는 뜻입니다.",
+      "hints": [
+        {
+          "number": 1,
+          "text": "금발",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           1
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
@@ -1185,19 +1792,29 @@
       "section": "Lesson 8 · 본문 빈칸",
       "sentenceNumber": 2,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Her name {{0}} Goldilocks.",
+      "template": "{{0}} {{1}} was Goldilocks.",
       "sentence": "Her name was Goldilocks.",
-      "blankCount": 1,
+      "blankCount": 2,
       "translation": "그녀의 이름은 Goldilocks였다.",
       "explanation": "단수 주어 Her name에 맞는 be동사 과거형은 was입니다.",
+      "hints": [
+        {
+          "number": 2,
+          "text": "그녀의 이름",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           2
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
@@ -1206,19 +1823,29 @@
       "section": "Lesson 8 · 본문 빈칸",
       "sentenceNumber": 3,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She liked {{0}} {{1}} photos {{2}} social media.",
+      "template": "She liked {{0}} {{1}} photos on social media.",
       "sentence": "She liked to share photos on social media.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "그녀는 소셜 미디어에 사진을 공유하는 것을 좋아했다.",
       "explanation": "like 뒤에는 to부정사를 목적어로 쓸 수 있습니다. 소셜 미디어 ‘상에’라는 뜻으로 on을 씁니다.",
+      "hints": [
+        {
+          "number": 3,
+          "text": "share의 알맞은 형태",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           3
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
@@ -1227,19 +1854,35 @@
       "section": "Lesson 8 · 본문 빈칸",
       "sentenceNumber": 4,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "At first, she posted everyday things, but people {{0}} {{1}} her {{2}} likes.",
+      "template": "At first, she posted {{0}} {{1}}, but people didn’t give her {{2}} {{3}}.",
       "sentence": "At first, she posted everyday things, but people didn’t give her many likes.",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "처음에는 그녀가 일상적인 것들을 게시했는데, 사람들은 그녀에게 좋아요를 많이 주지 않았다.",
       "explanation": "과거 부정문은 didn’t + 동사원형입니다. 셀 수 있는 복수 명사 likes 앞에는 many를 씁니다.",
+      "hints": [
+        {
+          "number": 4,
+          "text": "일상적인 것들",
+          "start": 0,
+          "count": 2
+        },
+        {
+          "number": 5,
+          "text": "= a lot of likes",
+          "start": 2,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           4
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
@@ -1248,776 +1891,1076 @@
       "section": "Lesson 8 · 본문 빈칸",
       "sentenceNumber": 5,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“What {{0}} I do {{1}} {{2}} more likes?” she thought.",
+      "template": "“What {{0}} {{1}} do to get more likes?” she thought.",
       "sentence": "“What should I do to get more likes?” she thought.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "‘더 많은 좋아요를 받으려면 무엇을 해야 하지?’라고 그녀는 생각했다.",
       "explanation": "should는 ‘~해야 한다’라는 조동사이며, to get은 목적을 나타내는 to부정사입니다.",
+      "hints": [
+        {
+          "number": 6,
+          "text": "can you / should I",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           5
-        ]
-      }
-    },
-    {
-      "id": "l8-s06",
-      "type": "cloze",
-      "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 6,
-      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“I {{0}}!”",
-      "sentence": "“I know!”",
-      "blankCount": 1,
-      "translation": "‘알았어!’",
-      "explanation": "know는 ‘알다’라는 동사이며, 주어 I 뒤에서 현재형으로 쓰입니다.",
-      "source": {
-        "file": "8과.pdf",
-        "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
-        "numbers": [
-          6
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s07",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 7,
+      "sentenceNumber": 6,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“I {{0}} {{1}} funny pictures.”",
+      "template": "“I should post {{0}} {{1}}.”",
       "sentence": "“I should post funny pictures.”",
       "blankCount": 2,
-      "translation": "‘웃긴 사진들을 게시해야 해.’",
+      "translation": "‘알았어!’ ‘웃긴 사진들을 게시해야 해.’",
       "explanation": "조동사 should 뒤에는 동사원형 post를 씁니다.",
+      "context": "“I know!”",
+      "hints": [
+        {
+          "number": 7,
+          "text": "웃긴 사진들",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           6
-        ]
+        ],
+        "contextNumbers": [
+          6
+        ],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s08",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 8,
+      "sentenceNumber": 7,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Now, her posts {{0}} {{1}} a lot of likes, and Goldilocks was happy.",
+      "template": "Now, {{0}} {{1}} were getting a lot of likes, and Goldilocks was happy.",
       "sentence": "Now, her posts were getting a lot of likes, and Goldilocks was happy.",
       "blankCount": 2,
       "translation": "이제 그녀의 게시물은 많은 좋아요를 받고 있었고, Goldilocks는 행복했다.",
       "explanation": "복수 주어 her posts의 과거진행형은 were + 동사-ing입니다.",
+      "hints": [
+        {
+          "number": 8,
+          "text": "her post / her posts",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           7
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s09",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 9,
+      "sentenceNumber": 8,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "Her followers, {{0}}, soon {{1}} {{2}}.",
       "sentence": "Her followers, however, soon got bored.",
       "blankCount": 3,
       "translation": "하지만 그녀의 팔로워들은 곧 지루해졌다.",
       "explanation": "however는 ‘그러나’를 뜻합니다. get + 형용사는 상태의 변화를 나타내며, 과거에는 got bored로 씁니다.",
+      "hints": [
+        {
+          "number": 9,
+          "text": "but / however",
+          "start": 0,
+          "count": 1
+        },
+        {
+          "number": 10,
+          "text": "지루해졌다",
+          "start": 1,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           8
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s10",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 10,
+      "sentenceNumber": 9,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "So, she decided {{0}} {{1}} {{2}} {{3}} pictures.",
+      "template": "So, she decided to post more {{0}} {{1}}.",
       "sentence": "So, she decided to post more shocking pictures.",
-      "blankCount": 4,
+      "blankCount": 2,
       "translation": "그래서 그녀는 더 충격적인 사진들을 게시하기로 결심했다.",
       "explanation": "decide 뒤에는 to부정사가 오며, shocking의 비교급은 more shocking입니다.",
+      "hints": [
+        {
+          "number": 11,
+          "text": "충격적인 사진들",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           9
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s11",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 11,
+      "sentenceNumber": 10,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "One day, she {{0}} {{1}} a walk in the forest and {{2}} a cottage.",
+      "template": "{{0}} {{1}}, she was taking a walk in the {{2}} and found a {{3}}.",
       "sentence": "One day, she was taking a walk in the forest and found a cottage.",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "어느 날 그녀는 숲에서 산책을 하고 있었고 오두막을 발견했다.",
       "explanation": "was taking은 과거진행형입니다. find의 과거형은 found입니다.",
+      "hints": [
+        {
+          "number": 12,
+          "text": "One day / Some day",
+          "start": 0,
+          "count": 2
+        },
+        {
+          "number": 13,
+          "text": "숲",
+          "start": 2,
+          "count": 1
+        },
+        {
+          "number": 14,
+          "text": "= small house",
+          "start": 3,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           10
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s12",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 12,
+      "sentenceNumber": 11,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She {{0}} on the door, but {{1}} {{2}} no answer.",
+      "template": "She knocked on the door, but there was {{0}} {{1}}.",
       "sentence": "She knocked on the door, but there was no answer.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "그녀가 문을 두드렸지만 아무 대답이 없었다.",
       "explanation": "knock의 과거형은 knocked입니다. There was no answer는 ‘아무 대답이 없었다’라는 뜻입니다.",
+      "hints": [
+        {
+          "number": 15,
+          "text": "a bear / no answer",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           11
-        ]
-      }
-    },
-    {
-      "id": "l8-s13",
-      "type": "cloze",
-      "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 13,
-      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "It {{0}} {{1}} dark, and it started {{2}} {{3}}.",
-      "sentence": "It was getting dark, and it started to rain.",
-      "blankCount": 4,
-      "translation": "날이 어두워지고 있었고 비가 오기 시작했다.",
-      "explanation": "was getting은 과거진행형이며, start 뒤에 to부정사를 쓸 수 있습니다. 이 문장의 it은 날씨를 나타내는 비인칭 주어입니다.",
-      "source": {
-        "file": "8과.pdf",
-        "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
-        "numbers": [
-          12
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s14",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 14,
+      "sentenceNumber": 12,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She {{0}} the door and {{1}} inside.",
+      "template": "She opened the door and {{0}} {{1}}.",
       "sentence": "She opened the door and walked inside.",
       "blankCount": 2,
-      "translation": "그녀는 문을 열었고 안으로 걸어 들어갔다.",
+      "translation": "날이 어두워지고 있었고 비가 오기 시작했다. 그녀는 문을 열었고 안으로 걸어 들어갔다.",
       "explanation": "and로 연결된 두 동사는 모두 과거형 opened와 walked로 씁니다.",
+      "context": "It was getting dark, and it started to rain.",
+      "hints": [
+        {
+          "number": 16,
+          "text": "안으로 걸어 들어갔다",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           13
-        ]
+        ],
+        "contextNumbers": [
+          12
+        ],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s15",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 15,
+      "sentenceNumber": 13,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} three {{2}} {{3}} {{4}} on a table.",
+      "template": "There were {{0}} {{1}} of soup on a table.",
       "sentence": "There were three bowls of soup on a table.",
-      "blankCount": 5,
+      "blankCount": 2,
       "translation": "식탁 위에는 수프 세 그릇이 있었다.",
       "explanation": "복수 대상에는 There were를 씁니다. 수프의 양은 three bowls of soup처럼 그릇 단위로 셉니다.",
+      "hints": [
+        {
+          "number": 17,
+          "text": "세 그릇",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           14
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s16",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 16,
+      "sentenceNumber": 14,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She ate the {{0}} {{1}} and {{2}} selfies with a smile.",
+      "template": "She ate the smallest one and {{0}} {{1}} with a smile.",
       "sentence": "She ate the smallest one and took selfies with a smile.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "그녀는 가장 작은 수프를 먹었고 미소를 띠며 셀피를 찍었다.",
       "explanation": "smallest는 최상급이며, one은 앞의 bowl of soup를 대신합니다. take의 과거형은 took입니다.",
+      "hints": [
+        {
+          "number": 18,
+          "text": "take selfies의 알맞은 형태",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           15
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s17",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 17,
+      "sentenceNumber": 15,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} also three chairs.",
+      "template": "There were also {{0}} {{1}}.",
       "sentence": "There were also three chairs.",
       "blankCount": 2,
       "translation": "세 개의 의자도 있었다.",
       "explanation": "복수 명사 three chairs에는 There were를 씁니다.",
+      "hints": [
+        {
+          "number": 19,
+          "text": "의자 세 개",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           16
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s18",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 18,
+      "sentenceNumber": 16,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She jumped on the smallest {{0}} {{1}} {{2}} {{3}}.",
+      "template": "She jumped on the {{0}} {{1}} again and again.",
       "sentence": "She jumped on the smallest one again and again.",
-      "blankCount": 4,
+      "blankCount": 2,
       "translation": "그녀는 가장 작은 의자 위에서 반복하여 뛰었다.",
       "explanation": "one은 chair를 대신하고, again and again은 ‘반복해서’라는 뜻입니다.",
+      "hints": [
+        {
+          "number": 20,
+          "text": "가장 작은 것",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           17
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s19",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 19,
+      "sentenceNumber": 17,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} broke, but she {{1}} {{2}}.",
+      "template": "{{0}} {{1}}, but she didn’t care.",
       "sentence": "It broke, but she didn’t care.",
-      "blankCount": 3,
+      "blankCount": 2,
       "translation": "그것이 부서졌지만 그녀는 신경 쓰지 않았다.",
       "explanation": "It은 앞의 가장 작은 의자를 가리킵니다. 과거 부정문은 didn’t + 동사원형입니다.",
+      "hints": [
+        {
+          "number": 21,
+          "text": "They break / It broke",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           18
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s20",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 20,
+      "sentenceNumber": 18,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“{{0}} so fun!” {{1}} Goldilocks.",
+      "template": "“It’s so fun!” {{0}} Goldilocks.",
       "sentence": "“It’s so fun!” shouted Goldilocks.",
-      "blankCount": 2,
+      "blankCount": 1,
       "translation": "‘너무 재미있다!’라고 Goldilocks가 외쳤다.",
       "explanation": "It’s는 It is의 축약형입니다. shouted는 shout의 과거형으로 인용문 뒤에서 ‘외쳤다’를 나타냅니다.",
+      "hints": [
+        {
+          "number": 22,
+          "text": "소리 질렀다",
+          "start": 0,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           19
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s21",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 21,
+      "sentenceNumber": 19,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She {{0}} selfies again and {{1}} all the selfies on social media.",
+      "template": "She took selfies again and posted all the selfies on {{0}} {{1}}.",
       "sentence": "She took selfies again and posted all the selfies on social media.",
       "blankCount": 2,
       "translation": "그녀는 또 셀피를 찍고 모든 셀피를 소셜 미디어에 게시했다.",
       "explanation": "take와 post의 과거형인 took과 posted가 and로 연결되어 있습니다.",
+      "hints": [
+        {
+          "number": 23,
+          "text": "소셜 미디어",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           20
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s22",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 22,
+      "sentenceNumber": 20,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "Then, she {{0}} {{1}} and found three beds.",
       "sentence": "Then, she went upstairs and found three beds.",
       "blankCount": 2,
       "translation": "그러고 나서 그녀는 위층으로 올라갔고 세 개의 침대를 발견했다.",
       "explanation": "go의 과거형은 went이며, upstairs는 ‘위층으로’라는 부사입니다.",
+      "hints": [
+        {
+          "number": 24,
+          "text": "위층으로 올라갔다",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 1,
-        "printedPage": 94,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           21
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s23",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 23,
+      "sentenceNumber": 21,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "She {{0}} {{1}} and {{2}} {{3}} in the smallest bed.",
+      "template": "She {{0}} {{1}} and fell asleep in the {{2}} {{3}}.",
       "sentence": "She felt tired and fell asleep in the smallest bed.",
       "blankCount": 4,
       "translation": "그녀는 피곤했고 가장 작은 침대에서 잠이 들었다.",
       "explanation": "feel + 형용사는 ‘~하게 느끼다’이며 과거형은 felt tired입니다. fall asleep의 과거형은 fell asleep입니다.",
+      "hints": [
+        {
+          "number": 25,
+          "text": "feels sleepy / felt tired",
+          "start": 0,
+          "count": 2
+        },
+        {
+          "number": 26,
+          "text": "small bed의 최상급",
+          "start": 2,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 3,
+        "printedPage": 98,
         "numbers": [
           22
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s24",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 24,
+      "sentenceNumber": 22,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} an hour later, three bears {{1}} home.",
+      "template": "About an hour {{0}}, three bears came home.",
       "sentence": "About an hour later, three bears came home.",
-      "blankCount": 2,
+      "blankCount": 1,
       "translation": "약 한 시간 후에 세 마리의 곰이 집으로 돌아왔다.",
       "explanation": "About은 ‘약’이라는 뜻이며, come의 과거형은 came입니다.",
+      "hints": [
+        {
+          "number": 27,
+          "text": "earlier / later",
+          "start": 0,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           23
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s25",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 25,
+      "sentenceNumber": 23,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“Someone {{0}} my soup and {{1}} my chair!” cried Baby Bear.",
+      "template": "“Someone {{0}} {{1}} {{2}} and broke my chair!” cried Baby Bear.",
       "sentence": "“Someone ate my soup and broke my chair!” cried Baby Bear.",
-      "blankCount": 2,
+      "blankCount": 3,
       "translation": "‘누군가 내 수프를 먹고 내 의자를 부러뜨렸어!’라고 아기 곰이 외쳤다.",
       "explanation": "eat의 과거형은 ate이며, break의 과거형은 broke입니다.",
+      "hints": [
+        {
+          "number": 28,
+          "text": "내 수프를 먹었다",
+          "start": 0,
+          "count": 3
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           24
-        ]
-      }
-    },
-    {
-      "id": "l8-s26",
-      "type": "cloze",
-      "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 26,
-      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "They {{0}} upstairs and {{1}} Goldilocks.",
-      "sentence": "They went upstairs and saw Goldilocks.",
-      "blankCount": 2,
-      "translation": "그들은 위층으로 올라갔고 Goldilocks를 봤다.",
-      "explanation": "go와 see의 과거형 went와 saw가 and로 연결되어 있습니다.",
-      "source": {
-        "file": "8과.pdf",
-        "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
-        "numbers": [
-          25
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s27",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 27,
+      "sentenceNumber": 24,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Mother Bear {{0}} a phone {{1}} {{2}} Goldilocks.",
+      "template": "Mother Bear found a phone {{0}} {{1}} Goldilocks.",
       "sentence": "Mother Bear found a phone next to Goldilocks.",
-      "blankCount": 3,
-      "translation": "엄마 곰이 Goldilocks 옆에 있는 전화를 발견했다.",
+      "blankCount": 2,
+      "translation": "그들은 위층으로 올라갔고 Goldilocks를 봤다. 엄마 곰이 Goldilocks 옆에 있는 전화를 발견했다.",
       "explanation": "find의 과거형은 found이며, next to는 ‘~의 옆에’라는 뜻입니다.",
+      "context": "They went upstairs and saw Goldilocks.",
+      "hints": [
+        {
+          "number": 29,
+          "text": "~의 옆에",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           26
-        ]
+        ],
+        "contextNumbers": [
+          25
+        ],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s28",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 28,
+      "sentenceNumber": 25,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "“This is {{0}}!”",
       "sentence": "“This is terrible!”",
       "blankCount": 1,
       "translation": "‘끔찍하구나!’",
       "explanation": "terrible은 ‘끔찍한’이라는 형용사로 be동사 is 뒤에서 주어의 상태를 설명합니다.",
+      "hints": [
+        {
+          "number": 30,
+          "text": "terrible / nice",
+          "start": 0,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           27
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s29",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 29,
+      "sentenceNumber": 26,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“{{0}} {{1}} all these posts of our home,” shouted Mother Bear {{2}}.",
+      "template": "“Look at all these posts of our home,” shouted Mother Bear {{0}}.",
       "sentence": "“Look at all these posts of our home,” shouted Mother Bear angrily.",
-      "blankCount": 3,
+      "blankCount": 1,
       "translation": "‘우리 집의 이 모든 게시물을 봐.’라고 엄마 곰이 화가 나서 외쳤다.",
       "explanation": "Look at은 동사원형으로 시작하는 명령문입니다. angrily는 ‘화가 나서’라는 부사로 shouted를 꾸밉니다.",
+      "hints": [
+        {
+          "number": 31,
+          "text": "angrily / angry",
+          "start": 0,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           27
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s30",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 30,
+      "sentenceNumber": 27,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "Goldilocks {{0}} {{1}} {{2}} {{3}}.",
+      "template": "Goldilocks jumped up {{0}} {{1}}.",
       "sentence": "Goldilocks jumped up in surprise.",
-      "blankCount": 4,
+      "blankCount": 2,
       "translation": "Goldilocks는 놀라서 벌떡 일어났다.",
       "explanation": "jump up은 ‘벌떡 일어나다’이며, in surprise는 ‘놀라서’라는 뜻의 구문입니다.",
+      "hints": [
+        {
+          "number": 32,
+          "text": "놀라서",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           28
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s31",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 31,
+      "sentenceNumber": 28,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“You {{0}} {{1}} our house and posted these pictures {{2}} our permission.”",
+      "template": "“You {{0}} {{1}} our house and posted these pictures without {{2}} {{3}}.”",
       "sentence": "“You broke into our house and posted these pictures without our permission.”",
-      "blankCount": 3,
+      "blankCount": 4,
       "translation": "‘너는 우리 집에 침입했고 우리의 허락 없이 이 사진들을 게시했어.’",
       "explanation": "break into는 ‘~에 침입하다’이며 과거형은 broke into입니다. without은 ‘~없이’라는 뜻입니다.",
+      "hints": [
+        {
+          "number": 33,
+          "text": "break into의 과거형",
+          "start": 0,
+          "count": 2
+        },
+        {
+          "number": 34,
+          "text": "우리의 허락",
+          "start": 2,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           29
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s32",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 32,
+      "sentenceNumber": 29,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“{{0}} you know these things {{1}} wrong?” said Father Bear.",
+      "template": "“Don’t you know these things are {{0}}?” said Father Bear.",
       "sentence": "“Don’t you know these things are wrong?” said Father Bear.",
-      "blankCount": 2,
+      "blankCount": 1,
       "translation": "‘이것들이 잘못된 것이라는 걸 모르니?’라고 아빠 곰이 말했다.",
       "explanation": "Don’t you know는 부정 의문문입니다. know 뒤에서 that이 생략되었으며, 복수 주어 these things에는 are를 씁니다.",
+      "hints": [
+        {
+          "number": 35,
+          "text": "wrong / right",
+          "start": 0,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           30
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s33",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 33,
+      "sentenceNumber": 30,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "“Please {{0}} me.”",
       "sentence": "“Please forgive me.”",
       "blankCount": 1,
       "translation": "‘제발 저를 용서해 주세요.’",
       "explanation": "Please 뒤에 동사원형 forgive를 써서 정중하게 요청합니다.",
+      "hints": [
+        {
+          "number": 36,
+          "text": "용서하다",
+          "start": 0,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           31
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s34",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 34,
+      "sentenceNumber": 31,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“I’m so sorry, and {{0}} clean your house every day {{1}} the end of the summer,” said Goldilocks.",
+      "template": "“I’m so sorry, and I’ll {{0}} {{1}} {{2}} every day until the end of the {{3}},” said Goldilocks.",
       "sentence": "“I’m so sorry, and I’ll clean your house every day until the end of the summer,” said Goldilocks.",
-      "blankCount": 2,
+      "blankCount": 4,
       "translation": "‘정말 죄송해요. 여름이 끝날 때까지 매일 당신의 집을 청소할게요.’라고 Goldilocks가 말했다.",
       "explanation": "I’ll은 I will의 축약형으로 약속을 나타냅니다. until은 ‘~까지 계속’이라는 뜻의 전치사입니다.",
+      "hints": [
+        {
+          "number": 37,
+          "text": "너희 집을 청소하다",
+          "start": 0,
+          "count": 3
+        },
+        {
+          "number": 38,
+          "text": "year / summer",
+          "start": 3,
+          "count": 1
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           32
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s35",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 35,
+      "sentenceNumber": 32,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "{{0}} {{1}} {{2}}, Goldilocks {{3}} hard.",
+      "template": "All summer long, Goldilocks {{0}} {{1}}.",
       "sentence": "All summer long, Goldilocks worked hard.",
-      "blankCount": 4,
+      "blankCount": 2,
       "translation": "여름 내내 Goldilocks는 열심히 일했다.",
       "explanation": "All summer long은 ‘여름 내내’라는 시간 표현입니다. work의 과거형은 worked입니다.",
+      "hints": [
+        {
+          "number": 39,
+          "text": "열심히 일했다",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           33
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s36",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 36,
+      "sentenceNumber": 33,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "On the last day, Goldilocks said to Father Bear, “I {{0}} all my posts of your cottage, so please {{1}} {{2}}.”",
       "sentence": "On the last day, Goldilocks said to Father Bear, “I deleted all my posts of your cottage, so please don’t worry.”",
       "blankCount": 3,
       "translation": "마지막 날 Goldilocks가 아빠 곰에게 말했다. ‘제가 당신의 오두막에 관한 모든 게시물을 삭제했으니 걱정하지 마세요.’",
       "explanation": "deleted는 delete의 과거형입니다. so는 결과를 연결하며, don’t + 동사원형은 부정 명령문입니다.",
+      "hints": [
+        {
+          "number": 40,
+          "text": "deleted / posted",
+          "start": 0,
+          "count": 1
+        },
+        {
+          "number": 41,
+          "text": "걱정하지 마세요",
+          "start": 1,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           34,
           35
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s37",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 37,
+      "sentenceNumber": 34,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "“You still {{0}} {{1}}.”",
       "sentence": "“You still don’t understand.”",
       "blankCount": 2,
       "translation": "‘너는 아직도 이해를 못 하는구나.’",
       "explanation": "현재시제 부정문은 don’t + 동사원형 understand로 씁니다.",
+      "hints": [
+        {
+          "number": 42,
+          "text": "knew everything / don’t understand",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           36
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s38",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 38,
+      "sentenceNumber": 35,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
       "template": "“Other people already {{0}} {{1}} on social media.”",
       "sentence": "“Other people already shared them on social media.”",
       "blankCount": 2,
       "translation": "‘다른 사람들이 이미 소셜 미디어에서 그것들을 공유했어.’",
       "explanation": "shared는 share의 과거형입니다. them은 Goldilocks가 게시했던 게시물들을 가리킵니다.",
+      "hints": [
+        {
+          "number": 43,
+          "text": "deleted it / shared them",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           37
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s39",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 39,
+      "sentenceNumber": 36,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“Your posts {{0}} {{1}} on {{2}},” said Father Bear.",
-      "sentence": "“Your posts will be on forever,” said Father Bear.",
+      "template": "“Your posts will {{0}} {{1}} {{2}},” said Father Bear.",
+      "sentence": "“Your posts will live on forever,” said Father Bear.",
       "blankCount": 3,
       "translation": "‘너의 게시물은 영원히 남을 거야.’라고 아빠 곰이 말했다.",
-      "explanation": "will 뒤에는 동사원형 be를 씁니다. forever는 ‘영원히’라는 뜻의 부사입니다.",
+      "explanation": "live on은 ‘계속 남다’, forever는 ‘영원히’라는 뜻입니다. 원문의 will은 빈칸 앞에 주어져 있습니다.",
+      "hints": [
+        {
+          "number": 44,
+          "text": "영원히 남을 거야",
+          "start": 0,
+          "count": 3
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           38
-        ]
-      }
-    },
-    {
-      "id": "l8-s40",
-      "type": "cloze",
-      "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 40,
-      "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“Oh, I {{0}} {{1}} {{2}} that,” said Goldilocks.",
-      "sentence": "“Oh, I didn’t think about that,” said Goldilocks.",
-      "blankCount": 3,
-      "translation": "‘아, 그 생각을 하지 못했어요.’라고 Goldilocks가 말했다.",
-      "explanation": "think about은 ‘~에 대해 생각하다’이며, 과거 부정문에서는 didn’t think about으로 씁니다.",
-      "source": {
-        "file": "8과.pdf",
-        "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
-        "numbers": [
-          39
-        ]
+        ],
+        "contextNumbers": [],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     },
     {
       "id": "l8-s41",
       "type": "cloze",
       "section": "Lesson 8 · 본문 빈칸",
-      "sentenceNumber": 41,
+      "sentenceNumber": 37,
       "prompt": "본문에 나온 단어로 빈칸을 채워 보세요.",
-      "template": "“{{0}} {{1}} {{2}}, I’ll think twice before I {{3}} POST.”",
+      "template": "“From now on, I’ll {{0}} {{1}} before I press POST.”",
       "sentence": "“From now on, I’ll think twice before I press POST.”",
-      "blankCount": 4,
-      "translation": "‘이제부터는 게시 버튼을 누르기 전에 다시 한번 생각할 거야.’",
+      "blankCount": 2,
+      "translation": "‘아, 그 생각을 하지 못했어요.’라고 Goldilocks가 말했다. ‘이제부터는 게시 버튼을 누르기 전에 다시 한번 생각할 거야.’",
       "explanation": "From now on은 ‘이제부터’입니다. 미래의 일이라도 시간을 나타내는 before절에서는 현재형 press를 씁니다.",
+      "context": "“Oh, I didn’t think about that,” said Goldilocks.",
+      "hints": [
+        {
+          "number": 45,
+          "text": "두 번 생각하다",
+          "start": 0,
+          "count": 2
+        }
+      ],
       "source": {
-        "file": "8과.pdf",
+        "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
         "lesson": 8,
-        "pdfPage": 2,
-        "printedPage": 96,
+        "pdfPage": 4,
+        "printedPage": 99,
         "numbers": [
           40
-        ]
+        ],
+        "contextNumbers": [
+          39
+        ],
+        "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
       }
     }
   ]

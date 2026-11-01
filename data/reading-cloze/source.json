@@ -1,22 +1,22 @@
 {
   "title": "영어 본문 빈칸",
-  "pendingLessons": [
-    6
-  ],
+  "pendingLessons": [],
   "editorialNotes": [
-    "첨부 5-6과.pdf의 실제 내용은 Lesson 5뿐이며 Lesson 6 본문은 제공되지 않았다.",
-    "제목, 인물명 표제, 옆의 문법 설명과 단독 인사 Hi.는 문항에서 제외했다.",
-    "문장 번호가 아니라 실제 문장과 발화 보고절의 연결을 기준으로 분리·병합했다.",
-    "인용문이 여러 문장에 걸친 경우 개별 문항의 따옴표 짝을 맞췄으며 단어는 원문을 유지했다."
+    "사용자가 제공한 문제 PDF의 빈칸 위치와 단어 범위를 그대로 반영한다.",
+    "한 문항은 실제 문장 단위이며 원본 번호에 여러 문장이 있으면 나눈다.",
+    "원본에서 빈칸이 없는 문장은 새 빈칸을 만들지 않고 다음 문항의 문맥으로 보존한다.",
+    "5·6·7과는 단어별 빈칸이며 8과의 번호가 붙은 구절도 원본의 단어 범위에 맞춰 단어별로 입력한다.",
+    "5과 21번 different는 문제 PDF의 빈칸이며 본문 5.pdf에서 확인했다.",
+    "8과는 원문 live on forever를 따른다."
   ],
   "units": [
     {
       "lesson": 5,
       "title": "Who Threw a Cake at the Monalisa?",
-      "file": "5-6과.pdf",
+      "file": "5과문제.pdf",
       "printedPages": [
-        34,
-        35
+        36,
+        37
       ],
       "sentences": [
         {
@@ -24,7 +24,7 @@
             1
           ],
           "pdfPage": 1,
-          "marked": "Last Saturday, someone [[threw]] a cake [[at]] the Monalisa in the Botero Museum in Bogota, Colombia.",
+          "marked": "[[Last]] Saturday, someone [[threw]] a cake [[at]] the Monalisa [[in]] the Botero Museum [[in]] Bogota, Colombia.",
           "translation": "지난 토요일, 누군가 콜롬비아 보고타의 보테로 박물관에 있는 ‘모나리자’에 케이크를 던졌다.",
           "explanation": "throw의 과거형은 threw이고, throw A at B는 ‘B를 향해 A를 던지다’라는 뜻입니다."
         },
@@ -33,7 +33,7 @@
             2
           ],
           "pdfPage": 1,
-          "marked": "[[There were]] four [[eyewitnesses]].",
+          "marked": "[[There]] were four [[eyewitnesses]].",
           "translation": "네 명의 목격자가 있었다.",
           "explanation": "There were 뒤에는 복수 명사가 옵니다. eyewitness의 복수형은 eyewitnesses입니다."
         },
@@ -51,7 +51,7 @@
             4
           ],
           "pdfPage": 1,
-          "marked": "[[Read]] the following, and [[find]] the criminal.",
+          "marked": "Read the [[following]], and find the [[criminal]].",
           "translation": "다음을 읽고, 범인을 찾아보라.",
           "explanation": "명령문은 동사원형으로 시작하며, 두 명령문을 and로 연결할 수 있습니다."
         },
@@ -60,7 +60,7 @@
             5
           ],
           "pdfPage": 1,
-          "marked": "I [[was looking]] at the Monalisa, and someone threw a cake at the painting.",
+          "marked": "I was [[looking at]] the Monalisa, and [[someone]] threw a cake at the [[painting]].",
           "translation": "저는 ‘모나리자’를 보고 있었는데, 누군가 그 그림을 향해 케이크를 던졌어요.",
           "explanation": "과거진행형은 was/were + 동사-ing입니다. look at은 ‘~을 보다’입니다.",
           "context": "Ann Jones, a visitor"
@@ -80,7 +80,7 @@
             7
           ],
           "pdfPage": 1,
-          "marked": "He was standing [[in front of]] a wheelchair.",
+          "marked": "He [[was]] standing [[in front of]] a wheelchair.",
           "translation": "그는 휠체어 앞에 서 있었어요.",
           "explanation": "in front of는 ‘~의 앞에’라는 뜻의 세 단어 구문입니다.",
           "context": "Ann Jones, a visitor"
@@ -90,7 +90,7 @@
             8
           ],
           "pdfPage": 1,
-          "marked": "I’m about 170 cm tall, and he was [[a little taller than]] me.",
+          "marked": "I’m [[about]] 170 cm tall, and he was [[a little taller than]] me.",
           "translation": "저는 키가 170cm 정도인데, 그는 저보다 조금 더 컸어요.",
           "explanation": "a little은 비교급을 꾸며 ‘조금 더’라는 뜻을 나타내고, 비교 대상 앞에는 than을 씁니다.",
           "context": "Ann Jones, a visitor"
@@ -100,7 +100,7 @@
             9
           ],
           "pdfPage": 1,
-          "marked": "An old man [[with]] gray hair was [[running away]], and something fell off his head.",
+          "marked": "An old man [[with]] gray hair was [[running away]], and something [[fell off]] his head.",
           "translation": "회색 머리의 한 노인이 도망가고 있었는데, 그의 머리에서 무언가 떨어졌어요.",
           "explanation": "with는 ‘~을 가진’, run away는 ‘도망가다’입니다. 과거진행형에서는 running으로 씁니다.",
           "context": "Carlos Diaz, a janitor"
@@ -110,7 +110,7 @@
             10
           ],
           "pdfPage": 1,
-          "marked": "[[It]] was [[his]] wig.",
+          "marked": "It was [[his wig]].",
           "translation": "그것은 그의 가발이었어요.",
           "explanation": "It은 앞 문장의 something을 가리키며, his는 소유격 ‘그의’입니다.",
           "context": "Carlos Diaz, a janitor"
@@ -140,7 +140,7 @@
             13
           ],
           "pdfPage": 2,
-          "marked": "[[In fact]], the old man [[was not]] old.",
+          "marked": "[[In fact]], the old man [[was]] not [[old]].",
           "translation": "사실 그 노인은 나이 든 사람이 아니었어요.",
           "explanation": "In fact는 ‘사실은’이며, be동사 과거형의 부정문은 was/were 뒤에 not을 씁니다.",
           "context": "Carlos Diaz, a janitor"
@@ -150,7 +150,7 @@
             14
           ],
           "pdfPage": 2,
-          "marked": "He was a young man [[with]] long brown hair.",
+          "marked": "He was a [[young]] man [[with]] long brown hair.",
           "translation": "그는 긴 갈색 머리의 젊은 남자였어요.",
           "explanation": "with는 ‘~을 가진’이라는 뜻으로 뒤의 명사를 연결합니다.",
           "context": "Carlos Diaz, a janitor"
@@ -160,7 +160,7 @@
             15
           ],
           "pdfPage": 2,
-          "marked": "I went to the crime scene, and there were [[pieces of cake]] [[all over]] the painting.",
+          "marked": "I [[went to]] the crime [[scene]], and there were [[pieces of cake]] all [[over]] the painting.",
           "translation": "저는 범죄 현장에 갔는데, 그림 곳곳에 케이크 조각들이 있었어요.",
           "explanation": "셀 수 없는 cake의 조각은 pieces of cake로 표현하며, all over는 ‘~곳곳에’입니다.",
           "context": "Diego Perez, a guard"
@@ -170,7 +170,7 @@
             16
           ],
           "pdfPage": 2,
-          "marked": "There was also a wheelchair near the painting, and I found a cake box [[next to]] the wheelchair.",
+          "marked": "[[There was]] also a wheelchair [[near]] the painting, and I [[found]] a cake box [[next to]] the [[wheelchair]].",
           "translation": "그림 근처에 휠체어도 있었는데, 저는 휠체어 옆에서 케이크 상자를 발견했어요.",
           "explanation": "next to는 ‘~의 옆에’라는 뜻의 두 단어 구문입니다.",
           "context": "Diego Perez, a guard"
@@ -190,7 +190,7 @@
             18
           ],
           "pdfPage": 2,
-          "marked": "Last Friday, a young man [[came in]].",
+          "marked": "Last [[Friday]], a young man [[came in]].",
           "translation": "지난 금요일, 한 젊은 남자가 들어왔어요.",
           "explanation": "come in은 ‘들어오다’이며, come의 과거형은 came입니다.",
           "context": "Camila Santos, the owner of Camila’s Bakery"
@@ -200,7 +200,7 @@
             19
           ],
           "pdfPage": 2,
-          "marked": "I [[spoke]] to him in Spanish, but he [[didn’t understand]] me.",
+          "marked": "I [[spoke to]] him [[in Spanish]], but he [[didn’t understand]] me.",
           "translation": "저는 그에게 스페인어로 말했지만, 그는 제 말을 이해하지 못했어요.",
           "explanation": "speak의 과거형은 spoke입니다. 과거 부정문은 didn’t + 동사원형으로 씁니다.",
           "context": "Camila Santos, the owner of Camila’s Bakery"
@@ -210,7 +210,7 @@
             20
           ],
           "pdfPage": 2,
-          "marked": "He [[spoke]] only [[English]].",
+          "marked": "He spoke [[only English]].",
           "translation": "그는 영어로만 말했어요.",
           "explanation": "speak의 과거형은 spoke이며, 언어명 English는 대문자로 시작합니다. 이 시험은 대소문자를 구분하지 않습니다.",
           "context": "Camila Santos, the owner of Camila’s Bakery"
@@ -220,7 +220,7 @@
             21
           ],
           "pdfPage": 2,
-          "marked": "We had [[a lot of]] different cakes, but he just wanted the smallest [[one]].",
+          "marked": "We had a lot of [[different]] cakes, but he just wanted [[the smallest one]].",
           "translation": "우리 가게에는 다양한 케이크가 많이 있었지만, 그는 단지 가장 작은 것을 원했어요.",
           "explanation": "a lot of는 ‘많은’이며, one은 앞에서 언급한 단수 명사 cake를 대신합니다.",
           "context": "Camila Santos, the owner of Camila’s Bakery"
@@ -230,7 +230,7 @@
             22
           ],
           "pdfPage": 2,
-          "marked": "We [[sold]] only one cake that day, so I remember him [[clearly]].",
+          "marked": "We [[sold]] only one cake [[that day]], so I [[remember]] him [[clearly]].",
           "translation": "우리는 그날 케이크를 한 개만 팔아서, 저는 그를 똑똑히 기억해요.",
           "explanation": "sell의 과거형은 sold입니다. clearly는 ‘똑똑히’라는 뜻으로 remember를 꾸밉니다.",
           "context": "Camila Santos, the owner of Camila’s Bakery"
@@ -240,7 +240,7 @@
             23
           ],
           "pdfPage": 2,
-          "marked": "Oh, he [[had]] [[blue eyes]].",
+          "marked": "Oh, he had [[blue eyes]].",
           "translation": "아, 그는 파란색 눈을 가지고 있었어요.",
           "explanation": "have의 과거형은 had이며, 눈을 나타낼 때 eyes라는 복수형을 사용합니다.",
           "context": "Camila Santos, the owner of Camila’s Bakery"
@@ -250,7 +250,7 @@
             24
           ],
           "pdfPage": 2,
-          "marked": "Now, [[look at]] the information [[about]] the suspects.",
+          "marked": "Now, [[look at]] the [[information]] about the [[suspects]].",
           "translation": "이제, 용의자들에 대한 정보를 보자.",
           "explanation": "look at은 ‘~을 보다’이며, about은 ‘~에 대한’이라는 뜻의 전치사입니다."
         },
@@ -259,36 +259,266 @@
             25
           ],
           "pdfPage": 2,
-          "marked": "[[Who]] [[threw]] the cake at the Monalisa?",
+          "marked": "[[Who threw]] the cake at the Monalisa?",
           "translation": "누가 ‘모나리자’에 케이크를 던졌나?",
           "explanation": "의문사 Who가 주어일 때는 did 없이 Who + 동사의 과거형으로 묻습니다."
         }
-      ]
+      ],
+      "bodyFile": "5.pdf"
     },
     {
-      "lesson": 7,
-      "title": "Let’s Make a Movie!",
-      "file": "7과.pdf",
+      "lesson": 6,
+      "title": "Join the Zero-Waste Challenge",
+      "file": "내신콘서트 5-6과.pdf",
+      "bodyFile": "내신콘서트 5-6과.pdf",
       "printedPages": [
-        150,
-        151
+        102,
+        103,
+        104,
+        105
       ],
       "sentences": [
         {
           "numbers": [
             1
           ],
-          "pdfPage": 1,
-          "marked": "I’m Jim Brown, the [[director]] [[of]] Happy Days.",
-          "translation": "나는 ‘Happy Days’의 감독 Jim Brown이에요.",
-          "explanation": "director of는 ‘~의 감독’을 뜻하며, 이름 뒤에서 같은 사람을 덧붙여 설명합니다."
+          "pdfPage": 3,
+          "marked": "Every day, we produce [[lots of]] waste, and the [[Earth]] is [[getting sicker]] and [[sicker]].",
+          "translation": "매일 우리는 많은 쓰레기를 만들고, 지구는 점점 더 병들고 있습니다.",
+          "explanation": "get + 비교급 and 비교급은 ‘점점 더 ~해지다’라는 뜻입니다."
         },
         {
           "numbers": [
             2
           ],
-          "pdfPage": 1,
-          "marked": "It’s a movie [[about]] the friendship [[between]] Tom and his dog Max.",
+          "pdfPage": 3,
+          "marked": "Do you [[want to save]] the Earth?",
+          "translation": "여러분은 지구를 구하고 싶나요?",
+          "explanation": "want to + 동사원형은 ‘~하고 싶다’라는 뜻입니다."
+        },
+        {
+          "numbers": [
+            3
+          ],
+          "pdfPage": 3,
+          "marked": "Then, [[join]] the zero-waste [[challenge]], and [[share]] your stories.",
+          "translation": "그렇다면 제로 웨이스트 챌린지에 동참하고 여러분의 이야기를 공유해 주세요.",
+          "explanation": "명령문에서는 동사원형 join과 share를 사용합니다."
+        },
+        {
+          "numbers": [
+            4
+          ],
+          "pdfPage": 3,
+          "marked": "My birthday [[was]] last Saturday, and my family and I [[ate out]].",
+          "translation": "내 생일은 지난 토요일이었고, 가족들과 나는 외식을 했어.",
+          "explanation": "eat out의 과거형은 ate out입니다.",
+          "context": "Olivia"
+        },
+        {
+          "numbers": [
+            5
+          ],
+          "pdfPage": 3,
+          "marked": "[[There were]] lots of leftovers, but we [[brought them]] home.",
+          "translation": "남은 음식이 많았지만, 우리는 그것들을 집으로 가져왔어.",
+          "explanation": "복수 명사 앞에는 There were, bring의 과거형은 brought를 씁니다."
+        },
+        {
+          "numbers": [
+            6
+          ],
+          "pdfPage": 3,
+          "marked": "The next day, I [[made]] a nice lunch [[out of]] them.",
+          "translation": "그다음 날 나는 그것들로 맛있는 점심을 만들었어.",
+          "explanation": "make A out of B는 ‘B로 A를 만들다’이며 made는 make의 과거형입니다."
+        },
+        {
+          "numbers": [
+            7
+          ],
+          "pdfPage": 3,
+          "marked": "FYI, you [[can find]] great cooking ideas [[for]] leftovers [[on]] the Internet.",
+          "translation": "참고로 인터넷에서 남은 음식을 위한 멋진 요리 아이디어를 찾을 수 있어.",
+          "explanation": "can 뒤에는 동사원형을 쓰고, 인터넷에서는 on the Internet이라고 합니다."
+        },
+        {
+          "numbers": [
+            8
+          ],
+          "pdfPage": 3,
+          "marked": "My dog [[tore]] my bag.",
+          "translation": "내 개가 내 가방을 찢었어.",
+          "explanation": "tear의 과거형은 tore입니다.",
+          "context": "Domingo"
+        },
+        {
+          "numbers": [
+            9
+          ],
+          "pdfPage": 3,
+          "marked": "I [[wanted to buy]] a new one, but I [[thought]] again.",
+          "translation": "나는 새것을 사고 싶었지만, 다시 생각해 봤어.",
+          "explanation": "wanted to buy는 ‘사고 싶었다’, thought는 think의 과거형입니다."
+        },
+        {
+          "numbers": [
+            10
+          ],
+          "pdfPage": 3,
+          "marked": "I learned [[that reusing is]] important [[for]] zero-waste [[living]].",
+          "translation": "나는 재사용이 제로 웨이스트 생활에 중요하다고 배웠어.",
+          "explanation": "동명사 reusing이 주어이므로 단수 동사 is를 씁니다."
+        },
+        {
+          "numbers": [
+            11
+          ],
+          "pdfPage": 3,
+          "marked": "[[So]], I [[decided to]] fix it and [[reuse]] it.",
+          "translation": "그래서 나는 그것을 수선해서 재사용하기로 결심했어.",
+          "explanation": "decide to + 동사원형은 ‘~하기로 결심하다’입니다."
+        },
+        {
+          "numbers": [
+            12
+          ],
+          "pdfPage": 4,
+          "marked": "I’m [[not]] very [[good at sewing]], and I don’t think [[that]] the bag [[looks perfect]].",
+          "translation": "나는 바느질을 그다지 잘하지 못해서, 가방이 완벽해 보인다고 생각하지는 않아.",
+          "explanation": "be good at 뒤에는 동명사, 감각동사 look 뒤에는 형용사를 씁니다."
+        },
+        {
+          "numbers": [
+            13
+          ],
+          "pdfPage": 4,
+          "marked": "I guess [[it’s all right]].",
+          "translation": "그래도 괜찮은 것 같아.",
+          "explanation": "I guess 뒤에 생각하는 내용을 나타내는 절이 옵니다."
+        },
+        {
+          "numbers": [
+            14
+          ],
+          "pdfPage": 4,
+          "marked": "I [[often use]] food delivery services, but today [[I didn’t]].",
+          "translation": "나는 자주 음식 배달 서비스를 이용하는데, 오늘은 이용하지 않았어.",
+          "explanation": "빈도부사 often은 일반동사 앞에 두며, didn’t 뒤의 반복 표현은 생략합니다.",
+          "context": "Emma"
+        },
+        {
+          "numbers": [
+            15
+          ],
+          "pdfPage": 4,
+          "marked": "[[Instead]], I [[walked to]] my favorite restaurant [[with]] a [[reusable container]] and [[picked up]] the food.",
+          "translation": "대신 재사용할 수 있는 용기를 가지고 내가 가장 좋아하는 식당에 걸어가서 음식을 가져왔어.",
+          "explanation": "Instead는 ‘대신에’, pick up은 ‘~을 찾아오다’라는 뜻입니다."
+        },
+        {
+          "numbers": [
+            16
+          ],
+          "pdfPage": 4,
+          "marked": "I heard [[that]] plastic [[never goes away]] completely.",
+          "translation": "나는 플라스틱이 절대로 완전히 없어지지 않는다고 들었어.",
+          "explanation": "plastic은 단수 취급하므로 goes를 씁니다. go away는 ‘없어지다’입니다."
+        },
+        {
+          "numbers": [
+            17
+          ],
+          "pdfPage": 4,
+          "marked": "I [[didn’t use any]] single-use plastic today.",
+          "translation": "나는 오늘 어떤 일회용 플라스틱도 사용하지 않았어.",
+          "explanation": "부정문에서는 any를 사용하고 didn’t 뒤에는 동사원형을 씁니다."
+        },
+        {
+          "numbers": [
+            18
+          ],
+          "pdfPage": 4,
+          "marked": "I [[felt good]]!",
+          "translation": "기분이 좋았어!",
+          "explanation": "feel의 과거형 felt 뒤에 형용사 good을 씁니다."
+        },
+        {
+          "numbers": [
+            19
+          ],
+          "pdfPage": 4,
+          "marked": "Yesterday, I [[took]] some [[plastic]] and [[glass]] bottles [[to]] a recycling machine [[near]] my house.",
+          "translation": "어제 나는 플라스틱병과 유리병 몇 개를 집 근처에 있는 재활용 기계에 가져갔어.",
+          "explanation": "take A to B는 ‘A를 B로 가져가다’이며, took은 take의 과거형입니다.",
+          "context": "Minsu"
+        },
+        {
+          "numbers": [
+            20
+          ],
+          "pdfPage": 4,
+          "marked": "I put them [[into]] the machine [[one by one]], and I [[got]] some points [[in return]].",
+          "translation": "나는 그것들을 하나씩 기계에 집어넣었고, 대가로 약간의 포인트를 받았어.",
+          "explanation": "one by one은 ‘하나씩’, in return은 ‘대가로’라는 뜻입니다."
+        },
+        {
+          "numbers": [
+            21
+          ],
+          "pdfPage": 4,
+          "marked": "[[What can]] I do [[with]] those points?",
+          "translation": "그 포인트로 무엇을 할 수 있냐고?",
+          "explanation": "의문사 + can + 주어 + 동사원형 순서입니다."
+        },
+        {
+          "numbers": [
+            22
+          ],
+          "pdfPage": 4,
+          "marked": "Well, I [[can use]] them [[like]] money.",
+          "translation": "음, 나는 그것들을 돈처럼 사용할 수 있어.",
+          "explanation": "like는 여기서 ‘~처럼’이라는 뜻의 전치사입니다."
+        },
+        {
+          "numbers": [
+            23
+          ],
+          "pdfPage": 4,
+          "marked": "[[Don’t you think]] that’s cool?",
+          "translation": "멋지다고 생각하지 않니?",
+          "explanation": "Don’t you think ~?는 ‘~라고 생각하지 않니?’라는 뜻입니다."
+        }
+      ]
+    },
+    {
+      "lesson": 7,
+      "title": "Let’s Make a Movie!",
+      "file": "백발백중 1-2 7과.pdf",
+      "printedPages": [
+        150,
+        151,
+        154,
+        155
+      ],
+      "sentences": [
+        {
+          "numbers": [
+            1
+          ],
+          "pdfPage": 3,
+          "marked": "I’m Jim Brown, the [[director of]] Happy Days.",
+          "translation": "나는 ‘Happy Days’의 감독 Jim Brown이에요.",
+          "explanation": "director of는 ‘~의 감독’을 뜻하며, 이름 뒤에서 같은 사람을 덧붙여 설명합니다.",
+          "context": "Hi.",
+          "contextTranslation": "안녕하세요."
+        },
+        {
+          "numbers": [
+            2
+          ],
+          "pdfPage": 3,
+          "marked": "It’s a movie about the friendship [[between]] Tom [[and]] his dog Max.",
           "translation": "그것은 Tom과 그의 개 Max 사이의 우정에 관한 영화예요.",
           "explanation": "about은 ‘~에 관한’, between A and B는 ‘A와 B 사이의’라는 뜻입니다."
         },
@@ -296,8 +526,8 @@
           "numbers": [
             3
           ],
-          "pdfPage": 1,
-          "marked": "A lot of people [[are working]] hard [[to create]] this movie.",
+          "pdfPage": 3,
+          "marked": "[[A lot of]] people are working hard to [[create]] this movie.",
           "translation": "많은 사람들이 이 영화를 만들기 위해 열심히 일하고 있어요.",
           "explanation": "people은 복수로 취급하므로 are working을 씁니다. to create는 목적을 나타내는 to부정사입니다."
         },
@@ -305,8 +535,8 @@
           "numbers": [
             4
           ],
-          "pdfPage": 1,
-          "marked": "Do you [[want to meet]] some of [[them]]?",
+          "pdfPage": 3,
+          "marked": "Do you want to meet [[some of]] them?",
           "translation": "그들 중 몇 명을 만나 보고 싶나요?",
           "explanation": "want 뒤에는 to부정사를 목적어로 씁니다. them은 앞의 일하고 있는 사람들을 가리킵니다."
         },
@@ -314,8 +544,8 @@
           "numbers": [
             5
           ],
-          "pdfPage": 1,
-          "marked": "I’m Anna, and I [[found]] this [[beautiful]] beach.",
+          "pdfPage": 3,
+          "marked": "I’m Anna, and I [[found]] this beautiful [[beach]].",
           "translation": "나는 Anna예요. 그리고 내가 이 아름다운 해변을 찾았어요.",
           "explanation": "find의 과거형은 found이며, beautiful은 명사 beach를 꾸미는 형용사입니다.",
           "context": "Anna, a location manager"
@@ -324,8 +554,8 @@
           "numbers": [
             6
           ],
-          "pdfPage": 1,
-          "marked": "I’m a location manager, and my job is [[to find]] perfect places for [[shooting]].",
+          "pdfPage": 3,
+          "marked": "I’m a location manager, and my job is [[to find]] perfect places [[for]] shooting.",
           "translation": "나는 촬영지 관리자예요. 내 일은 촬영을 위한 완벽한 장소를 찾는 것이에요.",
           "explanation": "to find는 주어 my job을 설명하는 보어이며, 전치사 for 뒤에는 동명사 shooting을 씁니다.",
           "context": "Anna, a location manager"
@@ -334,8 +564,8 @@
           "numbers": [
             7
           ],
-          "pdfPage": 1,
-          "marked": "Of course, [[it]] is [[not]] easy, but I love my job.",
+          "pdfPage": 3,
+          "marked": "[[Of course]], it is not easy, but I love my job.",
           "translation": "물론 그것은 쉽지 않아요. 하지만 나는 내 일을 정말 좋아해요.",
           "explanation": "it은 앞 문장의 촬영에 알맞은 장소를 찾는 일을 가리킵니다. be동사 부정문은 is not처럼 씁니다.",
           "context": "Anna, a location manager"
@@ -344,8 +574,8 @@
           "numbers": [
             8
           ],
-          "pdfPage": 1,
-          "marked": "I like [[to travel]] and [[enjoy]] challenges.",
+          "pdfPage": 3,
+          "marked": "I like [[to travel]] and enjoy challenges.",
           "translation": "나는 여행하는 것을 좋아하고 도전을 즐겨요.",
           "explanation": "like의 목적어로 to travel을 쓰며, and가 두 동사 like와 enjoy를 연결합니다.",
           "context": "Anna, a location manager"
@@ -354,8 +584,8 @@
           "numbers": [
             9
           ],
-          "pdfPage": 1,
-          "marked": "I’m Peter, the [[director of photography]] [[for]] this movie.",
+          "pdfPage": 3,
+          "marked": "I’m Peter, the director [[of photography]] for this movie.",
           "translation": "나는 이 영화의 촬영 감독 Peter예요.",
           "explanation": "director of photography는 ‘촬영 감독’이라는 직업명이며, for는 ‘~을 위한’이라는 뜻입니다.",
           "context": "Peter, the director of photography"
@@ -364,7 +594,7 @@
           "numbers": [
             10
           ],
-          "pdfPage": 1,
+          "pdfPage": 3,
           "marked": "I’m [[in charge of]] all the cameras.",
           "translation": "나는 모든 카메라를 담당해요.",
           "explanation": "be in charge of는 ‘~을 담당하다’라는 뜻입니다.",
@@ -374,8 +604,8 @@
           "numbers": [
             11
           ],
-          "pdfPage": 1,
-          "marked": "Today, Tom and Max [[are going to]] play together [[with]] a ball on the beach.",
+          "pdfPage": 3,
+          "marked": "Today, Tom and Max [[are going to play]] together with a ball on the beach.",
           "translation": "오늘 Tom과 Max는 해변에서 공을 가지고 함께 놀 예정이에요.",
           "explanation": "be going to + 동사원형은 예정된 일을 나타냅니다. with는 ‘~을 가지고’라는 뜻입니다.",
           "context": "Peter, the director of photography"
@@ -384,8 +614,8 @@
           "numbers": [
             12
           ],
-          "pdfPage": 1,
-          "marked": "[[To capture]] their happy moments, I’m going to [[use]] drones.",
+          "pdfPage": 3,
+          "marked": "[[To capture]] their happy moments, I’m going [[to use]] drones.",
           "translation": "그들의 행복한 순간들을 포착하기 위해 나는 드론을 사용할 예정이에요.",
           "explanation": "문장 앞의 To capture는 목적을 나타냅니다. be going to 뒤에는 동사원형 use를 씁니다.",
           "context": "Peter, the director of photography"
@@ -394,8 +624,8 @@
           "numbers": [
             13
           ],
-          "pdfPage": 1,
-          "marked": "[[I’m]] Jennifer.",
+          "pdfPage": 3,
+          "marked": "I’m Jennifer.",
           "translation": "나는 Jennifer예요.",
           "explanation": "I’m은 I am의 축약형으로, 자신을 소개할 때 씁니다.",
           "context": "Jennifer, an animal wrangler"
@@ -404,8 +634,8 @@
           "numbers": [
             13
           ],
-          "pdfPage": 1,
-          "marked": "I [[trained]] and [[took care of]] Max for a long time.",
+          "pdfPage": 3,
+          "marked": "I trained and [[took care of]] Max [[for]] a long time.",
           "translation": "나는 오랫동안 Max를 훈련하고 돌봤어요.",
           "explanation": "train의 과거형은 trained이며, take care of의 과거형은 took care of입니다.",
           "context": "Jennifer, an animal wrangler"
@@ -414,8 +644,8 @@
           "numbers": [
             14
           ],
-          "pdfPage": 2,
-          "marked": "Max is a great actor, but he sometimes [[gets too excited]] [[when]] a lot of people are around.",
+          "pdfPage": 4,
+          "marked": "Max is a great actor, but he sometimes [[gets too excited]] when a lot of people are around.",
           "translation": "Max는 훌륭한 배우예요. 하지만 주변에 많은 사람들이 있을 때 가끔 너무 흥분해요.",
           "explanation": "get + 형용사는 ‘~한 상태가 되다’입니다. when은 ‘~할 때’를 뜻하는 접속사입니다.",
           "context": "Jennifer, an animal wrangler"
@@ -424,8 +654,8 @@
           "numbers": [
             15
           ],
-          "pdfPage": 2,
-          "marked": "So, I use hand signals [[to calm]] him.",
+          "pdfPage": 4,
+          "marked": "So, I use hand signals [[to calm him]].",
           "translation": "그래서 나는 그를 진정시키기 위해 수신호를 사용해요.",
           "explanation": "to calm은 ‘진정시키기 위해’라는 목적을 나타내는 to부정사입니다.",
           "context": "Jennifer, an animal wrangler"
@@ -434,8 +664,8 @@
           "numbers": [
             16
           ],
-          "pdfPage": 2,
-          "marked": "Who [[am]] I?",
+          "pdfPage": 4,
+          "marked": "Who [[am I]]?",
           "translation": "나는 누구일까요?",
           "explanation": "주어 I와 함께 쓰는 be동사는 am이며, 의문문에서는 주어 앞에 옵니다.",
           "context": "Jennifer, an animal wrangler"
@@ -444,8 +674,8 @@
           "numbers": [
             17
           ],
-          "pdfPage": 2,
-          "marked": "I’m [[an]] animal [[wrangler]].",
+          "pdfPage": 4,
+          "marked": "I’m [[an animal]] wrangler.",
           "translation": "나는 동물 조련사예요.",
           "explanation": "animal처럼 모음 소리로 시작하는 말 앞에는 an을 씁니다. animal wrangler는 ‘동물 조련사’입니다.",
           "context": "Jennifer, an animal wrangler"
@@ -454,8 +684,8 @@
           "numbers": [
             18
           ],
-          "pdfPage": 2,
-          "marked": "My name is Emma, [[and]] I’m a film [[editor]].",
+          "pdfPage": 4,
+          "marked": "My name is Emma, and I’m a [[film editor]].",
           "translation": "내 이름은 Emma이고, 나는 영화 편집자예요.",
           "explanation": "and는 두 절을 연결하며, film editor는 ‘영화 편집자’를 뜻합니다.",
           "context": "Emma, a film editor"
@@ -464,8 +694,8 @@
           "numbers": [
             19
           ],
-          "pdfPage": 2,
-          "marked": "My work begins [[after]] the shooting [[is over]].",
+          "pdfPage": 4,
+          "marked": "My work begins after the shooting [[is over]].",
           "translation": "내 일은 촬영이 끝난 후에 시작돼요.",
           "explanation": "after는 ‘~한 후에’라는 접속사이며, be over는 ‘끝나다’라는 뜻입니다.",
           "context": "Emma, a film editor"
@@ -474,8 +704,8 @@
           "numbers": [
             20
           ],
-          "pdfPage": 2,
-          "marked": "[[To create]] a better story, I can change the order of scenes or delete some of [[them]].",
+          "pdfPage": 4,
+          "marked": "To create a [[better story]], I can change the [[order of]] scenes or delete some of them.",
           "translation": "더 좋은 이야기를 만들기 위해 나는 장면의 순서를 바꾸거나 장면 중 일부를 삭제할 수 있어요.",
           "explanation": "To create는 목적을 나타내는 to부정사입니다. them은 앞의 scenes를 가리킵니다.",
           "context": "Emma, a film editor"
@@ -484,8 +714,8 @@
           "numbers": [
             21
           ],
-          "pdfPage": 2,
-          "marked": "Storytelling skills [[are]] important for my job, [[so]] I read a lot.",
+          "pdfPage": 4,
+          "marked": "Storytelling skills are important [[for my job]], so I read [[a lot]].",
           "translation": "스토리텔링 기술은 내 일에 중요해서 나는 많이 읽어요.",
           "explanation": "복수 주어 Storytelling skills에는 are를 씁니다. so는 ‘그래서’라는 뜻으로 결과를 연결합니다.",
           "context": "Emma, a film editor"
@@ -494,8 +724,8 @@
           "numbers": [
             22
           ],
-          "pdfPage": 2,
-          "marked": "I’m Chris, and [[I’m]] a Foley [[artist]].",
+          "pdfPage": 4,
+          "marked": "I’m Chris, and I’m a Foley [[artist]].",
           "translation": "나는 Chris이고, 폴리 아티스트예요.",
           "explanation": "I’m은 I am의 축약형입니다. Foley artist는 영화의 음향 효과를 만드는 전문가입니다.",
           "context": "Chris, a Foley artist"
@@ -504,8 +734,8 @@
           "numbers": [
             23
           ],
-          "pdfPage": 2,
-          "marked": "I create sound effects in my studio [[when]] [[recording]] on location is not easy.",
+          "pdfPage": 4,
+          "marked": "I create sound effects in my studio [[when]] recording [[on location]] is not easy.",
           "translation": "현장에서 녹음하는 것이 쉽지 않을 때 나는 작업실에서 음향 효과를 만들어요.",
           "explanation": "when은 ‘~할 때’입니다. recording on location은 동명사구로, when절 안에서 주어 역할을 합니다.",
           "context": "Chris, a Foley artist"
@@ -514,7 +744,7 @@
           "numbers": [
             24
           ],
-          "pdfPage": 2,
+          "pdfPage": 4,
           "marked": "Listen [[carefully]].",
           "translation": "잘 들어 보세요.",
           "explanation": "carefully는 ‘주의 깊게’라는 부사로 동사 Listen을 꾸밉니다.",
@@ -524,8 +754,8 @@
           "numbers": [
             24
           ],
-          "pdfPage": 2,
-          "marked": "[[Do]] you [[hear]] the sound of waves?",
+          "pdfPage": 4,
+          "marked": "Do you hear the sound of waves?",
           "translation": "파도 소리가 들리나요?",
           "explanation": "현재시제 일반동사 의문문은 Do + 주어 + 동사원형 순서입니다.",
           "context": "Chris, a Foley artist"
@@ -534,8 +764,8 @@
           "numbers": [
             25
           ],
-          "pdfPage": 2,
-          "marked": "I [[made]] the sound [[with]] rice and a plastic container.",
+          "pdfPage": 4,
+          "marked": "I made that sound [[with]] rice and a plastic container.",
           "translation": "나는 쌀과 플라스틱 통으로 그 소리를 만들었어요.",
           "explanation": "make의 과거형은 made이며, with는 도구나 재료를 나타내어 ‘~을 가지고’라는 뜻을 더합니다.",
           "context": "Chris, a Foley artist"
@@ -544,74 +774,123 @@
           "numbers": [
             26
           ],
-          "pdfPage": 2,
-          "marked": "Doesn’t it [[sound]] [[real]]?",
+          "pdfPage": 4,
+          "marked": "Doesn’t it [[sound real]]?",
           "translation": "그것이 진짜처럼 들리지 않나요?",
           "explanation": "Doesn’t 뒤에는 동사원형 sound가 옵니다. 감각동사 sound 뒤에는 형용사 real을 씁니다.",
           "context": "Chris, a Foley artist"
         }
-      ]
+      ],
+      "bodyFile": "백발백중 1-2 7과.pdf"
     },
     {
       "lesson": 8,
       "title": "Goldilocks Learns Her Lesson",
-      "file": "8과.pdf",
+      "file": "올백영어_동아(윤정미)_1학년_8단원.pdf",
       "printedPages": [
         94,
-        96
+        96,
+        98,
+        99
       ],
       "sentences": [
         {
           "numbers": [
             1
           ],
-          "pdfPage": 1,
-          "marked": "[[There was]] a little girl [[with]] golden hair in a small town.",
+          "pdfPage": 3,
+          "marked": "There was a little girl with [[golden hair]] in a small town.",
           "translation": "어느 작은 마을에 금발 머리의 한 어린 소녀가 있었다.",
-          "explanation": "There was는 단수 대상의 존재를 나타내고, with는 ‘~을 가진’이라는 뜻입니다."
+          "explanation": "There was는 단수 대상의 존재를 나타내고, with는 ‘~을 가진’이라는 뜻입니다.",
+          "hints": [
+            {
+              "number": 1,
+              "text": "금발",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             2
           ],
-          "pdfPage": 1,
-          "marked": "Her name [[was]] Goldilocks.",
+          "pdfPage": 3,
+          "marked": "[[Her name]] was Goldilocks.",
           "translation": "그녀의 이름은 Goldilocks였다.",
-          "explanation": "단수 주어 Her name에 맞는 be동사 과거형은 was입니다."
+          "explanation": "단수 주어 Her name에 맞는 be동사 과거형은 was입니다.",
+          "hints": [
+            {
+              "number": 2,
+              "text": "그녀의 이름",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             3
           ],
-          "pdfPage": 1,
-          "marked": "She liked [[to share]] photos [[on]] social media.",
+          "pdfPage": 3,
+          "marked": "She liked [[to share]] photos on social media.",
           "translation": "그녀는 소셜 미디어에 사진을 공유하는 것을 좋아했다.",
-          "explanation": "like 뒤에는 to부정사를 목적어로 쓸 수 있습니다. 소셜 미디어 ‘상에’라는 뜻으로 on을 씁니다."
+          "explanation": "like 뒤에는 to부정사를 목적어로 쓸 수 있습니다. 소셜 미디어 ‘상에’라는 뜻으로 on을 씁니다.",
+          "hints": [
+            {
+              "number": 3,
+              "text": "share의 알맞은 형태",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             4
           ],
-          "pdfPage": 1,
-          "marked": "At first, she posted everyday things, but people [[didn’t give]] her [[many]] likes.",
+          "pdfPage": 3,
+          "marked": "At first, she posted [[everyday things]], but people didn’t give her [[many likes]].",
           "translation": "처음에는 그녀가 일상적인 것들을 게시했는데, 사람들은 그녀에게 좋아요를 많이 주지 않았다.",
-          "explanation": "과거 부정문은 didn’t + 동사원형입니다. 셀 수 있는 복수 명사 likes 앞에는 many를 씁니다."
+          "explanation": "과거 부정문은 didn’t + 동사원형입니다. 셀 수 있는 복수 명사 likes 앞에는 many를 씁니다.",
+          "hints": [
+            {
+              "number": 4,
+              "text": "일상적인 것들",
+              "start": 0,
+              "count": 2
+            },
+            {
+              "number": 5,
+              "text": "= a lot of likes",
+              "start": 2,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             5
           ],
-          "pdfPage": 1,
-          "marked": "“What [[should]] I do [[to get]] more likes?” she thought.",
+          "pdfPage": 3,
+          "marked": "“What [[should I]] do to get more likes?” she thought.",
           "translation": "‘더 많은 좋아요를 받으려면 무엇을 해야 하지?’라고 그녀는 생각했다.",
-          "explanation": "should는 ‘~해야 한다’라는 조동사이며, to get은 목적을 나타내는 to부정사입니다."
+          "explanation": "should는 ‘~해야 한다’라는 조동사이며, to get은 목적을 나타내는 to부정사입니다.",
+          "hints": [
+            {
+              "number": 6,
+              "text": "can you / should I",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             6
           ],
-          "pdfPage": 1,
-          "marked": "“I [[know]]!”",
+          "pdfPage": 3,
+          "marked": "“I know!”",
           "translation": "‘알았어!’",
           "explanation": "know는 ‘알다’라는 동사이며, 주어 I 뒤에서 현재형으로 쓰입니다."
         },
@@ -619,62 +898,128 @@
           "numbers": [
             6
           ],
-          "pdfPage": 1,
-          "marked": "“I [[should]] [[post]] funny pictures.”",
+          "pdfPage": 3,
+          "marked": "“I should post [[funny pictures]].”",
           "translation": "‘웃긴 사진들을 게시해야 해.’",
-          "explanation": "조동사 should 뒤에는 동사원형 post를 씁니다."
+          "explanation": "조동사 should 뒤에는 동사원형 post를 씁니다.",
+          "hints": [
+            {
+              "number": 7,
+              "text": "웃긴 사진들",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             7
           ],
-          "pdfPage": 1,
-          "marked": "Now, her posts [[were getting]] a lot of likes, and Goldilocks was happy.",
+          "pdfPage": 3,
+          "marked": "Now, [[her posts]] were getting a lot of likes, and Goldilocks was happy.",
           "translation": "이제 그녀의 게시물은 많은 좋아요를 받고 있었고, Goldilocks는 행복했다.",
-          "explanation": "복수 주어 her posts의 과거진행형은 were + 동사-ing입니다."
+          "explanation": "복수 주어 her posts의 과거진행형은 were + 동사-ing입니다.",
+          "hints": [
+            {
+              "number": 8,
+              "text": "her post / her posts",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             8
           ],
-          "pdfPage": 1,
+          "pdfPage": 3,
           "marked": "Her followers, [[however]], soon [[got bored]].",
           "translation": "하지만 그녀의 팔로워들은 곧 지루해졌다.",
-          "explanation": "however는 ‘그러나’를 뜻합니다. get + 형용사는 상태의 변화를 나타내며, 과거에는 got bored로 씁니다."
+          "explanation": "however는 ‘그러나’를 뜻합니다. get + 형용사는 상태의 변화를 나타내며, 과거에는 got bored로 씁니다.",
+          "hints": [
+            {
+              "number": 9,
+              "text": "but / however",
+              "start": 0,
+              "count": 1
+            },
+            {
+              "number": 10,
+              "text": "지루해졌다",
+              "start": 1,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             9
           ],
-          "pdfPage": 1,
-          "marked": "So, she decided [[to post]] [[more shocking]] pictures.",
+          "pdfPage": 3,
+          "marked": "So, she decided to post more [[shocking pictures]].",
           "translation": "그래서 그녀는 더 충격적인 사진들을 게시하기로 결심했다.",
-          "explanation": "decide 뒤에는 to부정사가 오며, shocking의 비교급은 more shocking입니다."
+          "explanation": "decide 뒤에는 to부정사가 오며, shocking의 비교급은 more shocking입니다.",
+          "hints": [
+            {
+              "number": 11,
+              "text": "충격적인 사진들",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             10
           ],
-          "pdfPage": 1,
-          "marked": "One day, she [[was taking]] a walk in the forest and [[found]] a cottage.",
+          "pdfPage": 3,
+          "marked": "[[One day]], she was taking a walk in the [[forest]] and found a [[cottage]].",
           "translation": "어느 날 그녀는 숲에서 산책을 하고 있었고 오두막을 발견했다.",
-          "explanation": "was taking은 과거진행형입니다. find의 과거형은 found입니다."
+          "explanation": "was taking은 과거진행형입니다. find의 과거형은 found입니다.",
+          "hints": [
+            {
+              "number": 12,
+              "text": "One day / Some day",
+              "start": 0,
+              "count": 2
+            },
+            {
+              "number": 13,
+              "text": "숲",
+              "start": 2,
+              "count": 1
+            },
+            {
+              "number": 14,
+              "text": "= small house",
+              "start": 3,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             11
           ],
-          "pdfPage": 1,
-          "marked": "She [[knocked]] on the door, but [[there was]] no answer.",
+          "pdfPage": 3,
+          "marked": "She knocked on the door, but there was [[no answer]].",
           "translation": "그녀가 문을 두드렸지만 아무 대답이 없었다.",
-          "explanation": "knock의 과거형은 knocked입니다. There was no answer는 ‘아무 대답이 없었다’라는 뜻입니다."
+          "explanation": "knock의 과거형은 knocked입니다. There was no answer는 ‘아무 대답이 없었다’라는 뜻입니다.",
+          "hints": [
+            {
+              "number": 15,
+              "text": "a bear / no answer",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             12
           ],
-          "pdfPage": 1,
-          "marked": "It [[was getting]] dark, and it started [[to rain]].",
+          "pdfPage": 3,
+          "marked": "It was getting dark, and it started to rain.",
           "translation": "날이 어두워지고 있었고 비가 오기 시작했다.",
           "explanation": "was getting은 과거진행형이며, start 뒤에 to부정사를 쓸 수 있습니다. 이 문장의 it은 날씨를 나타내는 비인칭 주어입니다."
         },
@@ -682,116 +1027,218 @@
           "numbers": [
             13
           ],
-          "pdfPage": 1,
-          "marked": "She [[opened]] the door and [[walked]] inside.",
+          "pdfPage": 3,
+          "marked": "She opened the door and [[walked inside]].",
           "translation": "그녀는 문을 열었고 안으로 걸어 들어갔다.",
-          "explanation": "and로 연결된 두 동사는 모두 과거형 opened와 walked로 씁니다."
+          "explanation": "and로 연결된 두 동사는 모두 과거형 opened와 walked로 씁니다.",
+          "hints": [
+            {
+              "number": 16,
+              "text": "안으로 걸어 들어갔다",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             14
           ],
-          "pdfPage": 1,
-          "marked": "[[There were]] three [[bowls of soup]] on a table.",
+          "pdfPage": 3,
+          "marked": "There were [[three bowls]] of soup on a table.",
           "translation": "식탁 위에는 수프 세 그릇이 있었다.",
-          "explanation": "복수 대상에는 There were를 씁니다. 수프의 양은 three bowls of soup처럼 그릇 단위로 셉니다."
+          "explanation": "복수 대상에는 There were를 씁니다. 수프의 양은 three bowls of soup처럼 그릇 단위로 셉니다.",
+          "hints": [
+            {
+              "number": 17,
+              "text": "세 그릇",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             15
           ],
-          "pdfPage": 1,
-          "marked": "She ate the [[smallest one]] and [[took]] selfies with a smile.",
+          "pdfPage": 3,
+          "marked": "She ate the smallest one and [[took selfies]] with a smile.",
           "translation": "그녀는 가장 작은 수프를 먹었고 미소를 띠며 셀피를 찍었다.",
-          "explanation": "smallest는 최상급이며, one은 앞의 bowl of soup를 대신합니다. take의 과거형은 took입니다."
+          "explanation": "smallest는 최상급이며, one은 앞의 bowl of soup를 대신합니다. take의 과거형은 took입니다.",
+          "hints": [
+            {
+              "number": 18,
+              "text": "take selfies의 알맞은 형태",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             16
           ],
-          "pdfPage": 1,
-          "marked": "[[There were]] also three chairs.",
+          "pdfPage": 3,
+          "marked": "There were also [[three chairs]].",
           "translation": "세 개의 의자도 있었다.",
-          "explanation": "복수 명사 three chairs에는 There were를 씁니다."
+          "explanation": "복수 명사 three chairs에는 There were를 씁니다.",
+          "hints": [
+            {
+              "number": 19,
+              "text": "의자 세 개",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             17
           ],
-          "pdfPage": 1,
-          "marked": "She jumped on the smallest [[one]] [[again and again]].",
+          "pdfPage": 3,
+          "marked": "She jumped on the [[smallest one]] again and again.",
           "translation": "그녀는 가장 작은 의자 위에서 반복하여 뛰었다.",
-          "explanation": "one은 chair를 대신하고, again and again은 ‘반복해서’라는 뜻입니다."
+          "explanation": "one은 chair를 대신하고, again and again은 ‘반복해서’라는 뜻입니다.",
+          "hints": [
+            {
+              "number": 20,
+              "text": "가장 작은 것",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             18
           ],
-          "pdfPage": 1,
-          "marked": "[[It]] broke, but she [[didn’t care]].",
+          "pdfPage": 3,
+          "marked": "[[It broke]], but she didn’t care.",
           "translation": "그것이 부서졌지만 그녀는 신경 쓰지 않았다.",
-          "explanation": "It은 앞의 가장 작은 의자를 가리킵니다. 과거 부정문은 didn’t + 동사원형입니다."
+          "explanation": "It은 앞의 가장 작은 의자를 가리킵니다. 과거 부정문은 didn’t + 동사원형입니다.",
+          "hints": [
+            {
+              "number": 21,
+              "text": "They break / It broke",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             19
           ],
-          "pdfPage": 1,
-          "marked": "“[[It’s]] so fun!” [[shouted]] Goldilocks.",
+          "pdfPage": 3,
+          "marked": "“It’s so fun!” [[shouted]] Goldilocks.",
           "translation": "‘너무 재미있다!’라고 Goldilocks가 외쳤다.",
-          "explanation": "It’s는 It is의 축약형입니다. shouted는 shout의 과거형으로 인용문 뒤에서 ‘외쳤다’를 나타냅니다."
+          "explanation": "It’s는 It is의 축약형입니다. shouted는 shout의 과거형으로 인용문 뒤에서 ‘외쳤다’를 나타냅니다.",
+          "hints": [
+            {
+              "number": 22,
+              "text": "소리 질렀다",
+              "start": 0,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             20
           ],
-          "pdfPage": 1,
-          "marked": "She [[took]] selfies again and [[posted]] all the selfies on social media.",
+          "pdfPage": 3,
+          "marked": "She took selfies again and posted all the selfies on [[social media]].",
           "translation": "그녀는 또 셀피를 찍고 모든 셀피를 소셜 미디어에 게시했다.",
-          "explanation": "take와 post의 과거형인 took과 posted가 and로 연결되어 있습니다."
+          "explanation": "take와 post의 과거형인 took과 posted가 and로 연결되어 있습니다.",
+          "hints": [
+            {
+              "number": 23,
+              "text": "소셜 미디어",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             21
           ],
-          "pdfPage": 1,
-          "marked": "Then, she [[went]] [[upstairs]] and found three beds.",
+          "pdfPage": 3,
+          "marked": "Then, she [[went upstairs]] and found three beds.",
           "translation": "그러고 나서 그녀는 위층으로 올라갔고 세 개의 침대를 발견했다.",
-          "explanation": "go의 과거형은 went이며, upstairs는 ‘위층으로’라는 부사입니다."
+          "explanation": "go의 과거형은 went이며, upstairs는 ‘위층으로’라는 부사입니다.",
+          "hints": [
+            {
+              "number": 24,
+              "text": "위층으로 올라갔다",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             22
           ],
-          "pdfPage": 2,
-          "marked": "She [[felt tired]] and [[fell asleep]] in the smallest bed.",
+          "pdfPage": 3,
+          "marked": "She [[felt tired]] and fell asleep in the [[smallest bed]].",
           "translation": "그녀는 피곤했고 가장 작은 침대에서 잠이 들었다.",
-          "explanation": "feel + 형용사는 ‘~하게 느끼다’이며 과거형은 felt tired입니다. fall asleep의 과거형은 fell asleep입니다."
+          "explanation": "feel + 형용사는 ‘~하게 느끼다’이며 과거형은 felt tired입니다. fall asleep의 과거형은 fell asleep입니다.",
+          "hints": [
+            {
+              "number": 25,
+              "text": "feels sleepy / felt tired",
+              "start": 0,
+              "count": 2
+            },
+            {
+              "number": 26,
+              "text": "small bed의 최상급",
+              "start": 2,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             23
           ],
-          "pdfPage": 2,
-          "marked": "[[About]] an hour later, three bears [[came]] home.",
+          "pdfPage": 4,
+          "marked": "About an hour [[later]], three bears came home.",
           "translation": "약 한 시간 후에 세 마리의 곰이 집으로 돌아왔다.",
-          "explanation": "About은 ‘약’이라는 뜻이며, come의 과거형은 came입니다."
+          "explanation": "About은 ‘약’이라는 뜻이며, come의 과거형은 came입니다.",
+          "hints": [
+            {
+              "number": 27,
+              "text": "earlier / later",
+              "start": 0,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             24
           ],
-          "pdfPage": 2,
-          "marked": "“Someone [[ate]] my soup and [[broke]] my chair!” cried Baby Bear.",
+          "pdfPage": 4,
+          "marked": "“Someone [[ate my soup]] and broke my chair!” cried Baby Bear.",
           "translation": "‘누군가 내 수프를 먹고 내 의자를 부러뜨렸어!’라고 아기 곰이 외쳤다.",
-          "explanation": "eat의 과거형은 ate이며, break의 과거형은 broke입니다."
+          "explanation": "eat의 과거형은 ate이며, break의 과거형은 broke입니다.",
+          "hints": [
+            {
+              "number": 28,
+              "text": "내 수프를 먹었다",
+              "start": 0,
+              "count": 3
+            }
+          ]
         },
         {
           "numbers": [
             25
           ],
-          "pdfPage": 2,
-          "marked": "They [[went]] upstairs and [[saw]] Goldilocks.",
+          "pdfPage": 4,
+          "marked": "They went upstairs and saw Goldilocks.",
           "translation": "그들은 위층으로 올라갔고 Goldilocks를 봤다.",
           "explanation": "go와 see의 과거형 went와 saw가 and로 연결되어 있습니다."
         },
@@ -799,126 +1246,248 @@
           "numbers": [
             26
           ],
-          "pdfPage": 2,
-          "marked": "Mother Bear [[found]] a phone [[next to]] Goldilocks.",
+          "pdfPage": 4,
+          "marked": "Mother Bear found a phone [[next to]] Goldilocks.",
           "translation": "엄마 곰이 Goldilocks 옆에 있는 전화를 발견했다.",
-          "explanation": "find의 과거형은 found이며, next to는 ‘~의 옆에’라는 뜻입니다."
+          "explanation": "find의 과거형은 found이며, next to는 ‘~의 옆에’라는 뜻입니다.",
+          "hints": [
+            {
+              "number": 29,
+              "text": "~의 옆에",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             27
           ],
-          "pdfPage": 2,
+          "pdfPage": 4,
           "marked": "“This is [[terrible]]!”",
           "translation": "‘끔찍하구나!’",
-          "explanation": "terrible은 ‘끔찍한’이라는 형용사로 be동사 is 뒤에서 주어의 상태를 설명합니다."
+          "explanation": "terrible은 ‘끔찍한’이라는 형용사로 be동사 is 뒤에서 주어의 상태를 설명합니다.",
+          "hints": [
+            {
+              "number": 30,
+              "text": "terrible / nice",
+              "start": 0,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             27
           ],
-          "pdfPage": 2,
-          "marked": "“[[Look at]] all these posts of our home,” shouted Mother Bear [[angrily]].",
+          "pdfPage": 4,
+          "marked": "“Look at all these posts of our home,” shouted Mother Bear [[angrily]].",
           "translation": "‘우리 집의 이 모든 게시물을 봐.’라고 엄마 곰이 화가 나서 외쳤다.",
-          "explanation": "Look at은 동사원형으로 시작하는 명령문입니다. angrily는 ‘화가 나서’라는 부사로 shouted를 꾸밉니다."
+          "explanation": "Look at은 동사원형으로 시작하는 명령문입니다. angrily는 ‘화가 나서’라는 부사로 shouted를 꾸밉니다.",
+          "hints": [
+            {
+              "number": 31,
+              "text": "angrily / angry",
+              "start": 0,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             28
           ],
-          "pdfPage": 2,
-          "marked": "Goldilocks [[jumped up]] [[in surprise]].",
+          "pdfPage": 4,
+          "marked": "Goldilocks jumped up [[in surprise]].",
           "translation": "Goldilocks는 놀라서 벌떡 일어났다.",
-          "explanation": "jump up은 ‘벌떡 일어나다’이며, in surprise는 ‘놀라서’라는 뜻의 구문입니다."
+          "explanation": "jump up은 ‘벌떡 일어나다’이며, in surprise는 ‘놀라서’라는 뜻의 구문입니다.",
+          "hints": [
+            {
+              "number": 32,
+              "text": "놀라서",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             29
           ],
-          "pdfPage": 2,
-          "marked": "“You [[broke into]] our house and posted these pictures [[without]] our permission.”",
+          "pdfPage": 4,
+          "marked": "“You [[broke into]] our house and posted these pictures without [[our permission]].”",
           "translation": "‘너는 우리 집에 침입했고 우리의 허락 없이 이 사진들을 게시했어.’",
-          "explanation": "break into는 ‘~에 침입하다’이며 과거형은 broke into입니다. without은 ‘~없이’라는 뜻입니다."
+          "explanation": "break into는 ‘~에 침입하다’이며 과거형은 broke into입니다. without은 ‘~없이’라는 뜻입니다.",
+          "hints": [
+            {
+              "number": 33,
+              "text": "break into의 과거형",
+              "start": 0,
+              "count": 2
+            },
+            {
+              "number": 34,
+              "text": "우리의 허락",
+              "start": 2,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             30
           ],
-          "pdfPage": 2,
-          "marked": "“[[Don’t]] you know these things [[are]] wrong?” said Father Bear.",
+          "pdfPage": 4,
+          "marked": "“Don’t you know these things are [[wrong]]?” said Father Bear.",
           "translation": "‘이것들이 잘못된 것이라는 걸 모르니?’라고 아빠 곰이 말했다.",
-          "explanation": "Don’t you know는 부정 의문문입니다. know 뒤에서 that이 생략되었으며, 복수 주어 these things에는 are를 씁니다."
+          "explanation": "Don’t you know는 부정 의문문입니다. know 뒤에서 that이 생략되었으며, 복수 주어 these things에는 are를 씁니다.",
+          "hints": [
+            {
+              "number": 35,
+              "text": "wrong / right",
+              "start": 0,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             31
           ],
-          "pdfPage": 2,
+          "pdfPage": 4,
           "marked": "“Please [[forgive]] me.”",
           "translation": "‘제발 저를 용서해 주세요.’",
-          "explanation": "Please 뒤에 동사원형 forgive를 써서 정중하게 요청합니다."
+          "explanation": "Please 뒤에 동사원형 forgive를 써서 정중하게 요청합니다.",
+          "hints": [
+            {
+              "number": 36,
+              "text": "용서하다",
+              "start": 0,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             32
           ],
-          "pdfPage": 2,
-          "marked": "“I’m so sorry, and [[I’ll]] clean your house every day [[until]] the end of the summer,” said Goldilocks.",
+          "pdfPage": 4,
+          "marked": "“I’m so sorry, and I’ll [[clean your house]] every day until the end of the [[summer]],” said Goldilocks.",
           "translation": "‘정말 죄송해요. 여름이 끝날 때까지 매일 당신의 집을 청소할게요.’라고 Goldilocks가 말했다.",
-          "explanation": "I’ll은 I will의 축약형으로 약속을 나타냅니다. until은 ‘~까지 계속’이라는 뜻의 전치사입니다."
+          "explanation": "I’ll은 I will의 축약형으로 약속을 나타냅니다. until은 ‘~까지 계속’이라는 뜻의 전치사입니다.",
+          "hints": [
+            {
+              "number": 37,
+              "text": "너희 집을 청소하다",
+              "start": 0,
+              "count": 3
+            },
+            {
+              "number": 38,
+              "text": "year / summer",
+              "start": 3,
+              "count": 1
+            }
+          ]
         },
         {
           "numbers": [
             33
           ],
-          "pdfPage": 2,
-          "marked": "[[All summer long]], Goldilocks [[worked]] hard.",
+          "pdfPage": 4,
+          "marked": "All summer long, Goldilocks [[worked hard]].",
           "translation": "여름 내내 Goldilocks는 열심히 일했다.",
-          "explanation": "All summer long은 ‘여름 내내’라는 시간 표현입니다. work의 과거형은 worked입니다."
+          "explanation": "All summer long은 ‘여름 내내’라는 시간 표현입니다. work의 과거형은 worked입니다.",
+          "hints": [
+            {
+              "number": 39,
+              "text": "열심히 일했다",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             34,
             35
           ],
-          "pdfPage": 2,
+          "pdfPage": 4,
           "marked": "On the last day, Goldilocks said to Father Bear, “I [[deleted]] all my posts of your cottage, so please [[don’t worry]].”",
           "translation": "마지막 날 Goldilocks가 아빠 곰에게 말했다. ‘제가 당신의 오두막에 관한 모든 게시물을 삭제했으니 걱정하지 마세요.’",
-          "explanation": "deleted는 delete의 과거형입니다. so는 결과를 연결하며, don’t + 동사원형은 부정 명령문입니다."
+          "explanation": "deleted는 delete의 과거형입니다. so는 결과를 연결하며, don’t + 동사원형은 부정 명령문입니다.",
+          "hints": [
+            {
+              "number": 40,
+              "text": "deleted / posted",
+              "start": 0,
+              "count": 1
+            },
+            {
+              "number": 41,
+              "text": "걱정하지 마세요",
+              "start": 1,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             36
           ],
-          "pdfPage": 2,
+          "pdfPage": 4,
           "marked": "“You still [[don’t understand]].”",
           "translation": "‘너는 아직도 이해를 못 하는구나.’",
-          "explanation": "현재시제 부정문은 don’t + 동사원형 understand로 씁니다."
+          "explanation": "현재시제 부정문은 don’t + 동사원형 understand로 씁니다.",
+          "hints": [
+            {
+              "number": 42,
+              "text": "knew everything / don’t understand",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             37
           ],
-          "pdfPage": 2,
-          "marked": "“Other people already [[shared]] [[them]] on social media.”",
+          "pdfPage": 4,
+          "marked": "“Other people already [[shared them]] on social media.”",
           "translation": "‘다른 사람들이 이미 소셜 미디어에서 그것들을 공유했어.’",
-          "explanation": "shared는 share의 과거형입니다. them은 Goldilocks가 게시했던 게시물들을 가리킵니다."
+          "explanation": "shared는 share의 과거형입니다. them은 Goldilocks가 게시했던 게시물들을 가리킵니다.",
+          "hints": [
+            {
+              "number": 43,
+              "text": "deleted it / shared them",
+              "start": 0,
+              "count": 2
+            }
+          ]
         },
         {
           "numbers": [
             38
           ],
-          "pdfPage": 2,
-          "marked": "“Your posts [[will be]] on [[forever]],” said Father Bear.",
+          "pdfPage": 4,
+          "marked": "“Your posts will [[live on forever]],” said Father Bear.",
           "translation": "‘너의 게시물은 영원히 남을 거야.’라고 아빠 곰이 말했다.",
-          "explanation": "will 뒤에는 동사원형 be를 씁니다. forever는 ‘영원히’라는 뜻의 부사입니다."
+          "explanation": "live on은 ‘계속 남다’, forever는 ‘영원히’라는 뜻입니다. 원문의 will은 빈칸 앞에 주어져 있습니다.",
+          "hints": [
+            {
+              "number": 44,
+              "text": "영원히 남을 거야",
+              "start": 0,
+              "count": 3
+            }
+          ]
         },
         {
           "numbers": [
             39
           ],
-          "pdfPage": 2,
-          "marked": "“Oh, I [[didn’t think about]] that,” said Goldilocks.",
+          "pdfPage": 4,
+          "marked": "“Oh, I didn’t think about that,” said Goldilocks.",
           "translation": "‘아, 그 생각을 하지 못했어요.’라고 Goldilocks가 말했다.",
           "explanation": "think about은 ‘~에 대해 생각하다’이며, 과거 부정문에서는 didn’t think about으로 씁니다."
         },
@@ -926,12 +1495,22 @@
           "numbers": [
             40
           ],
-          "pdfPage": 2,
-          "marked": "“[[From now on]], I’ll think twice before I [[press]] POST.”",
+          "pdfPage": 4,
+          "marked": "“From now on, I’ll [[think twice]] before I press POST.”",
           "translation": "‘이제부터는 게시 버튼을 누르기 전에 다시 한번 생각할 거야.’",
-          "explanation": "From now on은 ‘이제부터’입니다. 미래의 일이라도 시간을 나타내는 before절에서는 현재형 press를 씁니다."
+          "explanation": "From now on은 ‘이제부터’입니다. 미래의 일이라도 시간을 나타내는 before절에서는 현재형 press를 씁니다.",
+          "hints": [
+            {
+              "number": 45,
+              "text": "두 번 생각하다",
+              "start": 0,
+              "count": 2
+            }
+          ]
         }
-      ]
+      ],
+      "bodyFile": "올백영어_동아(윤정미)_1학년_8단원.pdf"
     }
-  ]
+  ],
+  "revision": "workbook-2026-11-01"
 }

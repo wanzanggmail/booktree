@@ -279,7 +279,7 @@ final class AppUpdater {
         if (Build.VERSION.SDK_INT >= 26 && !activity.getPackageManager().canRequestPackageInstalls()) {
             prompt = new AlertDialog.Builder(activity)
                 .setTitle("업데이트 설치 허용")
-                .setMessage("다음 설정 화면에서 책나무 CBT의 ‘이 출처의 앱 허용’을 켜 주세요. 돌아오면 설치 화면을 엽니다.")
+                .setMessage("다음 설정 화면에서 호호 스터디의 ‘이 출처의 앱 허용’을 켜 주세요. 돌아오면 설치 화면을 엽니다.")
                 .setPositiveButton("설정 열기", (dialog, which) -> {
                     try {
                         waitingForPermission = true;
@@ -287,7 +287,7 @@ final class AppUpdater {
                             Uri.parse("package:" + activity.getPackageName())));
                     } catch (ActivityNotFoundException | SecurityException error) {
                         waitingForPermission = false;
-                        message("설치 안내", "Android 설정에서 책나무 CBT의 알 수 없는 앱 설치를 허용해 주세요.");
+                        message("설치 안내", "Android 설정에서 호호 스터디의 알 수 없는 앱 설치를 허용해 주세요.");
                     }
                 })
                 .setNegativeButton("나중에", null).show();

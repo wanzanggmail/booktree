@@ -1,68 +1,26 @@
 {
-  "name": "????? CBT",
-  "short_name": "???CBT",
-  "description": "?????�???? ??? CBT",
+  "name": "호호 스터디",
+  "short_name": "호호",
+  "description": "국어 어휘와 영어 단어·본문을 한 문제씩 공부하세요.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#ffffff",
-  "theme_color": "#1a5f4a",
+  "background_color": "#f4f7fb",
+  "theme_color": "#173b53",
   "lang": "ko",
   "icons": [
     {
-      "src": "icons/android-icon-36x36.png?v=4",
-      "sizes": "36x36",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/android-icon-48x48.png?v=4",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/android-icon-72x72.png?v=4",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/android-icon-96x96.png?v=4",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/android-icon-144x144.png?v=4",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/android-icon-192x192.png?v=4",
+      "src": "icons/hoho-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-192.png?v=4",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-512.png?v=4",
+      "src": "icons/hoho-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-512.png?v=4",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ]
 }

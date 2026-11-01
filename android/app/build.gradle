@@ -62,7 +62,7 @@ tasks.register('syncWebAssets', Sync) {
 }
 
 tasks.register('syncLauncherIcon', Copy) {
-    from(new File(rootProject.projectDir.parentFile, 'icons/icon-192.png'))
+    from(new File(rootProject.projectDir.parentFile, 'icons/hoho-192.png'))
     into(layout.buildDirectory.dir('generated/booktreeRes/drawable'))
     rename { 'ic_launcher.png' }
 }

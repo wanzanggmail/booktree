@@ -9,7 +9,13 @@ const questions = [];
 const answers = {};
 
 for (const unit of source.units) {
+  let contextRows = [];
+  let sentenceNumber = 0;
   unit.sentences.forEach((row, index) => {
+    if (!row.marked.includes('[[')) {
+      contextRows.push(row);
+      return;
+    }
     const words = [];
     const template = row.marked.replace(/\[\[([^\]]+)\]\]/g, (_, phrase) => {
       return phrase.split(/(\s+)/).map(word => {
@@ -26,32 +32,39 @@ for (const unit of source.units) {
       throw new Error(`Incomplete sentence in Lesson ${unit.lesson}, row ${index + 1}`);
     }
     const id = `l${unit.lesson}-s${String(index + 1).padStart(2, '0')}`;
+    const context = [...contextRows.map(r => r.marked), row.context].filter(Boolean).join(' ');
+    const contextTranslation = [...contextRows.map(r => r.translation), row.contextTranslation].filter(Boolean).join(' ');
     questions.push({
       id,
       type: 'cloze',
       section: `Lesson ${unit.lesson} · 본문 빈칸`,
-      sentenceNumber: index + 1,
+      sentenceNumber: ++sentenceNumber,
       prompt: '본문에 나온 단어로 빈칸을 채워 보세요.',
       template,
       sentence: row.marked.replace(/\[\[([^\]]+)\]\]/g, '$1'),
       blankCount: words.length,
-      translation: row.translation,
+      translation: [contextTranslation, row.translation].filter(Boolean).join(' '),
       explanation: row.explanation,
-      ...(row.context ? { context: row.context } : {}),
+      ...(context ? { context } : {}),
+      ...(row.hints ? { hints: row.hints } : {}),
       source: {
         file: unit.file,
         lesson: unit.lesson,
         pdfPage: row.pdfPage,
         printedPage: unit.printedPages[row.pdfPage - 1],
         numbers: row.numbers,
+        contextNumbers: contextRows.flatMap(r => r.numbers),
+        bodyFile: unit.bodyFile,
       },
     });
     answers[id] = words;
+    contextRows = [];
   });
+  if (contextRows.length) throw new Error(`Unattached trailing context in Lesson ${unit.lesson}`);
 }
 
 for (const [filename, value] of Object.entries({
-  'questions.json': { title: source.title, subtitle: 'Lesson 5·7·8 · 문장별 본문 학습', questions },
+  'questions.json': { title: source.title, revision: source.revision, subtitle: 'Lesson 5–8 · 문제집과 같은 빈칸', questions },
   'answers.json': answers,
 })) {
   fs.writeFileSync(path.join(directory, filename), JSON.stringify(value, null, 2) + '\n');
