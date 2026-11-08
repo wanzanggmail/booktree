@@ -132,10 +132,12 @@ test('translation, partial grading, reset, complete score, and Enter navigation 
     app.click('.translation-toggle');
     assert(!app.d.querySelector('.translation-panel').classList.contains('hidden'));
     app.type('[data-blank-index="0"]', 'LAST');
+    app.type('[data-blank-index="1"]', 'threw');
     app.click('#btn-check');
     assert(app.d.getElementById('check-feedback').textContent.includes('1/5점'));
     assert.equal(app.d.querySelectorAll('.cloze-input.mark-correct').length, 1);
     assert.equal(app.d.querySelectorAll('.cloze-input.mark-wrong').length, 4);
+    assert(app.d.querySelector('[data-blank-index="0"]').classList.contains('mark-wrong'));
     for (const [i, word] of ['Last','threw','at','in','in'].entries()) app.type(`[data-blank-index="${i}"]`, word);
     assert(app.d.querySelector('.cloze-review').classList.contains('hidden'));
     assert(!app.d.querySelector('.translation-panel').classList.contains('hidden'));

@@ -180,7 +180,7 @@ window.CBTRender = (function () {
       ${q.context ? `<p class="q-context">${escapeHtml(q.context)}</p>` : ""}
       <p class="cloze-sentence" lang="en">${sentence}</p>
       ${q.hints?.length ? `<ul class="cloze-hints" aria-label="원본 문제 힌트">${q.hints.map(hint => `<li>빈칸 ${hint.start + 1}${hint.count > 1 ? `–${hint.start + hint.count}` : ""}: ${escapeHtml(hint.text)}</li>`).join("")}</ul>` : ""}
-      <p class="cloze-tip">한 칸에 한 단어 · 빈칸별 부분 점수 · 마지막 칸에서 Enter를 누르면 채점</p>
+      <p class="cloze-tip">한 칸에 한 단어 · 대소문자 구분 · 마지막 칸에서 Enter를 누르면 채점</p>
       <button type="button" class="btn btn-ghost translation-toggle"
         aria-expanded="false" aria-controls="question-translation">해석</button>
       <p id="question-translation" class="translation-panel hidden" lang="ko">${escapeHtml(q.translation)}</p>

@@ -1,4 +1,4 @@
-const CACHE_NAME = "chaeknamu-cbt-v15";
+const CACHE_NAME = "chaeknamu-cbt-v16";
 const ASSETS = [
   "./",
   "./index.html",

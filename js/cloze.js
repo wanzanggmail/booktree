@@ -2,7 +2,7 @@
   function normalize(value) {
     return String(value ?? '').normalize('NFKC')
       .replace(/[‘’ʼ]/g, "'").replace(/[“”]/g, '"')
-      .trim().replace(/\s+/g, ' ').toLowerCase();
+      .trim().replace(/\s+/g, ' ');
   }
 
   function hasAny(value) {

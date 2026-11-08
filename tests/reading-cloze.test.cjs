@@ -64,7 +64,7 @@ test('workbook blank counts match the printed underline counts and all 45 Lesson
 test('grading awards points per position and treats unfinished answers as incomplete', () => {
   const q = { blankCount: 3 };
   const key = ['in','front','of'];
-  const grade = cloze.grade(q, ['IN', 'back', ''], key);
+  const grade = cloze.grade(q, ['in', 'back', ''], key);
   assert.equal(grade.status, 'partial');
   assert.equal(grade.earned, 1);
   assert.equal(grade.total, 3);
@@ -77,9 +77,11 @@ test('grading awards points per position and treats unfinished answers as incomp
   assert.equal(cloze.grade(q, ['of','front','in'], key).earned, 1);
 });
 
-test('normalization accepts typography and case but preserves grammar and original forms', () => {
+test('normalization accepts typography but requires the original case and word form', () => {
   const q = { blankCount: 1 };
-  assert.equal(cloze.grade(q, ["  COULDN'T  "], ['couldn’t']).status, 'correct');
+  assert.equal(cloze.grade(q, ["  couldn't  "], ['couldn’t']).status, 'correct');
+  assert.equal(cloze.grade(q, ['last'], ['Last']).status, 'wrong');
+  assert.equal(cloze.grade(q, ['IN'], ['in']).status, 'wrong');
   assert.equal(cloze.grade(q, ['throw'], ['threw']).status, 'wrong');
   assert.equal(cloze.grade(q, ['eyewitness'], ['eyewitnesses']).status, 'wrong');
   assert.equal(cloze.grade(q, ['I am'], ['I’m']).status, 'wrong');
